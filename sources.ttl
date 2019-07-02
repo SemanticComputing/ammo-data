@@ -17,6 +17,7 @@
   skos:preflabel "Files from HISCO database" ;
   dct:title "Files from HISCO database" ;
   dct:description "This dataset contains all files from the HISCO database as used for the historyofwork.iisg.nl website and HISCO book (see: DOI:10.3200/HMTS.37.4.186-197)." ;
+  dct:rights <https://historyofwork.iisg.nl/detail_page_15737.php> ;
   prism:url <http://hdl.handle.net/10622/ja9b8o> .
 
 <http://ldf.fi/ammo/sources/coo1980> a dct:BibliographicResource ;
@@ -27,6 +28,7 @@
   dct:title "Tilastokeskus, Ammattiluokitus 1980, 02.07.2019"@fi ;
   dct:identifier "Tilastokeskus. Käsikirjoja 14 Statikcentralen. Handböcker 14 Central Statistical Office of Finland. Handbooks 14" ;
   dct:license <http://creativecommons.org/licenses/by/4.0/> ;
+  dct:rights <http://stat.fi/org/lainsaadanto/copyright.html> ;
   prism:url <http://www.doria.fi/handle/10024/98855> .
 
 <http://ldf.fi/ammo/sources/hisclass> a dct:BibliographicResource ;
