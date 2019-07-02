@@ -1,0 +1,46 @@
+@prefix ammo: <http://ldf.fi/ammo/> .
+@prefix coo1980: <http://ldf.fi/ammo/coo1980#> .
+@prefix coo1980status: <http://ldf.fi/ammo/coo1980status#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix hisco: <http://ldf.fi/ammo/hisco/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/3.0/> .
+
+
+<http://ldf.fi/ammo/sources/hisco> a dct:BibliographicResource ;
+  dct:bibliographiccitation "Van Leeuwen, 2016, \"Files from HISCO database\", http://hdl.handle.net/10622/JA9B8O, IISH Dataverse, V1" ;
+  skos:preflabel "Files from HISCO database" ;
+  dct:title "Files from HISCO database" ;
+  dct:description "This dataset contains all files from the HISCO database as used for the historyofwork.iisg.nl website and HISCO book (see: DOI:10.3200/HMTS.37.4.186-197)." ;
+  prism:url <http://hdl.handle.net/10622/ja9b8o> .
+
+<http://ldf.fi/ammo/sources/coo1980> a dct:BibliographicResource ;
+  dct:bibliographiccitation "Statistics Finland: Classification of Occupations 1980. Käsikirjoja / Tilastokeskus, Statistics Finland, Helsinki (1981)" ;
+  skos:preflabel "Statistics Finland, Classification of occupations 1980, 02.07.2019"@en ;
+  dct:title "Statistics Finland, Classification of occupations 1980, 02.07.2019"@en ;
+  skos:preflabel "Tilastokeskus, Ammattiluokitus 1980, 02.07.2019"@fi ;
+  dct:title "Tilastokeskus, Ammattiluokitus 1980, 02.07.2019"@fi ;
+  dct:identifier "Tilastokeskus. Käsikirjoja 14 Statikcentralen. Handböcker 14 Central Statistical Office of Finland. Handbooks 14" ;
+  dct:license <http://creativecommons.org/licenses/by/4.0/> ;
+  prism:url <http://www.doria.fi/handle/10024/98855> .
+
+<http://ldf.fi/ammo/sources/hisclass> a dct:BibliographicResource ;
+  dct:bibliographicCitation "Maas, I., & Van Leeuwen, M. H. (2005). Total and relative endogamy by social origin: A first international comparison of changes in marriage choices during the nineteenth century. International review of social History, 50(S13), 275-295." ;
+  skos:prefLabel "Maas, I., & Van Leeuwen, M. H. (2005). Total and relative endogamy by social origin: A first international comparison of changes in marriage choices during the nineteenth century." ;
+  dct:title "Maas, I., & Van Leeuwen, M. H. (2005). Total and relative endogamy by social origin: A first international comparison of changes in marriage choices during the nineteenth century." ;
+  prism:doi "10.1017/S0020859005002142" ;
+  prism:url <https://doi.org/10.1017/S0020859005002142> .
+
+<http://ldf.fi/ammo/sources/hiscam> a dct:BibliographicResource ;
+  dct:bibliographicCitation "Lambert, P. S., Zijdeman, R. L., Van Leeuwen, M. H., Maas, I., & Prandy, K. (2013). The construction of HISCAM: A stratification scale based on social interactions for historical comparative research. Historical Methods: A Journal of Quantitative and Interdisciplinary History, 46(2), 77-89." ;
+  skos:prefLabel "Lambert, P. S., Zijdeman, R. L., Van Leeuwen, M. H., Maas, I., & Prandy, K. (2013). The construction of HISCAM: A stratification scale based on social interactions for historical comparative research." ;
+  dct:title "Lambert, P. S., Zijdeman, R. L., Van Leeuwen, M. H., Maas, I., & Prandy, K. (2013). The construction of HISCAM: A stratification scale based on social interactions for historical comparative research." ;
+  prism:doi "10.1080/01615440.2012.715569" ;
+  prism:url <https://doi.org/10.1080/01615440.2012.715569> .
+
+
