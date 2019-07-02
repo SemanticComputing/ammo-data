@@ -1,0 +1,38 @@
+@prefix ammo: <http://ldf.fi/ammo/> .
+@prefix coo1980: <http://ldf.fi/ammo/coo1980#> .
+@prefix coo1980status: <http://ldf.fi/ammo/coo1980status#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix hisco: <http://ldf.fi/ammo/hisco/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://ldf.fi/schema/ammo/Occupation> 
+  rdfs:subClassof skos:Concept ;
+  skos:prefLabel "Occupation"@en , "Ammatti"@fi ;
+  .
+
+<http://ldf.fi/schema/ammo/Degree> 
+  rdfs:subClassof skos:Concept ;
+  skos:prefLabel "Degree"@en , "Oppiarvo"@fi ;
+  .
+
+<http://ldf.fi/schema/ammo/Title> 
+  rdfs:subClassof skos:Concept ;
+  skos:prefLabel "Title"@en , "Arvonimi"@fi ;
+  .
+
+<http://ldf.fi/schema/ammo/Military_rank> 
+  rdfs:subClassof skos:Concept ;
+  skos:prefLabel "Military Rank"@en , "Sotilasarvo"@fi ;
+  .
+
+<http://ldf.fi/schema/ammo/Role> 
+  rdfs:subClassof skos:Concept ;
+  skos:prefLabel "Role"@en , "Rooli"@fi ;
+  .
+
+
