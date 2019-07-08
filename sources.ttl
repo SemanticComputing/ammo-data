@@ -43,6 +43,8 @@
   skos:prefLabel "Lambert, P. S., Zijdeman, R. L., Van Leeuwen, M. H., Maas, I., & Prandy, K. (2013). The construction of HISCAM: A stratification scale based on social interactions for historical comparative research." ;
   dct:title "Lambert, P. S., Zijdeman, R. L., Van Leeuwen, M. H., Maas, I., & Prandy, K. (2013). The construction of HISCAM: A stratification scale based on social interactions for historical comparative research." ;
   prism:doi "10.1080/01615440.2012.715569" ;
-  prism:url <https://doi.org/10.1080/01615440.2012.715569> .
+  prism:url <https://doi.org/10.1080/01615440.2012.715569> ;
+  skos:note "AMMO uses HISCAM version 1.3.1 U1" ;
+  prism:url <http://www.camsis.stir.ac.uk/hiscam/> .
 
 
