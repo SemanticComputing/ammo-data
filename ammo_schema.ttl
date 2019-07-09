@@ -1,4 +1,5 @@
 @prefix ammo: <http://ldf.fi/ammo/> .
+@prefix ammo-s: <http://ldf.fi/schema/ammo/> .
 @prefix coo1980: <http://ldf.fi/ammo/coo1980#> .
 @prefix coo1980status: <http://ldf.fi/ammo/coo1980status#> .
 @prefix dct: <http://purl.org/dc/terms/> .
@@ -9,6 +10,11 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ammo-s:Concept 
+  rdfs:subClassof skos:Concept ;
+  skos:prefLabel "AMMO Concept"@en , "AMMO-käsite"@fi ;
+  .
 
 <http://ldf.fi/schema/ammo/Occupation> 
   rdfs:subClassof skos:Concept ;
