@@ -1,5 +1,6 @@
 @prefix ammo: <http://ldf.fi/ammo/> .
 @prefix ammo-s: <http://ldf.fi/schema/ammo/> .
+@prefix bio-crm: <http://ldf.fi/schema/bioc/> .
 @prefix coo1980: <http://ldf.fi/ammo/coo1980/> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix hisco: <http://ldf.fi/ammo/hisco/> .
