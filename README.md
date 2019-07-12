@@ -2,6 +2,11 @@
 
 AMMO core (ammo.ttl) contains SKOS concepts representing Finnish historical occupations that have been found in the source datasets, containing occupational labels from the early 20th century.
 
+## Usage
+
+You can use the Turtle (.ttl) files directly, or use docker to deploy the ontology into a SPARQL endpoint:
+`docker build -t ammo . && docker run -p 3059:3030 -d --name ammo ammo`
+
 ## Sources
 
 Classification of Finnish Occupations 1980 (coo1980.ttl) contains parts of the occupation hierarchy, and the social classification, related to AMMO occupations, published in Classification of 
