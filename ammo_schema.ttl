@@ -1,7 +1,7 @@
 @prefix ammo: <http://ldf.fi/ammo/> .
 @prefix ammo-s: <http://ldf.fi/schema/ammo/> .
 @prefix coo1980: <http://ldf.fi/ammo/coo1980/> .
-@prefix coo1980status: <http://ldf.fi/ammo/coo1980status#> .
+@prefix coo1980_status: <http://ldf.fi/ammo/coo1980status#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix hisco: <http://ldf.fi/ammo/hisco/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -40,7 +40,7 @@ hisco:conceptscheme a skos:ConceptScheme ;
     hisco:7 ,
     hisco:8 ,
     hisco:9 ,
-    hisco:-1 .
+    <http://ldf.fi/ammo/hisco/-1> .
 
 coo1980:0 skos:topConceptOf coo1980:conceptscheme .
 coo1980:1 skos:topConceptOf coo1980:conceptscheme .
@@ -68,7 +68,7 @@ hisco:6 skos:topConceptOf hisco:conceptscheme .
 hisco:7 skos:topConceptOf hisco:conceptscheme .
 hisco:8 skos:topConceptOf hisco:conceptscheme .
 hisco:9 skos:topConceptOf hisco:conceptscheme .
-hisco:-1 skos:topConceptOf hisco:conceptscheme .
+<http://ldf.fi/ammo/hisco/-1> skos:topConceptOf hisco:conceptscheme .
 
 # ammo:coo1980_code rdfs:subPropertyOf skos:broadMatch .
 
