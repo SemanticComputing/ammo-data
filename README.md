@@ -1,6 +1,6 @@
 # AMMO Ontology of Finnish Historical Occupations
 
-AMMO core (ammo.ttl) contains SKOS concepts representing Finnish historical occupations that have been found in the source datasets, containing occupational labels from the early 20th century.
+AMMO contains SKOS concepts representing Finnish historical occupations that have been found in the source datasets, containing occupational labels from the early 20th century.
 
 ## Usage
 
@@ -12,7 +12,7 @@ Stop and update:
 
 ## Sources
 
-Classification of Finnish Occupations 1980 (coo1980.ttl) contains parts of the occupation hierarchy, and the social classification, related to AMMO occupations, published in Classification of 
+Classification of Finnish Occupations 1980 contains parts of the occupation hierarchy, and the social classification, related to AMMO occupations, published in Classification of 
 occupations 1980 (Ammattiluokitus 1980) by Statistics Finland (Tilastokeskus), http://www.doria.fi/handle/10024/98855 .
 
 HISCO resource labels and hierarchy used with permission from the HISCO database. http://hdl.handle.net/10622/JA9B8O, IISH Dataverse, V1. Described in 
