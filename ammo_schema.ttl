@@ -99,4 +99,28 @@ hisco:9 skos:topConceptOf hisco:conceptscheme .
   skos:prefLabel "Role"@en , "Rooli"@fi ;
   .
 
+ammo-s:hisclass a rdfs:Property ;
+  skos:prefLabel "HISCLASS -luokitus"@fi, "HISCLASS classification"@en .
+
+ammo-s:hisclass5 a rdfs:Property ;
+  skos:prefLabel "HISCLASS_5 -luokitus"@fi, "HISCLASS_5 classification"@en ;
+  rdfs:subPropertyOf ammo-s:hisclass .
+
+ammo-s:hisclass7 a rdfs:Property ;
+  skos:prefLabel "HISCLASS_7 -luokitus"@fi, "HISCLASS_7 classification"@en ;
+  rdfs:subPropertyOf ammo-s:hisclass .
+
+ammo-s:hisclass12 a rdfs:Property ;
+  skos:prefLabel "HISCLASS_12 -luokitus"@fi, "HISCLASS_12 classification"@en ;
+  rdfs:subPropertyOf ammo-s:hisclass .
+
+ammo-s:hisco_relation a rdfs:Property ;
+  skos:prefLabel "HISCO-suhdekoodi"@fi, "HISCO relation code"@en .
+
+ammo-s:hisco_status a rdfs:Property ;
+  skos:prefLabel "HISCO-statuskoodi"@fi, "HISCO status code"@en .
+
+ammo-s:hisco_product a rdfs:Property ;
+  skos:prefLabel "HISCO-tuotekoodi"@fi, "HISCO product code"@en .
+
 
