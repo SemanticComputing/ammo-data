@@ -8,7 +8,7 @@ You can use the Turtle (.ttl) files directly, or use docker to deploy the ontolo
 `docker build -t ammo . && docker run -p 3054:3030 -d --name ammo ammo`
 
 Stop and update:
-`docker stop ammo && docker rm ammo && docker build -t ammo . && docker run -p 3054:3030 -d --name ammo --restart=unless-stopped ammo`
+`docker build -t ammo . && docker stop ammo && docker rm ammo && docker run -p 3054:3030 -d --name ammo --restart=unless-stopped ammo`
 
 ## Sources
 

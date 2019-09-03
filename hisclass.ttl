@@ -134,7 +134,7 @@ hisclass7:2 a skos:Concept ;
 
 hisclass7:3 a skos:Concept ;
 	skos:prefLabel "Foremen and medium skilled workers"@en ,
-	"Päälliköt ja keskitasoisia teollisuus- ja tuotantotyöntekijät"@fi ;
+	"Päälliköt ja keskitasoiset teollisuus- ja tuotantotyöntekijät"@fi ;
     skos:altLabel "3" ;
 	dct:source <http://ldf.fi/ammo/sources/hisclass> .
 
