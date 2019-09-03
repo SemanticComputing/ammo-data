@@ -4134,7 +4134,7 @@ coo1980_status:conceptscheme
     ammo-s:hisclass5 <http://ldf.fi/ammo/hisco/hisclass5/1> ;
     ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/1> ;
     a ammo-s:Degree, bio-crm:Occupation, skos:Concept ;
-    skos:altLabel "diplomi-insinöö"@fi ;
+    skos:altLabel "DI"@fi, "diplomi-insinöö"@fi ;
     skos:prefLabel "diplomi-insinööri"@fi ;
     skos:related <http://www.yso.fi/onto/koko/p6232> .
 
@@ -4561,6 +4561,7 @@ coo1980_status:conceptscheme
     ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/1> ;
     ammo-s:hisco_status hisco:status_42 ;
     a ammo-s:Degree, bio-crm:Occupation, skos:Concept ;
+    skos:altLabel "FK"@fi ;
     skos:prefLabel "filosofian kandidaatti"@fi ;
     skos:related <http://www.yso.fi/onto/koko/p9498> .
 
@@ -4571,7 +4572,7 @@ coo1980_status:conceptscheme
     ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/1> ;
     ammo-s:hisco_status hisco:status_42 ;
     a ammo-s:Degree, bio-crm:Occupation, skos:Concept ;
-    skos:altLabel "fil.maisteri"@fi ;
+    skos:altLabel "FM"@fi, "fil.maisteri"@fi ;
     skos:prefLabel "filosofian maisteri"@fi ;
     skos:related <http://www.yso.fi/onto/koko/p64487> .
 
@@ -4582,6 +4583,7 @@ coo1980_status:conceptscheme
     ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/1> ;
     ammo-s:hisco_status hisco:status_42 ;
     a ammo-s:Degree, bio-crm:Occupation, skos:Concept ;
+    skos:altLabel "FT"@fi ;
     skos:prefLabel "filosofian tohtori"@fi ;
     skos:related <http://www.yso.fi/onto/koko/p51826> .
 
