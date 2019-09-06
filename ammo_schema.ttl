@@ -11,9 +11,9 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-ammo:coo1980_code rdfs:subPropertyOf skos:broadMatch .
+ammo-s:coo1980_code rdfs:subPropertyOf skos:broadMatch .
 
-ammo:hisco_code rdfs:subPropertyOf skos:broadMatch .
+ammo-s:hisco_code rdfs:subPropertyOf skos:broadMatch .
 
 <http://ldf.fi/schema/ammo/Occupation>
   rdfs:subClassof skos:Concept ;
