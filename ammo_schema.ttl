@@ -15,6 +15,11 @@ ammo-s:coo1980_code rdfs:subPropertyOf skos:broadMatch .
 
 ammo-s:hisco_code rdfs:subPropertyOf skos:broadMatch .
 
+<http://ldf.fi/schema/bioc/Occupation>
+  a owl:Class ;
+  rdfs:label "Occupation" ;
+  skos:prefLabel "Occupation"@en , "Ammatti"@fi .
+
 <http://ldf.fi/schema/ammo/Occupation>
   rdfs:subClassof skos:Concept ;
   skos:prefLabel "Occupation"@en , "Ammatti"@fi ;
