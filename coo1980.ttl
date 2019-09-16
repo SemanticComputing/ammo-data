@@ -305,7 +305,7 @@
     coo1980:socioeconomic_status coo1980:status_34 ;
     a skos:Concept ;
     skos:altLabel "0321" ;
-    skos:broader coo1980:status_32 ;
+    skos:broader coo1980:032 ;
     skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
     skos:prefLabel "Ylihoitajat"@fi, "Överskötare"@sv .
 
@@ -313,7 +313,7 @@
     coo1980:socioeconomic_status coo1980:status_44 ;
     a skos:Concept ;
     skos:altLabel "0324" ;
-    skos:broader coo1980:status_32 ;
+    skos:broader coo1980:032 ;
     skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
     skos:prefLabel "Andra sjukskötare"@sv, "Muut sairaanhoitajat"@fi .
 
@@ -1271,7 +1271,7 @@
 <http://ldf.fi/ammo/coo1980/212>
     a skos:Concept ;
     skos:altLabel "212" ;
-    skos:broader coo1980:status_21 ;
+    skos:broader coo1980:21 ;
     skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
     skos:narrower <http://ldf.fi/ammo/coo1980/2121> ;
     skos:prefLabel "Markkinoinin edistäjät"@fi, "Reklammän"@sv .
