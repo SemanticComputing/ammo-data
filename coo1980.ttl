@@ -363,7 +363,7 @@
     skos:broader <http://ldf.fi/ammo/coo1980/0> ;
     skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
     skos:narrower <http://ldf.fi/ammo/coo1980/040>, <http://ldf.fi/ammo/coo1980/0401>, <http://ldf.fi/ammo/coo1980/0402>, <http://ldf.fi/ammo/coo1980/0403>, <http://ldf.fi/ammo/coo1980/041>, <http://ldf.fi/ammo/coo1980/042>, <http://ldf.fi/ammo/coo1980/043> ;
-    skos:prefLabel "Kaivos-, syväkairaus- ja rikastustyö"@fi, "Other professional health and medical work"@en, "Övrigt arbete inom hälso- och sjukvård"@sv .
+    skos:prefLabel "Muu terveyden- ja sairaanhoitotyö"@fi, "Other professional health and medical work"@en, "Övrigt arbete inom hälso- och sjukvård"@sv .
 
 <http://ldf.fi/ammo/coo1980/040>
     a skos:Concept ;
