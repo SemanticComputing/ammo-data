@@ -1,0 +1,3632 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ammo: <http://ldf.fi/ammo/> .
+@prefix ammo-s: <http://ldf.fi/schema/ammo/> .
+@prefix bio-crm: <http://ldf.fi/schema/bioc/> .
+@prefix coo1980: <http://ldf.fi/ammo/coo1980/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix hisco: <http://ldf.fi/ammo/hisco/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://ldf.fi/ammo/coo1980/>
+    dct:creator <http://seco.cs.aalto.fi>, <http://urn.fi/URN:NBN:fi:au:cn:29234A> ;
+    dct:description "Upper levels of \"Classification of occupations 1980.\" Central Statistical Office of Finland"@en ;
+    dct:rightsHolder <http://seco.cs.aalto.fi>, <http://urn.fi/URN:NBN:fi:au:cn:29234A> ;
+    dct:source <http://ldf.fi/ammo/sources/coo1980> ;
+    a skos:ConceptScheme ;
+    owl:versionInfo "Created with TopBraid Composer " ;
+    skos:hasTopConcept <http://ldf.fi/ammo/coo1980/0>, <http://ldf.fi/ammo/coo1980/1>, <http://ldf.fi/ammo/coo1980/115>, <http://ldf.fi/ammo/coo1980/2>, <http://ldf.fi/ammo/coo1980/3>, <http://ldf.fi/ammo/coo1980/30>, <http://ldf.fi/ammo/coo1980/4>, <http://ldf.fi/ammo/coo1980/5>, <http://ldf.fi/ammo/coo1980/6_7>, <http://ldf.fi/ammo/coo1980/8>, <http://ldf.fi/ammo/coo1980/9>, coo1980:status_1, coo1980:status_2, coo1980:status_3, coo1980:status_4, coo1980:status_5 ;
+    skos:member <http://ldf.fi/ammo/coo1980/0>, <http://ldf.fi/ammo/coo1980/00>, <http://ldf.fi/ammo/coo1980/000>, <http://ldf.fi/ammo/coo1980/001>, <http://ldf.fi/ammo/coo1980/002>, <http://ldf.fi/ammo/coo1980/004>, <http://ldf.fi/ammo/coo1980/005>, <http://ldf.fi/ammo/coo1980/006>, <http://ldf.fi/ammo/coo1980/007>, <http://ldf.fi/ammo/coo1980/008>, <http://ldf.fi/ammo/coo1980/01>, <http://ldf.fi/ammo/coo1980/010>, <http://ldf.fi/ammo/coo1980/011>, <http://ldf.fi/ammo/coo1980/013>, <http://ldf.fi/ammo/coo1980/014>, <http://ldf.fi/ammo/coo1980/015>, <http://ldf.fi/ammo/coo1980/016>, <http://ldf.fi/ammo/coo1980/017>, <http://ldf.fi/ammo/coo1980/018>, <http://ldf.fi/ammo/coo1980/019>, <http://ldf.fi/ammo/coo1980/02>, <http://ldf.fi/ammo/coo1980/020>, <http://ldf.fi/ammo/coo1980/024>, <http://ldf.fi/ammo/coo1980/025>, <http://ldf.fi/ammo/coo1980/026>, <http://ldf.fi/ammo/coo1980/0261>, <http://ldf.fi/ammo/coo1980/0262>, <http://ldf.fi/ammo/coo1980/027>, <http://ldf.fi/ammo/coo1980/0271>, <http://ldf.fi/ammo/coo1980/0272>, <http://ldf.fi/ammo/coo1980/028>, <http://ldf.fi/ammo/coo1980/03>, <http://ldf.fi/ammo/coo1980/030>, <http://ldf.fi/ammo/coo1980/031>, <http://ldf.fi/ammo/coo1980/032>, <http://ldf.fi/ammo/coo1980/0321>, <http://ldf.fi/ammo/coo1980/0324>, <http://ldf.fi/ammo/coo1980/034>, <http://ldf.fi/ammo/coo1980/035>, <http://ldf.fi/ammo/coo1980/036>, <http://ldf.fi/ammo/coo1980/0361>, <http://ldf.fi/ammo/coo1980/0362>, <http://ldf.fi/ammo/coo1980/04>, <http://ldf.fi/ammo/coo1980/040>, <http://ldf.fi/ammo/coo1980/0401>, <http://ldf.fi/ammo/coo1980/0402>, <http://ldf.fi/ammo/coo1980/0403>, <http://ldf.fi/ammo/coo1980/041>, <http://ldf.fi/ammo/coo1980/042>, <http://ldf.fi/ammo/coo1980/043>, <http://ldf.fi/ammo/coo1980/05>, <http://ldf.fi/ammo/coo1980/050>, <http://ldf.fi/ammo/coo1980/0501>, <http://ldf.fi/ammo/coo1980/0502>, <http://ldf.fi/ammo/coo1980/051>, <http://ldf.fi/ammo/coo1980/052>, <http://ldf.fi/ammo/coo1980/053>, <http://ldf.fi/ammo/coo1980/0531>, <http://ldf.fi/ammo/coo1980/0532>, <http://ldf.fi/ammo/coo1980/0533>, <http://ldf.fi/ammo/coo1980/0534>, <http://ldf.fi/ammo/coo1980/056>, <http://ldf.fi/ammo/coo1980/0561>, <http://ldf.fi/ammo/coo1980/0562>, <http://ldf.fi/ammo/coo1980/059>, <http://ldf.fi/ammo/coo1980/0592>, <http://ldf.fi/ammo/coo1980/06>, <http://ldf.fi/ammo/coo1980/060>, <http://ldf.fi/ammo/coo1980/061>, <http://ldf.fi/ammo/coo1980/062>, <http://ldf.fi/ammo/coo1980/07>, <http://ldf.fi/ammo/coo1980/070>, <http://ldf.fi/ammo/coo1980/071>, <http://ldf.fi/ammo/coo1980/072>, <http://ldf.fi/ammo/coo1980/073>, <http://ldf.fi/ammo/coo1980/079>, <http://ldf.fi/ammo/coo1980/08>, <http://ldf.fi/ammo/coo1980/080>, <http://ldf.fi/ammo/coo1980/081>, <http://ldf.fi/ammo/coo1980/082>, <http://ldf.fi/ammo/coo1980/083>, <http://ldf.fi/ammo/coo1980/084>, <http://ldf.fi/ammo/coo1980/0841>, <http://ldf.fi/ammo/coo1980/0842>, <http://ldf.fi/ammo/coo1980/085>, <http://ldf.fi/ammo/coo1980/0851>, <http://ldf.fi/ammo/coo1980/0852>, <http://ldf.fi/ammo/coo1980/086>, <http://ldf.fi/ammo/coo1980/0861>, <http://ldf.fi/ammo/coo1980/0862>, <http://ldf.fi/ammo/coo1980/087>, <http://ldf.fi/ammo/coo1980/089>, <http://ldf.fi/ammo/coo1980/0891>, <http://ldf.fi/ammo/coo1980/0892>, <http://ldf.fi/ammo/coo1980/09>, <http://ldf.fi/ammo/coo1980/090>, <http://ldf.fi/ammo/coo1980/0901>, <http://ldf.fi/ammo/coo1980/0902>, <http://ldf.fi/ammo/coo1980/091>, <http://ldf.fi/ammo/coo1980/0911>, <http://ldf.fi/ammo/coo1980/0912>, <http://ldf.fi/ammo/coo1980/092>, <http://ldf.fi/ammo/coo1980/093>, <http://ldf.fi/ammo/coo1980/094>, <http://ldf.fi/ammo/coo1980/0941>, <http://ldf.fi/ammo/coo1980/0942>, <http://ldf.fi/ammo/coo1980/095>, <http://ldf.fi/ammo/coo1980/098>, <http://ldf.fi/ammo/coo1980/0983>, <http://ldf.fi/ammo/coo1980/099>, <http://ldf.fi/ammo/coo1980/0991>, <http://ldf.fi/ammo/coo1980/0992>, <http://ldf.fi/ammo/coo1980/1>, <http://ldf.fi/ammo/coo1980/10>, <http://ldf.fi/ammo/coo1980/100>, <http://ldf.fi/ammo/coo1980/101>, <http://ldf.fi/ammo/coo1980/11>, <http://ldf.fi/ammo/coo1980/110>, <http://ldf.fi/ammo/coo1980/111>, <http://ldf.fi/ammo/coo1980/112>, <http://ldf.fi/ammo/coo1980/113>, <http://ldf.fi/ammo/coo1980/114>, <http://ldf.fi/ammo/coo1980/115>, <http://ldf.fi/ammo/coo1980/119>, <http://ldf.fi/ammo/coo1980/12>, <http://ldf.fi/ammo/coo1980/120>, <http://ldf.fi/ammo/coo1980/1201>, <http://ldf.fi/ammo/coo1980/1202>, <http://ldf.fi/ammo/coo1980/121>, <http://ldf.fi/ammo/coo1980/13>, <http://ldf.fi/ammo/coo1980/130>, <http://ldf.fi/ammo/coo1980/131>, <http://ldf.fi/ammo/coo1980/15>, <http://ldf.fi/ammo/coo1980/150>, <http://ldf.fi/ammo/coo1980/151>, <http://ldf.fi/ammo/coo1980/152>, <http://ldf.fi/ammo/coo1980/1521>, <http://ldf.fi/ammo/coo1980/1522>, <http://ldf.fi/ammo/coo1980/153>, <http://ldf.fi/ammo/coo1980/1531>, <http://ldf.fi/ammo/coo1980/154>, <http://ldf.fi/ammo/coo1980/155>, <http://ldf.fi/ammo/coo1980/156>, <http://ldf.fi/ammo/coo1980/1562>, <http://ldf.fi/ammo/coo1980/157>, <http://ldf.fi/ammo/coo1980/159>, <http://ldf.fi/ammo/coo1980/2>, <http://ldf.fi/ammo/coo1980/20>, <http://ldf.fi/ammo/coo1980/200>, <http://ldf.fi/ammo/coo1980/201>, <http://ldf.fi/ammo/coo1980/202>, <http://ldf.fi/ammo/coo1980/21>, <http://ldf.fi/ammo/coo1980/210>, <http://ldf.fi/ammo/coo1980/2102>, <http://ldf.fi/ammo/coo1980/211>, <http://ldf.fi/ammo/coo1980/212>, <http://ldf.fi/ammo/coo1980/2121>, <http://ldf.fi/ammo/coo1980/22>, <http://ldf.fi/ammo/coo1980/220>, <http://ldf.fi/ammo/coo1980/221>, <http://ldf.fi/ammo/coo1980/23>, <http://ldf.fi/ammo/coo1980/230>, <http://ldf.fi/ammo/coo1980/2301>, <http://ldf.fi/ammo/coo1980/2302>, <http://ldf.fi/ammo/coo1980/231>, <http://ldf.fi/ammo/coo1980/232>, <http://ldf.fi/ammo/coo1980/233>, <http://ldf.fi/ammo/coo1980/234>, <http://ldf.fi/ammo/coo1980/239>, <http://ldf.fi/ammo/coo1980/3>, <http://ldf.fi/ammo/coo1980/30>, <http://ldf.fi/ammo/coo1980/300>, <http://ldf.fi/ammo/coo1980/301>, <http://ldf.fi/ammo/coo1980/302>, <http://ldf.fi/ammo/coo1980/303>, <http://ldf.fi/ammo/coo1980/304>, <http://ldf.fi/ammo/coo1980/3042>, <http://ldf.fi/ammo/coo1980/305>, <http://ldf.fi/ammo/coo1980/306>, <http://ldf.fi/ammo/coo1980/307>, <http://ldf.fi/ammo/coo1980/31>, <http://ldf.fi/ammo/coo1980/310>, <http://ldf.fi/ammo/coo1980/311>, <http://ldf.fi/ammo/coo1980/32>, <http://ldf.fi/ammo/coo1980/320>, <http://ldf.fi/ammo/coo1980/33>, <http://ldf.fi/ammo/coo1980/330>, <http://ldf.fi/ammo/coo1980/331>, <http://ldf.fi/ammo/coo1980/3311>, <http://ldf.fi/ammo/coo1980/34>, <http://ldf.fi/ammo/coo1980/340>, <http://ldf.fi/ammo/coo1980/4>, <http://ldf.fi/ammo/coo1980/40>, <http://ldf.fi/ammo/coo1980/400>, <http://ldf.fi/ammo/coo1980/49>, <http://ldf.fi/ammo/coo1980/490>, <http://ldf.fi/ammo/coo1980/5>, <http://ldf.fi/ammo/coo1980/50>, <http://ldf.fi/ammo/coo1980/500>, <http://ldf.fi/ammo/coo1980/5001>, <http://ldf.fi/ammo/coo1980/5002>, <http://ldf.fi/ammo/coo1980/501>, <http://ldf.fi/ammo/coo1980/5012>, <http://ldf.fi/ammo/coo1980/51>, <http://ldf.fi/ammo/coo1980/510>, <http://ldf.fi/ammo/coo1980/511>, <http://ldf.fi/ammo/coo1980/52>, <http://ldf.fi/ammo/coo1980/520>, <http://ldf.fi/ammo/coo1980/5201>, <http://ldf.fi/ammo/coo1980/53>, <http://ldf.fi/ammo/coo1980/530>, <http://ldf.fi/ammo/coo1980/54>, <http://ldf.fi/ammo/coo1980/540>, <http://ldf.fi/ammo/coo1980/541>, <http://ldf.fi/ammo/coo1980/55>, <http://ldf.fi/ammo/coo1980/550>, <http://ldf.fi/ammo/coo1980/5501>, <http://ldf.fi/ammo/coo1980/5502>, <http://ldf.fi/ammo/coo1980/552>, <http://ldf.fi/ammo/coo1980/56>, <http://ldf.fi/ammo/coo1980/560>, <http://ldf.fi/ammo/coo1980/5602>, <http://ldf.fi/ammo/coo1980/562>, <http://ldf.fi/ammo/coo1980/5621>, <http://ldf.fi/ammo/coo1980/5622>, <http://ldf.fi/ammo/coo1980/563>, <http://ldf.fi/ammo/coo1980/57>, <http://ldf.fi/ammo/coo1980/570>, <http://ldf.fi/ammo/coo1980/571>, <http://ldf.fi/ammo/coo1980/572>, <http://ldf.fi/ammo/coo1980/573>, <http://ldf.fi/ammo/coo1980/574>, <http://ldf.fi/ammo/coo1980/58>, <http://ldf.fi/ammo/coo1980/580>, <http://ldf.fi/ammo/coo1980/582>, <http://ldf.fi/ammo/coo1980/59>, <http://ldf.fi/ammo/coo1980/590>, <http://ldf.fi/ammo/coo1980/591>, <http://ldf.fi/ammo/coo1980/599>, <http://ldf.fi/ammo/coo1980/5992>, <http://ldf.fi/ammo/coo1980/60>, <http://ldf.fi/ammo/coo1980/600>, <http://ldf.fi/ammo/coo1980/601>, <http://ldf.fi/ammo/coo1980/602>, <http://ldf.fi/ammo/coo1980/603>, <http://ldf.fi/ammo/coo1980/604>, <http://ldf.fi/ammo/coo1980/605>, <http://ldf.fi/ammo/coo1980/606>, <http://ldf.fi/ammo/coo1980/609>, <http://ldf.fi/ammo/coo1980/61>, <http://ldf.fi/ammo/coo1980/610>, <http://ldf.fi/ammo/coo1980/611>, <http://ldf.fi/ammo/coo1980/612>, <http://ldf.fi/ammo/coo1980/613>, <http://ldf.fi/ammo/coo1980/614>, <http://ldf.fi/ammo/coo1980/615>, <http://ldf.fi/ammo/coo1980/619>, <http://ldf.fi/ammo/coo1980/62>, <http://ldf.fi/ammo/coo1980/620>, <http://ldf.fi/ammo/coo1980/623>, <http://ldf.fi/ammo/coo1980/625>, <http://ldf.fi/ammo/coo1980/63>, <http://ldf.fi/ammo/coo1980/630>, <http://ldf.fi/ammo/coo1980/631>, <http://ldf.fi/ammo/coo1980/632>, <http://ldf.fi/ammo/coo1980/633>, <http://ldf.fi/ammo/coo1980/634>, <http://ldf.fi/ammo/coo1980/635>, <http://ldf.fi/ammo/coo1980/639>, <http://ldf.fi/ammo/coo1980/64>, <http://ldf.fi/ammo/coo1980/640>, <http://ldf.fi/ammo/coo1980/641>, <http://ldf.fi/ammo/coo1980/642>, <http://ldf.fi/ammo/coo1980/643>, <http://ldf.fi/ammo/coo1980/644>, <http://ldf.fi/ammo/coo1980/65>, <http://ldf.fi/ammo/coo1980/650>, <http://ldf.fi/ammo/coo1980/651>, <http://ldf.fi/ammo/coo1980/652>, <http://ldf.fi/ammo/coo1980/653>, <http://ldf.fi/ammo/coo1980/654>, <http://ldf.fi/ammo/coo1980/655>, <http://ldf.fi/ammo/coo1980/656>, <http://ldf.fi/ammo/coo1980/659>, <http://ldf.fi/ammo/coo1980/66>, <http://ldf.fi/ammo/coo1980/660>, <http://ldf.fi/ammo/coo1980/661>, <http://ldf.fi/ammo/coo1980/662>, <http://ldf.fi/ammo/coo1980/663>, <http://ldf.fi/ammo/coo1980/664>, <http://ldf.fi/ammo/coo1980/665>, <http://ldf.fi/ammo/coo1980/666>, <http://ldf.fi/ammo/coo1980/6661>, <http://ldf.fi/ammo/coo1980/6662>, <http://ldf.fi/ammo/coo1980/669>, <http://ldf.fi/ammo/coo1980/67>, <http://ldf.fi/ammo/coo1980/671>, <http://ldf.fi/ammo/coo1980/672>, <http://ldf.fi/ammo/coo1980/673>, <http://ldf.fi/ammo/coo1980/674>, <http://ldf.fi/ammo/coo1980/675>, <http://ldf.fi/ammo/coo1980/676>, <http://ldf.fi/ammo/coo1980/677>, <http://ldf.fi/ammo/coo1980/678>, <http://ldf.fi/ammo/coo1980/679>, <http://ldf.fi/ammo/coo1980/68>, <http://ldf.fi/ammo/coo1980/680>, <http://ldf.fi/ammo/coo1980/69>, <http://ldf.fi/ammo/coo1980/690>, <http://ldf.fi/ammo/coo1980/691>, <http://ldf.fi/ammo/coo1980/692>, <http://ldf.fi/ammo/coo1980/693>, <http://ldf.fi/ammo/coo1980/694>, <http://ldf.fi/ammo/coo1980/695>, <http://ldf.fi/ammo/coo1980/698>, <http://ldf.fi/ammo/coo1980/699>, <http://ldf.fi/ammo/coo1980/6_7>, <http://ldf.fi/ammo/coo1980/70>, <http://ldf.fi/ammo/coo1980/700>, <http://ldf.fi/ammo/coo1980/701>, <http://ldf.fi/ammo/coo1980/702>, <http://ldf.fi/ammo/coo1980/703>, <http://ldf.fi/ammo/coo1980/709>, <http://ldf.fi/ammo/coo1980/71>, <http://ldf.fi/ammo/coo1980/710>, <http://ldf.fi/ammo/coo1980/711>, <http://ldf.fi/ammo/coo1980/712>, <http://ldf.fi/ammo/coo1980/713>, <http://ldf.fi/ammo/coo1980/72>, <http://ldf.fi/ammo/coo1980/720>, <http://ldf.fi/ammo/coo1980/721>, <http://ldf.fi/ammo/coo1980/722>, <http://ldf.fi/ammo/coo1980/723>, <http://ldf.fi/ammo/coo1980/725>, <http://ldf.fi/ammo/coo1980/726>, <http://ldf.fi/ammo/coo1980/728>, <http://ldf.fi/ammo/coo1980/729>, <http://ldf.fi/ammo/coo1980/73>, <http://ldf.fi/ammo/coo1980/730>, <http://ldf.fi/ammo/coo1980/731>, <http://ldf.fi/ammo/coo1980/733>, <http://ldf.fi/ammo/coo1980/734>, <http://ldf.fi/ammo/coo1980/735>, <http://ldf.fi/ammo/coo1980/739>, <http://ldf.fi/ammo/coo1980/74>, <http://ldf.fi/ammo/coo1980/740>, <http://ldf.fi/ammo/coo1980/75>, <http://ldf.fi/ammo/coo1980/750>, <http://ldf.fi/ammo/coo1980/751>, <http://ldf.fi/ammo/coo1980/752>, <http://ldf.fi/ammo/coo1980/753>, <http://ldf.fi/ammo/coo1980/754>, <http://ldf.fi/ammo/coo1980/755>, <http://ldf.fi/ammo/coo1980/756>, <http://ldf.fi/ammo/coo1980/757>, <http://ldf.fi/ammo/coo1980/759>, <http://ldf.fi/ammo/coo1980/76>, <http://ldf.fi/ammo/coo1980/760>, <http://ldf.fi/ammo/coo1980/77>, <http://ldf.fi/ammo/coo1980/770>, <http://ldf.fi/ammo/coo1980/771>, <http://ldf.fi/ammo/coo1980/772>, <http://ldf.fi/ammo/coo1980/773>, <http://ldf.fi/ammo/coo1980/774>, <http://ldf.fi/ammo/coo1980/7741>, <http://ldf.fi/ammo/coo1980/7742>, <http://ldf.fi/ammo/coo1980/775>, <http://ldf.fi/ammo/coo1980/78>, <http://ldf.fi/ammo/coo1980/780>, <http://ldf.fi/ammo/coo1980/781>, <http://ldf.fi/ammo/coo1980/79>, <http://ldf.fi/ammo/coo1980/790>, <http://ldf.fi/ammo/coo1980/8>, <http://ldf.fi/ammo/coo1980/80>, <http://ldf.fi/ammo/coo1980/800>, <http://ldf.fi/ammo/coo1980/8003>, <http://ldf.fi/ammo/coo1980/801>, <http://ldf.fi/ammo/coo1980/8011>, <http://ldf.fi/ammo/coo1980/8012>, <http://ldf.fi/ammo/coo1980/802>, <http://ldf.fi/ammo/coo1980/8021>, <http://ldf.fi/ammo/coo1980/8022>, <http://ldf.fi/ammo/coo1980/803>, <http://ldf.fi/ammo/coo1980/8032>, <http://ldf.fi/ammo/coo1980/804>, <http://ldf.fi/ammo/coo1980/809>, <http://ldf.fi/ammo/coo1980/81>, <http://ldf.fi/ammo/coo1980/810>, <http://ldf.fi/ammo/coo1980/811>, <http://ldf.fi/ammo/coo1980/812>, <http://ldf.fi/ammo/coo1980/813>, <http://ldf.fi/ammo/coo1980/816>, <http://ldf.fi/ammo/coo1980/82>, <http://ldf.fi/ammo/coo1980/820>, <http://ldf.fi/ammo/coo1980/8201>, <http://ldf.fi/ammo/coo1980/8202>, <http://ldf.fi/ammo/coo1980/821>, <http://ldf.fi/ammo/coo1980/83>, <http://ldf.fi/ammo/coo1980/830>, <http://ldf.fi/ammo/coo1980/831>, <http://ldf.fi/ammo/coo1980/8311>, <http://ldf.fi/ammo/coo1980/8312>, <http://ldf.fi/ammo/coo1980/832>, <http://ldf.fi/ammo/coo1980/839>, <http://ldf.fi/ammo/coo1980/84>, <http://ldf.fi/ammo/coo1980/840>, <http://ldf.fi/ammo/coo1980/842>, <http://ldf.fi/ammo/coo1980/85>, <http://ldf.fi/ammo/coo1980/850>, <http://ldf.fi/ammo/coo1980/851>, <http://ldf.fi/ammo/coo1980/86>, <http://ldf.fi/ammo/coo1980/860>, <http://ldf.fi/ammo/coo1980/87>, <http://ldf.fi/ammo/coo1980/870>, <http://ldf.fi/ammo/coo1980/88>, <http://ldf.fi/ammo/coo1980/880>, <http://ldf.fi/ammo/coo1980/89>, <http://ldf.fi/ammo/coo1980/890>, <http://ldf.fi/ammo/coo1980/891>, <http://ldf.fi/ammo/coo1980/892>, <http://ldf.fi/ammo/coo1980/8922>, <http://ldf.fi/ammo/coo1980/899>, <http://ldf.fi/ammo/coo1980/9>, <http://ldf.fi/ammo/coo1980/90>, <http://ldf.fi/ammo/coo1980/900>, <http://ldf.fi/ammo/coo1980/901>, <http://ldf.fi/ammo/coo1980/902>, <http://ldf.fi/ammo/coo1980/903>, <http://ldf.fi/ammo/coo1980/91>, <http://ldf.fi/ammo/coo1980/910>, coo1980:status_1, coo1980:status_11, coo1980:status_12, coo1980:status_2, coo1980:status_21, coo1980:status_22, coo1980:status_3, coo1980:status_31, coo1980:status_32, coo1980:status_33, coo1980:status_34, coo1980:status_4, coo1980:status_41, coo1980:status_42, coo1980:status_43, coo1980:status_44, coo1980:status_5, coo1980:status_51, coo1980:status_52, coo1980:status_53, coo1980:status_54 .
+
+<http://ldf.fi/ammo/coo1980/0>
+    a skos:Concept ;
+    skos:altLabel "0" ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/00>, <http://ldf.fi/ammo/coo1980/01>, <http://ldf.fi/ammo/coo1980/02>, <http://ldf.fi/ammo/coo1980/03>, <http://ldf.fi/ammo/coo1980/04>, <http://ldf.fi/ammo/coo1980/05>, <http://ldf.fi/ammo/coo1980/06>, <http://ldf.fi/ammo/coo1980/07>, <http://ldf.fi/ammo/coo1980/08>, <http://ldf.fi/ammo/coo1980/09> ;
+    skos:prefLabel "Technical, physical science, social science , humanistic and artistic work"@en, "Tekninen, luonnontieteellinen, yhteiskuntatieteellinen, humanistinen ja taiteellinen työ"@fi, "Tekniskt, narurvetenskapligt, samhällsvetenskapligt, humanistiskt och konstnärligt arbete"@sv ;
+    skos:topConceptOf <http://ldf.fi/ammo/coo1980/> .
+
+<http://ldf.fi/ammo/coo1980/00>
+    a skos:Concept ;
+    skos:altLabel "00" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/0> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/000>, <http://ldf.fi/ammo/coo1980/001>, <http://ldf.fi/ammo/coo1980/002>, <http://ldf.fi/ammo/coo1980/004>, <http://ldf.fi/ammo/coo1980/005>, <http://ldf.fi/ammo/coo1980/006>, <http://ldf.fi/ammo/coo1980/007>, <http://ldf.fi/ammo/coo1980/008> ;
+    skos:prefLabel "Planning, administrative and research work in the technical field"@en, "Tekniikan alaan kuuluva suunnittelu-, johto- ja tutkimustyö"@fi, "Tekniskt planerings-, lednings- och forskningsarbete"@sv .
+
+<http://ldf.fi/ammo/coo1980/000>
+    coo1980:socioeconomic_status coo1980:status_32 ;
+    a skos:Concept ;
+    skos:altLabel "000" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/00> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Arkitekter"@sv, "Arkkitehdit"@fi .
+
+<http://ldf.fi/ammo/coo1980/001>
+    coo1980:socioeconomic_status coo1980:status_32 ;
+    a skos:Concept ;
+    skos:altLabel "001" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/00> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Byggnsdsingenjörer"@sv, "Rakennusinsinöörit"@fi .
+
+<http://ldf.fi/ammo/coo1980/002>
+    coo1980:socioeconomic_status coo1980:status_32 ;
+    a skos:Concept ;
+    skos:altLabel "002" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/00> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Ingenjörer med elkrafttekniskt arbetre"@sv, "Sähkövoimatekniikan insinöörit"@fi .
+
+<http://ldf.fi/ammo/coo1980/004>
+    coo1980:socioeconomic_status coo1980:status_32 ;
+    a skos:Concept ;
+    skos:altLabel "004" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/00> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Koneinsinöörit"@fi, "Maskiningenjörer"@sv .
+
+<http://ldf.fi/ammo/coo1980/005>
+    coo1980:socioeconomic_status coo1980:status_32 ;
+    a skos:Concept ;
+    skos:altLabel "005" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/00> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Kemiallis-teknisen alan insinöörit"@fi, "ingenjörer med kemiskst-teknisikt arbete"@sv .
+
+<http://ldf.fi/ammo/coo1980/006>
+    coo1980:socioeconomic_status coo1980:status_32 ;
+    a skos:Concept ;
+    skos:altLabel "006" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/00> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Ingenjörer med gruvteknkiskt och metallurgiskst arbete"@sv, "Kaivostekniikan ja metallurgian insinöörit"@fi .
+
+<http://ldf.fi/ammo/coo1980/007>
+    coo1980:socioeconomic_status coo1980:status_32 ;
+    a skos:Concept ;
+    skos:altLabel "007" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/00> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Ingenjörer inom andra tekniska verksamhetsområden"@sv, "Muiden teknisten alojen insinöörit"@fi .
+
+<http://ldf.fi/ammo/coo1980/008>
+    coo1980:socioeconomic_status coo1980:status_32 ;
+    a skos:Concept ;
+    skos:altLabel "008" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/00> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Mittausinsinöörit"@fi, "Mätningsingenjörer"@sv .
+
+<http://ldf.fi/ammo/coo1980/01>
+    a skos:Concept ;
+    skos:altLabel "01" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/0> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/010>, <http://ldf.fi/ammo/coo1980/011>, <http://ldf.fi/ammo/coo1980/013>, <http://ldf.fi/ammo/coo1980/014>, <http://ldf.fi/ammo/coo1980/015>, <http://ldf.fi/ammo/coo1980/016>, <http://ldf.fi/ammo/coo1980/017>, <http://ldf.fi/ammo/coo1980/018>, <http://ldf.fi/ammo/coo1980/019> ;
+    skos:prefLabel "Supervision and executive work in the technical field"@en, "Tekniikan alaan kuuluva työnjohto- ja suoritustyö"@fi, "Teknisk arbetsledning"@sv .
+
+<http://ldf.fi/ammo/coo1980/010>
+    coo1980:socioeconomic_status coo1980:status_41 ;
+    a skos:Concept ;
+    skos:altLabel "010" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/01> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Byggnadstekniker"@sv, "Rakennusteknikot"@fi .
+
+<http://ldf.fi/ammo/coo1980/011>
+    coo1980:socioeconomic_status coo1980:status_41 ;
+    a skos:Concept ;
+    skos:altLabel "011" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/01> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Sähkövoimatekniikan teknikot"@fi, "Tekniker med elkrafttekniskt arbete"@sv .
+
+<http://ldf.fi/ammo/coo1980/013>
+    coo1980:socioeconomic_status coo1980:status_41 ;
+    a skos:Concept ;
+    skos:altLabel "013" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/01> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Maskintekniker"@sv, "koneteknikot"@fi .
+
+<http://ldf.fi/ammo/coo1980/014>
+    coo1980:socioeconomic_status coo1980:status_41 ;
+    a skos:Concept ;
+    skos:altLabel "014" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/01> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Kemiallis-teknisen alan teknikot"@fi, "Tekniker med kemiskt-tekniskt arbete"@sv .
+
+<http://ldf.fi/ammo/coo1980/015>
+    coo1980:socioeconomic_status coo1980:status_41 ;
+    a skos:Concept ;
+    skos:altLabel "015" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/01> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Kaivostekniikan ja metallurgian teknikot"@fi, "Tekniker med gruvtekniskt och metallurgiskt arbete"@sv .
+
+<http://ldf.fi/ammo/coo1980/016>
+    coo1980:socioeconomic_status coo1980:status_41 ;
+    a skos:Concept ;
+    skos:altLabel "016" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/01> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Muiden teknisten alojen teknikot"@fi, "Tekniker inom andra tekniska verkasmhertsområden"@sv .
+
+<http://ldf.fi/ammo/coo1980/017>
+    coo1980:socioeconomic_status coo1980:status_41 ;
+    a skos:Concept ;
+    skos:altLabel "017" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/01> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Mittausteknikot ja kartottajat"@fi, "Mätningstekniker och kartläggare"@sv .
+
+<http://ldf.fi/ammo/coo1980/018>
+    coo1980:socioeconomic_status coo1980:status_43 ;
+    a skos:Concept ;
+    skos:altLabel "018" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/01> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Piirustusapulaiset"@fi, "Ritbiträden"@sv .
+
+<http://ldf.fi/ammo/coo1980/019>
+    coo1980:socioeconomic_status coo1980:status_44 ;
+    a skos:Concept ;
+    skos:altLabel "019" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/01> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Mittauspulaiset"@fi, "Mätbiträden"@sv .
+
+<http://ldf.fi/ammo/coo1980/02>
+    a skos:Concept ;
+    skos:altLabel "02" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/0> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/020>, <http://ldf.fi/ammo/coo1980/024>, <http://ldf.fi/ammo/coo1980/025>, <http://ldf.fi/ammo/coo1980/026>, <http://ldf.fi/ammo/coo1980/027>, <http://ldf.fi/ammo/coo1980/028> ;
+    skos:prefLabel "Chemical, physical and biological work"@en, "Kemian, fysiikan ja biologian alaan kuuluva työ"@fi, "Kemiskt, fysikaliskt och biologiskt arbete"@sv .
+
+<http://ldf.fi/ammo/coo1980/020>
+    coo1980:socioeconomic_status coo1980:status_32 ;
+    a skos:Concept ;
+    skos:altLabel "020" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/02> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Kemister"@sv, "Kemistit"@fi .
+
+<http://ldf.fi/ammo/coo1980/024>
+    coo1980:socioeconomic_status coo1980:status_34 ;
+    a skos:Concept ;
+    skos:altLabel "024" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/02> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Eläinkääkärit"@fi, "Veterinärer"@sv .
+
+<http://ldf.fi/ammo/coo1980/025>
+    coo1980:socioeconomic_status coo1980:status_32 ;
+    a skos:Concept ;
+    skos:altLabel "025" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/02> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Biologer"@sv, "Biologit"@fi .
+
+<http://ldf.fi/ammo/coo1980/026>
+    a skos:Concept ;
+    skos:altLabel "026" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/02> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/0261>, <http://ldf.fi/ammo/coo1980/0262> ;
+    skos:prefLabel "Jordbruks- och trädgårds-samt- fiskeriforskare -rådgivare"@sv, "Maatalous- ja puutarha-alan sekä kalastusalan tutkimus ja neuvonta"@fi .
+
+<http://ldf.fi/ammo/coo1980/0261>
+    coo1980:socioeconomic_status coo1980:status_32 ;
+    a skos:Concept ;
+    skos:altLabel "0261" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/026> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Forsksnings- och planeringsarbete inom jordbruk och trädgårdsskötsel samt fiske"@sv, "Maatalous- ja puutarha-alan sekä kalastusalan tutkimus ja suunnittelutyö"@fi .
+
+<http://ldf.fi/ammo/coo1980/0262>
+    coo1980:socioeconomic_status coo1980:status_44 ;
+    a skos:Concept ;
+    skos:altLabel "0262" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/026> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Maatalous- ja puutarha-alan sekä kalastusalan neuvonta- ja valistustoiminta"@fi, "Rådgivnings- och upplysningsverkasmhet inom jordbruk och trädsgårds skötsel samt fiske"@sv .
+
+<http://ldf.fi/ammo/coo1980/027>
+    a skos:Concept ;
+    skos:altLabel "027" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/02> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/0271>, <http://ldf.fi/ammo/coo1980/0272> ;
+    skos:prefLabel "Metsätaloustutkimus ja -neuvonta"@fi, "Skogsforskare och skogsrådgivare"@sv .
+
+<http://ldf.fi/ammo/coo1980/0271>
+    coo1980:socioeconomic_status coo1980:status_32 ;
+    a skos:Concept ;
+    skos:altLabel "0271" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/027> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Metsätaloustutkimustyö"@fi, "Skogsforskningsarbete"@sv .
+
+<http://ldf.fi/ammo/coo1980/0272>
+    coo1980:socioeconomic_status coo1980:status_44 ;
+    a skos:Concept ;
+    skos:altLabel "0272" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/027> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Metsätalousneuvonta- ja valvontatyö"@fi, "Skokgsbruksrådgivning och -övervakning"@sv .
+
+<http://ldf.fi/ammo/coo1980/028>
+    coo1980:socioeconomic_status coo1980:status_44 ;
+    a skos:Concept ;
+    skos:altLabel "028" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/02> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Laboranter och laboratoriebiträden"@sv, "Laborantit ja laboratorioapulaiset"@fi .
+
+<http://ldf.fi/ammo/coo1980/03>
+    a skos:Concept ;
+    skos:altLabel "03" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/0> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/030>, <http://ldf.fi/ammo/coo1980/031>, <http://ldf.fi/ammo/coo1980/032>, <http://ldf.fi/ammo/coo1980/034>, <http://ldf.fi/ammo/coo1980/035>, <http://ldf.fi/ammo/coo1980/036> ;
+    skos:prefLabel "Lääketieteellinen ja sairaanhoitotyö"@fi, "Medical and nursing work"@en, "Medicinskt arbete och vårdarbete inom häls- och sjukvård"@sv .
+
+<http://ldf.fi/ammo/coo1980/030>
+    coo1980:socioeconomic_status coo1980:status_34 ;
+    a skos:Concept ;
+    skos:altLabel "030" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/03> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Läkare"@sv, "Lääkärit"@fi .
+
+<http://ldf.fi/ammo/coo1980/031>
+    coo1980:socioeconomic_status coo1980:status_34 ;
+    a skos:Concept ;
+    skos:altLabel "031" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/03> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Hammaslääkärit"@fi, "Tandläkare"@sv .
+
+<http://ldf.fi/ammo/coo1980/032>
+    a skos:Concept ;
+    skos:altLabel "032" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/03> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Sairaanhoitajat"@fi, "Sjukskötare"@sv .
+
+<http://ldf.fi/ammo/coo1980/0321>
+    coo1980:socioeconomic_status coo1980:status_34 ;
+    a skos:Concept ;
+    skos:altLabel "0321" ;
+    skos:broader coo1980:status_32 ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Ylihoitajat"@fi, "Överskötare"@sv .
+
+<http://ldf.fi/ammo/coo1980/0324>
+    coo1980:socioeconomic_status coo1980:status_44 ;
+    a skos:Concept ;
+    skos:altLabel "0324" ;
+    skos:broader coo1980:status_32 ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Andra sjukskötare"@sv, "Muut sairaanhoitajat"@fi .
+
+<http://ldf.fi/ammo/coo1980/034>
+    coo1980:socioeconomic_status coo1980:status_44 ;
+    a skos:Concept ;
+    skos:altLabel "034" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/03> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Barnmorskor"@sv, "Kätilöt"@fi .
+
+<http://ldf.fi/ammo/coo1980/035>
+    coo1980:socioeconomic_status coo1980:status_44 ;
+    a skos:Concept ;
+    skos:altLabel "035" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/03> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Mentalvårdare"@sv, "Mielisairaanhoitajat"@fi .
+
+<http://ldf.fi/ammo/coo1980/036>
+    a skos:Concept ;
+    skos:altLabel "036" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/03> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/0361>, <http://ldf.fi/ammo/coo1980/0362> ;
+    skos:prefLabel "Apuhoitajat ja lääkintävahtimestarit"@fi .
+
+<http://ldf.fi/ammo/coo1980/0361>
+    coo1980:socioeconomic_status coo1980:status_44 ;
+    a skos:Concept ;
+    skos:altLabel "0361" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/036> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Apuhoitajat"@fi, "Hjälpskötare"@sv .
+
+<http://ldf.fi/ammo/coo1980/0362>
+    coo1980:socioeconomic_status coo1980:status_44 ;
+    a skos:Concept ;
+    skos:altLabel "0362" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/036> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Lääkintävahtimestarit"@fi, "Sjukhusvakmästare"@sv .
+
+<http://ldf.fi/ammo/coo1980/04>
+    a skos:Concept ;
+    skos:altLabel "04" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/0> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/040>, <http://ldf.fi/ammo/coo1980/0401>, <http://ldf.fi/ammo/coo1980/0402>, <http://ldf.fi/ammo/coo1980/0403>, <http://ldf.fi/ammo/coo1980/041>, <http://ldf.fi/ammo/coo1980/042>, <http://ldf.fi/ammo/coo1980/043> ;
+    skos:prefLabel "Kaivos-, syväkairaus- ja rikastustyö"@fi, "Other professional health and medical work"@en, "Övrigt arbete inom hälso- och sjukvård"@sv .
+
+<http://ldf.fi/ammo/coo1980/040>
+    a skos:Concept ;
+    skos:altLabel "040" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/04> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/0401>, <http://ldf.fi/ammo/coo1980/0402>, <http://ldf.fi/ammo/coo1980/0403> ;
+    skos:prefLabel "Arbete inom farmaci"@sv, "Farmasiatyö"@fi .
+
+<http://ldf.fi/ammo/coo1980/0401>
+    coo1980:socioeconomic_status <http://ldf.fi/ammo/coo1980/034> ;
+    a skos:Concept ;
+    skos:altLabel "0401" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/04>, <http://ldf.fi/ammo/coo1980/040> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Proviisorit ja apteekkarit"@fi, "provisorer och apotekare"@sv .
+
+<http://ldf.fi/ammo/coo1980/0402>
+    coo1980:socioeconomic_status coo1980:status_34 ;
+    a skos:Concept ;
+    skos:altLabel "0402" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/04>, <http://ldf.fi/ammo/coo1980/040> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Farmaceuter"@sv, "Farmaseutit"@fi .
+
+<http://ldf.fi/ammo/coo1980/0403>
+    coo1980:socioeconomic_status coo1980:status_42 ;
+    a skos:Concept ;
+    skos:altLabel "0403" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/04>, <http://ldf.fi/ammo/coo1980/040> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Farmanomit ja apteekissa toimivat tekniset apulaiset"@fi, "Framanomer och tekniska biträden vid apotek"@sv .
+
+<http://ldf.fi/ammo/coo1980/041>
+    coo1980:socioeconomic_status coo1980:status_44 ;
+    a skos:Concept ;
+    skos:altLabel "041" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/04> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Fysioterapeuter, ergoterapeuter"@sv, "Lääkintävoimistelijat, toimintaterapeutit"@fi .
+
+<http://ldf.fi/ammo/coo1980/042>
+    coo1980:socioeconomic_status coo1980:status_44 ;
+    a skos:Concept ;
+    skos:altLabel "042" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/04> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Hälsovårdinspektörer"@sv, "Terveystarkastajat"@fi .
+
+<http://ldf.fi/ammo/coo1980/043>
+    coo1980:socioeconomic_status coo1980:status_44 ;
+    a skos:Concept ;
+    skos:altLabel "043" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/04> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Hierojat"@fi, "Massörer"@sv .
+
+<http://ldf.fi/ammo/coo1980/05>
+    a skos:Concept ;
+    skos:altLabel "05" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/0> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/050>, <http://ldf.fi/ammo/coo1980/051>, <http://ldf.fi/ammo/coo1980/052>, <http://ldf.fi/ammo/coo1980/053>, <http://ldf.fi/ammo/coo1980/056>, <http://ldf.fi/ammo/coo1980/059> ;
+    skos:prefLabel "Opetusalaan kuuluvatyö"@fi, "Pedagogic work"@en, "Pedagogiskt arbete"@sv .
+
+<http://ldf.fi/ammo/coo1980/050>
+    coo1980:socioeconomic_status coo1980:status_33 ;
+    a skos:Concept ;
+    skos:altLabel "050" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/05> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/0501>, <http://ldf.fi/ammo/coo1980/0502> ;
+    skos:prefLabel "Universitets- och högskollärare"@sv, "Yliopistojen ja korkeakoulun opettajat"@fi .
+
+<http://ldf.fi/ammo/coo1980/0501>
+    coo1980:socioeconomic_status coo1980:status_33 ;
+    a skos:Concept ;
+    skos:altLabel "0501" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/050> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Universitetsrektorer och -professorer"@sv, "Yliopistojen rehtorit ja professorit"@fi .
+
+<http://ldf.fi/ammo/coo1980/0502>
+    coo1980:socioeconomic_status coo1980:status_33 ;
+    a skos:Concept ;
+    skos:altLabel "0502" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/050> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Universitetslärare, assistenter m.fl."@sv, "Yliopistojen opettajat, assistentit ym."@fi .
+
+<http://ldf.fi/ammo/coo1980/051>
+    coo1980:socioeconomic_status coo1980:status_33 ;
+    a skos:Concept ;
+    skos:altLabel "051" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/05> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Muiden oppilaitosten rehtorit"@fi, "Rektorer vid övriga läroanstalter"@sv .
+
+<http://ldf.fi/ammo/coo1980/052>
+    coo1980:socioeconomic_status coo1980:status_33 ;
+    a skos:Concept ;
+    skos:altLabel "052" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/05> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Klasslärare"@sv, "Luokanopettajat"@fi .
+
+<http://ldf.fi/ammo/coo1980/053>
+    a skos:Concept ;
+    skos:altLabel "053" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/05> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/0531>, <http://ldf.fi/ammo/coo1980/0532>, <http://ldf.fi/ammo/coo1980/0533>, <http://ldf.fi/ammo/coo1980/0534> ;
+    skos:prefLabel "Aineopettajat ja lehtorit"@fi .
+
+<http://ldf.fi/ammo/coo1980/0531>
+    coo1980:socioeconomic_status coo1980:status_33 ;
+    a skos:Concept ;
+    skos:altLabel "0531" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/053> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Aineopettajat (peruskoulu ja lukio)"@fi, "Ämneselärare (grundskola och gymnasium)"@sv .
+
+<http://ldf.fi/ammo/coo1980/0532>
+    coo1980:socioeconomic_status coo1980:status_33 ;
+    a skos:Concept ;
+    skos:altLabel "0532" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/053> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Ammatillisten aineiden opettajat sekä muut aineenopettajat (ammatilliset oppilaitokset)"@fi, "Lärare i yrkesämen samt övriga ämneslärare (yrkesläroanst.)"@sv .
+
+<http://ldf.fi/ammo/coo1980/0533>
+    coo1980:socioeconomic_status coo1980:status_33 ;
+    a skos:Concept ;
+    skos:altLabel "0533" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/053> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Muiden oppilaitosten aineenopettajat"@fi, "Ämneslärere vid övriga läroanstalter"@sv .
+
+<http://ldf.fi/ammo/coo1980/0534>
+    coo1980:socioeconomic_status coo1980:status_33 ;
+    a skos:Concept ;
+    skos:altLabel "0534" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/053> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Arbetslärare (yrkesläroanstalter)"@sv, "Työnopettajat (ammatilliset oppilaitokset"@fi .
+
+<http://ldf.fi/ammo/coo1980/056>
+    a skos:Concept ;
+    skos:altLabel "056" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/05> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrowMatch <http://ldf.fi/ammo/coo1980/0561>, <http://ldf.fi/ammo/coo1980/0562> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/0561>, <http://ldf.fi/ammo/coo1980/0562> ;
+    skos:prefLabel "Koulutuspäälliköt"@fi, "Utbildningschefer m. fl."@sv .
+
+<http://ldf.fi/ammo/coo1980/0561>
+    coo1980:socioeconomic_status coo1980:status_34 ;
+    a skos:Concept ;
+    skos:altLabel "0561" ;
+    skos:broadMatch <http://ldf.fi/ammo/coo1980/056> ;
+    skos:broader <http://ldf.fi/ammo/coo1980/056> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Koulutuspäälliköt"@fi, "Utbildningschefer"@sv .
+
+<http://ldf.fi/ammo/coo1980/0562>
+    coo1980:socioeconomic_status coo1980:status_44 ;
+    a skos:Concept ;
+    skos:altLabel "0562" ;
+    skos:broadMatch <http://ldf.fi/ammo/coo1980/056> ;
+    skos:broader <http://ldf.fi/ammo/coo1980/056> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Andra utbildare"@sv, "Muut kouluttajat"@fi .
+
+<http://ldf.fi/ammo/coo1980/059>
+    a skos:Concept ;
+    skos:altLabel "059" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/05> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrowMatch <http://ldf.fi/ammo/coo1980/0592> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/0592> ;
+    skos:prefLabel "Muut opettajat"@fi, "Övriga yrken inom pedagogiskt arbete"@sv .
+
+<http://ldf.fi/ammo/coo1980/0592>
+    coo1980:socioeconomic_status coo1980:status_44 ;
+    a skos:Concept ;
+    skos:altLabel "0592" ;
+    skos:broadMatch <http://ldf.fi/ammo/coo1980/059> ;
+    skos:broader <http://ldf.fi/ammo/coo1980/059> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Andra inom pedagogiskt arbete"@sv, "Muut opetetusalan työntekijät"@fi .
+
+<http://ldf.fi/ammo/coo1980/06>
+    a skos:Concept ;
+    skos:altLabel "06" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/0> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/060>, <http://ldf.fi/ammo/coo1980/061>, <http://ldf.fi/ammo/coo1980/062> ;
+    skos:prefLabel "Religious work"@en, "Religiöst arbete"@sv, "Uskonnon alanan kuluva työ"@fi .
+
+<http://ldf.fi/ammo/coo1980/060>
+    coo1980:socioeconomic_status coo1980:status_34 ;
+    a skos:Concept ;
+    skos:altLabel "060" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/06> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Papit (ev. -lut. ja ortodoks.)"@fi, "Präster (ev. luth. och ortodox kyrka)"@sv .
+
+<http://ldf.fi/ammo/coo1980/061>
+    coo1980:socioeconomic_status coo1980:status_44 ;
+    a skos:Concept ;
+    skos:altLabel "061" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/06> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Predikanter"@sv, "Saarnaajat"@fi .
+
+<http://ldf.fi/ammo/coo1980/062>
+    coo1980:socioeconomic_status coo1980:status_44 ;
+    a skos:Concept ;
+    skos:altLabel "062" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/06> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Religiöst-socialt arbete"@sv, "Uskonnollis-sosiaalisen työn tekijät"@fi .
+
+<http://ldf.fi/ammo/coo1980/07>
+    a skos:Concept ;
+    skos:altLabel "07" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/0> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/070>, <http://ldf.fi/ammo/coo1980/071>, <http://ldf.fi/ammo/coo1980/072>, <http://ldf.fi/ammo/coo1980/073>, <http://ldf.fi/ammo/coo1980/079> ;
+    skos:prefLabel "Juridical work"@en, "Juridiskt arbete"@sv, "Lainopillinen työ"@fi .
+
+<http://ldf.fi/ammo/coo1980/070>
+    coo1980:socioeconomic_status coo1980:status_34 ;
+    a skos:Concept ;
+    skos:altLabel "070" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/07> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Domstolsjurister"@sv, "Tuomioistunten lakimiehet"@fi .
+
+<http://ldf.fi/ammo/coo1980/071>
+    coo1980:socioeconomic_status coo1980:status_34 ;
+    a skos:Concept ;
+    skos:altLabel "071" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/07> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Syyttäjät ja ylemmät poliisivirkamiehet"@fi, "Åklagaren och högre polistjänstemän"@sv .
+
+<http://ldf.fi/ammo/coo1980/072>
+    coo1980:socioeconomic_status coo1980:status_34 ;
+    a skos:Concept ;
+    skos:altLabel "072" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/07> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Advokater (med juridisk examen)"@sv, "Asianajajat (lainopillisen tutkinnon suorittaneet)"@fi .
+
+<http://ldf.fi/ammo/coo1980/073>
+    coo1980:socioeconomic_status coo1980:status_34 ;
+    a skos:Concept ;
+    skos:altLabel "073" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/07> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Juridiska ombusmän"@sv, "Lainopillisetnon asiamiehet"@fi .
+
+<http://ldf.fi/ammo/coo1980/079>
+    coo1980:socioeconomic_status coo1980:status_44 ;
+    a skos:Concept ;
+    skos:altLabel "079" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/07> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Muut lainopillisen ammatit"@fi, "Övriga yrken inom juridiskt arbete"@sv .
+
+<http://ldf.fi/ammo/coo1980/08>
+    a skos:Concept ;
+    skos:altLabel "08" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/0> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/080>, <http://ldf.fi/ammo/coo1980/081>, <http://ldf.fi/ammo/coo1980/082>, <http://ldf.fi/ammo/coo1980/083>, <http://ldf.fi/ammo/coo1980/084>, <http://ldf.fi/ammo/coo1980/085>, <http://ldf.fi/ammo/coo1980/086>, <http://ldf.fi/ammo/coo1980/087>, <http://ldf.fi/ammo/coo1980/089> ;
+    skos:prefLabel "Service work"@en, "Servicearbete"@sv, "Taiteellinen, viihteellinen ja kirjallinen työ"@fi .
+
+<http://ldf.fi/ammo/coo1980/080>
+    coo1980:socioeconomic_status coo1980:status_34 ;
+    a skos:Concept ;
+    skos:altLabel "080" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/08> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Bildkonstnärer"@sv, "Kuvaamataiteilijat"@fi .
+
+<http://ldf.fi/ammo/coo1980/081>
+    coo1980:socioeconomic_status coo1980:status_34 ;
+    a skos:Concept ;
+    skos:altLabel "081" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/08> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Mainospiirtäjät"@fi, "Reklamtecknare"@sv .
+
+<http://ldf.fi/ammo/coo1980/082>
+    coo1980:socioeconomic_status coo1980:status_44 ;
+    a skos:Concept ;
+    skos:altLabel "082" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/08> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Dekoratörer, textare"@sv, "Somistajat, tekstaajat"@fi .
+
+<http://ldf.fi/ammo/coo1980/083>
+    coo1980:socioeconomic_status coo1980:status_34 ;
+    a skos:Concept ;
+    skos:altLabel "083" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/08> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Författare och kritiker"@sv, "Kirjailjat ja kriitikot"@fi .
+
+<http://ldf.fi/ammo/coo1980/084>
+    a skos:Concept ;
+    skos:altLabel "084" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/08> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/0841>, <http://ldf.fi/ammo/coo1980/0842> ;
+    skos:prefLabel "Journalister, förlagsredaktörer, reklamredaktörer"@sv, "Sanomalehden toimittajat, kustannustoimittajat, mainostoimittajat"@fi .
+
+<http://ldf.fi/ammo/coo1980/0841>
+    coo1980:socioeconomic_status coo1980:status_34 ;
+    a skos:Concept ;
+    skos:altLabel "0841" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/084> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Journalister och förlagsredaktörer"@sv, "Sanomalehden toimittajat ja kustannustoimittajat"@fi .
+
+<http://ldf.fi/ammo/coo1980/0842>
+    coo1980:socioeconomic_status coo1980:status_34 ;
+    a skos:Concept ;
+    skos:altLabel "0842" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/084> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Mainostoimittajat"@fi, "Reklamredaktörer"@sv .
+
+<http://ldf.fi/ammo/coo1980/085>
+    a skos:Concept ;
+    skos:altLabel "085" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/08> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/0851>, <http://ldf.fi/ammo/coo1980/0852> ;
+    skos:prefLabel "Formgivare"@sv, "Muotoilijat"@fi .
+
+<http://ldf.fi/ammo/coo1980/0851>
+    coo1980:socioeconomic_status coo1980:status_34 ;
+    a skos:Concept ;
+    skos:altLabel "0851" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/085> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Produktplanerare och konstnärer"@sv, "Tuotesuunnittelijat ja taiteilijat ym."@fi .
+
+<http://ldf.fi/ammo/coo1980/0852>
+    coo1980:socioeconomic_status coo1980:status_44 ;
+    a skos:Concept ;
+    skos:altLabel "0852" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/085> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Mallintekijät"@fi, "Modelltillverkare"@sv .
+
+<http://ldf.fi/ammo/coo1980/086>
+    a skos:Concept ;
+    skos:altLabel "086" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/08> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/0861>, <http://ldf.fi/ammo/coo1980/0862> ;
+    skos:prefLabel "Näyttämötaiteilijat"@fi, "Scenkonstnärer, sångare"@sv .
+
+<http://ldf.fi/ammo/coo1980/0861>
+    coo1980:socioeconomic_status coo1980:status_34 ;
+    a skos:Concept ;
+    skos:altLabel "0861" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/086> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Scenkonstnärer vid teater och opera"@sv, "Teattereiden ja oopperoiden esiintyvät taiteilijat"@fi .
+
+<http://ldf.fi/ammo/coo1980/0862>
+    coo1980:socioeconomic_status coo1980:status_34 ;
+    a skos:Concept ;
+    skos:altLabel "0862" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/086> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Andra scenkonstnärer"@sv, "Muut esiintyvät taiteilijat"@fi .
+
+<http://ldf.fi/ammo/coo1980/087>
+    coo1980:socioeconomic_status coo1980:status_34 ;
+    a skos:Concept ;
+    skos:altLabel "087" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/08> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Musiker"@sv, "Muusikot"@fi .
+
+<http://ldf.fi/ammo/coo1980/089>
+    a skos:Concept ;
+    skos:altLabel "089" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/08> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/0891>, <http://ldf.fi/ammo/coo1980/0892> ;
+    skos:prefLabel "Muut taide- ja viihdealan ammatit"@fi, "Övriga yrken inom konstnärligt och underhållande arbete"@sv .
+
+<http://ldf.fi/ammo/coo1980/0891>
+    coo1980:socioeconomic_status coo1980:status_31 ;
+    a skos:Concept ;
+    skos:altLabel "0891" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/089> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Teater- och filmregissörer och -direktorer"@sv, "Teatteri- ja elokuvaohjaajat ja -johtajat"@fi .
+
+<http://ldf.fi/ammo/coo1980/0892>
+    coo1980:socioeconomic_status coo1980:status_44 ;
+    a skos:Concept ;
+    skos:altLabel "0892" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/089> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Andra inom konstärligt och unerhållande arbete"@sv, "Muut taide- ja viihdealan työntekijät"@fi .
+
+<http://ldf.fi/ammo/coo1980/09>
+    a skos:Concept ;
+    skos:altLabel "09" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/0> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/090>, <http://ldf.fi/ammo/coo1980/091>, <http://ldf.fi/ammo/coo1980/092>, <http://ldf.fi/ammo/coo1980/093>, <http://ldf.fi/ammo/coo1980/094>, <http://ldf.fi/ammo/coo1980/095>, <http://ldf.fi/ammo/coo1980/098>, <http://ldf.fi/ammo/coo1980/099> ;
+    skos:prefLabel "Muu tekninen , luonnontieteellinen, yhteiskuntatieteellinen, sos iaalinen ja humanistinen työ"@fi, "Work and worker not elsewhere classified"@en, "Övrigt tekniskt, naturvetenskapligt, samhällsvetenskapligt, socialt och humanistiskt arbete"@sv .
+
+<http://ldf.fi/ammo/coo1980/090>
+    a skos:Concept ;
+    skos:altLabel "090" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/09> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/0901>, <http://ldf.fi/ammo/coo1980/0902> ;
+    skos:prefLabel "Revisorer"@sv, "Tilintarkastajat"@fi .
+
+<http://ldf.fi/ammo/coo1980/0901>
+    coo1980:socioeconomic_status coo1980:status_34 ;
+    a skos:Concept ;
+    skos:altLabel "0901" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/090> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Revisorer"@sv, "Tilintarkastajat ja reviisorit"@fi .
+
+<http://ldf.fi/ammo/coo1980/0902>
+    coo1980:socioeconomic_status coo1980:status_42 ;
+    a skos:Concept ;
+    skos:altLabel "0902" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/090> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Laskentatarkkaajat ja taloustarkkaajat"@fi, "Redovisningsgranskare och ekonomigranskare"@sv .
+
+<http://ldf.fi/ammo/coo1980/091>
+    a skos:Concept ;
+    skos:altLabel "091" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/09> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/0911>, <http://ldf.fi/ammo/coo1980/0912> ;
+    skos:prefLabel "Socialtjäntstemän"@sv, "Sosiaalialan työntekijät"@fi .
+
+<http://ldf.fi/ammo/coo1980/0911>
+    coo1980:socioeconomic_status coo1980:status_34 ;
+    a skos:Concept ;
+    skos:altLabel "0911" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/091> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Johto- ja hallintotehtävissä toimivat sosiaalityöntekijät"@fi, "Socialtjänsetmän inom ledning och administration"@sv .
+
+<http://ldf.fi/ammo/coo1980/0912>
+    coo1980:socioeconomic_status coo1980:status_34 ;
+    a skos:Concept ;
+    skos:altLabel "0912" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/091> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Socialtjänstemän (med specialinriktning)"@sv, "Sosiaalialan eritystyöntekijät"@fi .
+
+<http://ldf.fi/ammo/coo1980/092>
+    coo1980:socioeconomic_status coo1980:status_44 ;
+    a skos:Concept ;
+    skos:altLabel "092" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/09> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Barndagshemarbetare (inte i hemmen)"@sv, "Lastenpäivähoitotyöntekijät (ei kodeissa)"@fi .
+
+<http://ldf.fi/ammo/coo1980/093>
+    coo1980:socioeconomic_status coo1980:status_44 ;
+    a skos:Concept ;
+    skos:altLabel "093" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/09> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Harrastus- ja vapaa-aikatoiminnan ohjaus"@fi, "Hobby- och fritidsledare"@sv .
+
+<http://ldf.fi/ammo/coo1980/094>
+    a skos:Concept ;
+    skos:altLabel "094" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/09> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/0941>, <http://ldf.fi/ammo/coo1980/0942> ;
+    skos:prefLabel "Bibliotekarier, arkivarier, museitjänstemän"@sv, "Kirjaston- ja arkistonhoitajat, museovirkamiehet"@fi .
+
+<http://ldf.fi/ammo/coo1980/0941>
+    coo1980:socioeconomic_status coo1980:status_34 ;
+    a skos:Concept ;
+    skos:altLabel "0941" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/094> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Bibliotekarier, arkivarier, museiförståndare"@sv, "Kirjaston- ja arkiston- ja museonhoitajat"@fi .
+
+<http://ldf.fi/ammo/coo1980/0942>
+    coo1980:socioeconomic_status coo1980:status_44 ;
+    a skos:Concept ;
+    skos:altLabel "0942" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/094> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Andra bibliotekarier, arkivarier, museitjänstemän"@sv, "Muut kirjasto-, arkisto- ja museotyöntekijät"@fi .
+
+<http://ldf.fi/ammo/coo1980/095>
+    coo1980:socioeconomic_status coo1980:status_32 ;
+    a skos:Concept ;
+    skos:altLabel "095" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/09> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Forskare och planerare inom ekonomiska, statistika m. fl. omräden"@sv, "Taloudellisen, tilastollisen yms. tutkimus- ja suunnittelutyön teikijät"@fi .
+
+<http://ldf.fi/ammo/coo1980/098>
+    a skos:Concept ;
+    skos:altLabel "098" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/09> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/0983> ;
+    skos:prefLabel "Henkilökunta-, suhdetoiminta- ja työnvälitystyöntekijät"@fi .
+
+<http://ldf.fi/ammo/coo1980/0983>
+    coo1980:socioeconomic_status coo1980:status_42 ;
+    a skos:Concept ;
+    skos:altLabel "0983" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/098> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Andra pr-män och organisations ombdusmän"@sv, "Muut suhdetoimintatyön ja järjestötyön tekijät"@fi .
+
+<http://ldf.fi/ammo/coo1980/099>
+    a skos:Concept ;
+    skos:altLabel "099" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/09> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/0991>, <http://ldf.fi/ammo/coo1980/0992> ;
+    skos:prefLabel "Muut humanistisen, luonnontieteellisen ja yhteiskuntatieteellisen alan ammatit"@fi, "Övriga yrken inom humanistiskt, naturvetnskapligt och samhällvetnskapligt arbete"@sv .
+
+<http://ldf.fi/ammo/coo1980/0991>
+    coo1980:socioeconomic_status coo1980:status_32 ;
+    a skos:Concept ;
+    skos:altLabel "0991" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/099> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Arkeologer, geografer, matematiker m. fl."@sv, "Arkeologit, maantieteilijät, matamaatikot ym."@fi .
+
+<http://ldf.fi/ammo/coo1980/0992>
+    coo1980:socioeconomic_status coo1980:status_44 ;
+    a skos:Concept ;
+    skos:altLabel "0992" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/099> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Andra inom humanistiskt, naturvetenskapligt och samhällsvetenskapligt arbete"@sv, "Muut humanistisen, luonnontieteellisenja yhteiskuntatieteellisen työn tekijät"@fi .
+
+<http://ldf.fi/ammo/coo1980/1>
+    a skos:Concept ;
+    skos:altLabel "1" ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/10>, <http://ldf.fi/ammo/coo1980/11>, <http://ldf.fi/ammo/coo1980/12>, <http://ldf.fi/ammo/coo1980/13>, <http://ldf.fi/ammo/coo1980/15> ;
+    skos:prefLabel "Administrative, managerial and clerical work"@en, "Administrativt, kameralt och kontorstekniskt arbete"@sv, "Hallinnollinen, tilinpidollinen ja konttoritekninen työ"@fi ;
+    skos:topConceptOf <http://ldf.fi/ammo/coo1980/> .
+
+<http://ldf.fi/ammo/coo1980/10>
+    a skos:Concept ;
+    skos:altLabel "10" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/1> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/100>, <http://ldf.fi/ammo/coo1980/101> ;
+    skos:prefLabel "Public administration"@en, "Samhällsadministrativt arbete"@sv, "Yhteiskunnallis-hallinnollinen työ"@fi .
+
+<http://ldf.fi/ammo/coo1980/100>
+    coo1980:socioeconomic_status coo1980:status_31 ;
+    a skos:Concept ;
+    skos:altLabel "100" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/10> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Högre tjänstemän i ledande uppgifter inom den offentliga förvaltningen"@sv, "Julkisen hallinnon johtotehtävissä toimivat ylemmät toimihenkilöt"@fi .
+
+<http://ldf.fi/ammo/coo1980/101>
+    coo1980:socioeconomic_status coo1980:status_32 ;
+    a skos:Concept ;
+    skos:altLabel "101" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/10> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Beredande och förredrangande högre tjänstemän inom den offentliga förvaltningen"@sv, "Julkisen hallinnon valmistelu- ja esittelytehtävissä toimivat ylemmät toimihenkilöt"@fi .
+
+<http://ldf.fi/ammo/coo1980/11>
+    a skos:Concept ;
+    skos:altLabel "11" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/1> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/110>, <http://ldf.fi/ammo/coo1980/111>, <http://ldf.fi/ammo/coo1980/112>, <http://ldf.fi/ammo/coo1980/113>, <http://ldf.fi/ammo/coo1980/114>, <http://ldf.fi/ammo/coo1980/119> ;
+    skos:prefLabel "Administration of private enterprises and organizations"@en, "Företags- och organisations administrativt arbete"@sv, "Liikeyritysten ja järjestöjen hallinnollinen työ"@fi .
+
+<http://ldf.fi/ammo/coo1980/110>
+    coo1980:socioeconomic_status coo1980:status_31 ;
+    a skos:Concept ;
+    skos:altLabel "110" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/11> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Företasgsasministratörer"@sv, "Liikeyritysten johtajat"@fi .
+
+<http://ldf.fi/ammo/coo1980/111>
+    coo1980:socioeconomic_status coo1980:status_31 ;
+    a skos:Concept ;
+    skos:altLabel "111" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/11> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Tekniset johtohenkilöt"@fi, "Teksniska ledare"@sv .
+
+<http://ldf.fi/ammo/coo1980/112>
+    coo1980:socioeconomic_status coo1980:status_31 ;
+    a skos:Concept ;
+    skos:altLabel "112" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/11> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Kaupalliset johtohenkilöt"@fi, "Kommersiella ledare"@sv .
+
+<http://ldf.fi/ammo/coo1980/113>
+    coo1980:socioeconomic_status coo1980:status_31 ;
+    a skos:Concept ;
+    skos:altLabel "113" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/11> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Företagsadministrativa utredare och redovisningschefer"@sv, "Hallinnollisen selvitystyön ja laskentatoimen johtohenkilöt"@fi .
+
+<http://ldf.fi/ammo/coo1980/114>
+    coo1980:socioeconomic_status coo1980:status_31 ;
+    a skos:Concept ;
+    skos:altLabel "114" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/11> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Förbunschef (kommersiella, fackliga och ideella organisationer)"@sv, "Kaupallisten, ammatillisten ja aatteellisten järjestöjen johtohenkilöt"@fi .
+
+<http://ldf.fi/ammo/coo1980/115>
+    coo1980:socioeconomic_status coo1980:status_31 ;
+    a skos:Concept ;
+    skos:altLabel "115" ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Henkilöstöhallinnon johtohenkilöt"@fi, "Personalchefer"@sv ;
+    skos:topConceptOf <http://ldf.fi/ammo/coo1980/> .
+
+<http://ldf.fi/ammo/coo1980/119>
+    coo1980:socioeconomic_status coo1980:status_31 ;
+    a skos:Concept ;
+    skos:altLabel "119" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/11> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Andra yrken inom företags- och organisationsadministrativt arbete"@sv, "Muut liikeyritisten ja järjestöjen hallinnollisen työn ammatit"@fi .
+
+<http://ldf.fi/ammo/coo1980/12>
+    a skos:Concept ;
+    skos:altLabel "12" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/1> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/120>, <http://ldf.fi/ammo/coo1980/121> ;
+    skos:prefLabel "Clerical work"@en, "Kirjanpito- ja kassanhoito työ"@fi, "Räkenskaps- och kassaarbete"@sv .
+
+<http://ldf.fi/ammo/coo1980/120>
+    a skos:Concept ;
+    skos:altLabel "120" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/12> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/1201>, <http://ldf.fi/ammo/coo1980/1202> ;
+    skos:prefLabel "Bokförare"@sv, "Kirjanpitäjät"@fi .
+
+<http://ldf.fi/ammo/coo1980/1201>
+    coo1980:socioeconomic_status coo1980:status_34 ;
+    a skos:Concept ;
+    skos:altLabel "1201" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/120> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Bokföringskamrer m. fl."@sv, "Kirjanpitokamreerit"@fi .
+
+<http://ldf.fi/ammo/coo1980/1202>
+    coo1980:socioeconomic_status coo1980:status_42 ;
+    a skos:Concept ;
+    skos:altLabel "1202" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/120> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Andra bokförare"@sv, "Muut kirjanpitäjät"@fi .
+
+<http://ldf.fi/ammo/coo1980/121>
+    coo1980:socioeconomic_status coo1980:status_42 ;
+    a skos:Concept ;
+    skos:altLabel "121" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/12> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Bank-, post- och kontorkassörer"@sv, "Pankkien, postien ja konttorien kassanhoitajat"@fi .
+
+<http://ldf.fi/ammo/coo1980/13>
+    coo1980:socioeconomic_status <http://ldf.fi/ammo/coo1980/043> ;
+    a skos:Concept ;
+    skos:altLabel "13" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/1> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/130>, <http://ldf.fi/ammo/coo1980/131> ;
+    skos:prefLabel "Secretarial and typing work"@en, "Sekreterar- och maskinskrivningsarbete"@sv, "Sihteeri- ja konekirjoitustyö"@fi .
+
+<http://ldf.fi/ammo/coo1980/130>
+    coo1980:socioeconomic_status coo1980:status_42 ;
+    a skos:Concept ;
+    skos:altLabel "130" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/13> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Sekreterare"@sv, "Sihteerit"@fi .
+
+<http://ldf.fi/ammo/coo1980/131>
+    coo1980:socioeconomic_status coo1980:status_43 ;
+    a skos:Concept ;
+    skos:altLabel "131" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/13> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Konenkirjottajat ja pikakirjoittajat"@fi, "Maskinskrivare och stenografer"@sv .
+
+<http://ldf.fi/ammo/coo1980/15>
+    a skos:Concept ;
+    skos:altLabel "15" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/1> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/150>, <http://ldf.fi/ammo/coo1980/151>, <http://ldf.fi/ammo/coo1980/152>, <http://ldf.fi/ammo/coo1980/153>, <http://ldf.fi/ammo/coo1980/154>, <http://ldf.fi/ammo/coo1980/155>, <http://ldf.fi/ammo/coo1980/156>, <http://ldf.fi/ammo/coo1980/157>, <http://ldf.fi/ammo/coo1980/159> ;
+    skos:prefLabel "Muu tilinpidollinen ja konttoritekninen työ"@fi, "Other clerical work"@en, "Övrigt kameralt och kontorstekniskt arbete"@sv .
+
+<http://ldf.fi/ammo/coo1980/150>
+    coo1980:socioeconomic_status coo1980:status_43 ;
+    a skos:Concept ;
+    skos:altLabel "150" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/15> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Konekirjanpitäjät, laskuapulaiset, monistajat"@fi, "Maskinbokförare, räknebiträden, duplicerade"@sv .
+
+<http://ldf.fi/ammo/coo1980/151>
+    coo1980:socioeconomic_status coo1980:status_42 ;
+    a skos:Concept ;
+    skos:altLabel "151" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/15> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Kontorist (ej specialicerad)"@sv, "Yleiskonttoristit"@fi .
+
+<http://ldf.fi/ammo/coo1980/152>
+    a skos:Concept ;
+    skos:altLabel "152" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/15> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/1521>, <http://ldf.fi/ammo/coo1980/1522> ;
+    skos:prefLabel "Banktjänstemän och avdelninschefer"@sv, "Pankkitoimihenkilöt ja osastonhoitajat"@fi .
+
+<http://ldf.fi/ammo/coo1980/1521>
+    coo1980:socioeconomic_status coo1980:status_34 ;
+    a skos:Concept ;
+    skos:altLabel "1521" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/152> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Bankernas avdelninschefer"@sv, "Pankkien osastonhoitajat"@fi .
+
+<http://ldf.fi/ammo/coo1980/1522>
+    coo1980:socioeconomic_status coo1980:status_43 ;
+    a skos:Concept ;
+    skos:altLabel "1522" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/152> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Banktjänstemän och kassörer"@sv, "Pankkitoimihenkilöt ja kassatoimihenkilöt"@fi .
+
+<http://ldf.fi/ammo/coo1980/153>
+    a skos:Concept ;
+    skos:altLabel "153" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/15> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/1531> ;
+    skos:prefLabel "Försäkringstjänstemän"@sv, "Vakuutusvirkailijat"@fi .
+
+<http://ldf.fi/ammo/coo1980/1531>
+    coo1980:socioeconomic_status coo1980:status_34 ;
+    a skos:Concept ;
+    skos:altLabel "1531" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/153> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Avdelingschefer, skadeinspektörer m. fl."@sv, "Osastopäälliköt, vahinkotarkastajat ym."@fi .
+
+<http://ldf.fi/ammo/coo1980/154>
+    coo1980:socioeconomic_status coo1980:status_42 ;
+    a skos:Concept ;
+    skos:altLabel "154" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/15> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Sairauskassa- ja sosiaalivakuutusvirkailijat"@fi, "Sjukförsäkringskassa- och socialförsäkringstjänstemän"@sv .
+
+<http://ldf.fi/ammo/coo1980/155>
+    coo1980:socioeconomic_status <http://ldf.fi/ammo/coo1980/042> ;
+    a skos:Concept ;
+    skos:altLabel "155" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/15> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Matkailualan toimihenkilöt"@fi, "Rese- och turistbyråtjänstemän"@sv .
+
+<http://ldf.fi/ammo/coo1980/156>
+    a skos:Concept ;
+    skos:altLabel "156" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/15> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/1562> ;
+    skos:prefLabel "Huolitsijat, laivanselivittäjät ym."@fi, "Speditörer, skeppsmäklare m. fl."@sv .
+
+<http://ldf.fi/ammo/coo1980/1562>
+    coo1980:socioeconomic_status coo1980:status_41 ;
+    a skos:Concept ;
+    skos:altLabel "1562" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/156> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Laivanselvittäjät ja rahtaajat"@fi, "Skeppsmäklare och befraktare"@sv .
+
+<http://ldf.fi/ammo/coo1980/157>
+    coo1980:socioeconomic_status coo1980:status_41 ;
+    a skos:Concept ;
+    skos:altLabel "157" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/15> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Fastighetsförvaltare, lagerföreståndare m. fl."@sv, "Isännöitsijät, varastonhoitajat"@fi .
+
+<http://ldf.fi/ammo/coo1980/159>
+    coo1980:socioeconomic_status coo1980:status_43 ;
+    a skos:Concept ;
+    skos:altLabel "159" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/15> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Andra yrken inom kontorsarbete"@sv, "Muut konttorityön ammatit"@fi .
+
+<http://ldf.fi/ammo/coo1980/2>
+    a skos:Concept ;
+    skos:altLabel "2" ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/20>, <http://ldf.fi/ammo/coo1980/21>, <http://ldf.fi/ammo/coo1980/22>, <http://ldf.fi/ammo/coo1980/23> ;
+    skos:prefLabel "Kaupallinen työ"@fi, "Kommersiellt arbete"@sv, "Sales work"@en ;
+    skos:topConceptOf <http://ldf.fi/ammo/coo1980/> .
+
+<http://ldf.fi/ammo/coo1980/20>
+    a skos:Concept ;
+    skos:altLabel "20" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/2> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/200>, <http://ldf.fi/ammo/coo1980/201>, <http://ldf.fi/ammo/coo1980/202> ;
+    skos:prefLabel "Parti- oche detaljhandlare"@sv, "Tukku-ja vähittäiskauppiaat"@fi, "Wholesale and retail dealers"@en .
+
+<http://ldf.fi/ammo/coo1980/200>
+    coo1980:socioeconomic_status coo1980:status_12, coo1980:status_22 ;
+    a skos:Concept ;
+    skos:altLabel "200" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/20> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Partihandlare"@sv, "Tukkukauppiaat"@fi .
+
+<http://ldf.fi/ammo/coo1980/201>
+    coo1980:socioeconomic_status coo1980:status_12, coo1980:status_22 ;
+    a skos:Concept ;
+    skos:altLabel "201" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/20> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Detaljhandlare"@sv, "Vähittäiskauppiaat"@fi .
+
+<http://ldf.fi/ammo/coo1980/202>
+    coo1980:socioeconomic_status coo1980:status_12, coo1980:status_22 ;
+    a skos:Concept ;
+    skos:altLabel "202" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/20> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Uthyrare"@sv, "Vuokraajat"@fi .
+
+<http://ldf.fi/ammo/coo1980/21>
+    a skos:Concept ;
+    skos:altLabel "21" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/2> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/210>, <http://ldf.fi/ammo/coo1980/211> ;
+    skos:prefLabel "Försäljning av fastigheter, tjänster och värdepapper"@sv, "Kiinteistöjen, palvelusten ja arvopapereiden myynti"@fi, "Real-estate, business services and securities salesmen"@en .
+
+<http://ldf.fi/ammo/coo1980/210>
+    a skos:Concept ;
+    skos:altLabel "210" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/21> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/2102> ;
+    skos:prefLabel "Försäkringsförsäljäre"@sv, "Vakutuushankkijat"@fi .
+
+<http://ldf.fi/ammo/coo1980/2102>
+    coo1980:socioeconomic_status coo1980:status_42 ;
+    a skos:Concept ;
+    skos:altLabel "2102" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/210> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Försäkringsacktivistiör, distriktsrepresentanter m. fl."@sv, "Vakutuusasiamiehet, piiriedutstajat"@fi .
+
+<http://ldf.fi/ammo/coo1980/211>
+    coo1980:socioeconomic_status coo1980:status_42 ;
+    a skos:Concept ;
+    skos:altLabel "211" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/21> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Egendoms- och värdepappersmäklare"@sv, "Kiinteän ja irtaimen omaisuuden sekä arvopapereiden välittäjät"@fi .
+
+<http://ldf.fi/ammo/coo1980/212>
+    a skos:Concept ;
+    skos:altLabel "212" ;
+    skos:broader coo1980:status_21 ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/2121> ;
+    skos:prefLabel "Markkinoinin edistäjät"@fi, "Reklammän"@sv .
+
+<http://ldf.fi/ammo/coo1980/2121>
+    coo1980:socioeconomic_status coo1980:status_34 ;
+    a skos:Concept ;
+    skos:altLabel "2121" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/212> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Mainospäälliköt"@fi, "Reklamchefer m. fl."@sv .
+
+<http://ldf.fi/ammo/coo1980/22>
+    a skos:Concept ;
+    skos:altLabel "22" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/2> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/220>, <http://ldf.fi/ammo/coo1980/221> ;
+    skos:prefLabel "Agenturarbete"@sv, "Commercial travelers"@en, "Kauppaedustustyö"@fi .
+
+<http://ldf.fi/ammo/coo1980/220>
+    coo1980:socioeconomic_status coo1980:status_42 ;
+    a skos:Concept ;
+    skos:altLabel "220" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/22> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Försäljare, representanter"@sv, "Myyntimiehet, myyntiedutsajat"@fi .
+
+<http://ldf.fi/ammo/coo1980/221>
+    coo1980:socioeconomic_status coo1980:status_42 ;
+    a skos:Concept ;
+    skos:altLabel "221" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/22> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Agenter"@sv, "Kauppa-agentit"@fi .
+
+<http://ldf.fi/ammo/coo1980/23>
+    a skos:Concept ;
+    skos:altLabel "23" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/2> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/230>, <http://ldf.fi/ammo/coo1980/231>, <http://ldf.fi/ammo/coo1980/232>, <http://ldf.fi/ammo/coo1980/233>, <http://ldf.fi/ammo/coo1980/234>, <http://ldf.fi/ammo/coo1980/239> ;
+    skos:prefLabel "Annat kommersiellt arbete"@sv, "Muu kaupallinen työ"@fi, "Other sales work"@en .
+
+<http://ldf.fi/ammo/coo1980/230>
+    coo1980:socioeconomic_status coo1980:status_34 ;
+    a skos:Concept ;
+    skos:altLabel "230" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/23> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/2301>, <http://ldf.fi/ammo/coo1980/2302> ;
+    skos:prefLabel "Ostajat, konttorimyyjät"@fi .
+
+<http://ldf.fi/ammo/coo1980/2301>
+    coo1980:socioeconomic_status coo1980:status_34 ;
+    a skos:Concept ;
+    skos:altLabel "2301" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/230> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Forsäljingsingenjörer och inköpare"@sv, "Myynti-insinöörit ja ostajat"@fi .
+
+<http://ldf.fi/ammo/coo1980/2302>
+    coo1980:socioeconomic_status coo1980:status_42 ;
+    a skos:Concept ;
+    skos:altLabel "2302" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/230> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Andra försäljare (kontor)"@sv, "Muut konttorimyyjät"@fi .
+
+<http://ldf.fi/ammo/coo1980/231>
+    coo1980:socioeconomic_status coo1980:status_42 ;
+    a skos:Concept ;
+    skos:altLabel "231" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/23> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Butikspersonal"@sv, "Myymälänhenikilöstö"@fi .
+
+<http://ldf.fi/ammo/coo1980/232>
+    coo1980:socioeconomic_status coo1980:status_41 ;
+    a skos:Concept ;
+    skos:altLabel "232" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/23> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Affärsföreståndare och avdelningförståndare"@sv, "Myymälänhoitajat ja osastonhoitajat"@fi .
+
+<http://ldf.fi/ammo/coo1980/233>
+    coo1980:socioeconomic_status coo1980:status_42 ;
+    a skos:Concept ;
+    skos:altLabel "233" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/23> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Ambulerande försäljare"@sv, "Kiertävät myyjät"@fi .
+
+<http://ldf.fi/ammo/coo1980/234>
+    coo1980:socioeconomic_status coo1980:status_42 ;
+    a skos:Concept ;
+    skos:altLabel "234" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/23> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Huoltoaseman myyjät"@fi, "Servicestationsbiträde"@sv .
+
+<http://ldf.fi/ammo/coo1980/239>
+    coo1980:socioeconomic_status coo1980:status_42 ;
+    a skos:Concept ;
+    skos:altLabel "239" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/23> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Andra försäljare"@sv, "Muu myyntihenkilöstö"@fi .
+
+<http://ldf.fi/ammo/coo1980/3>
+    a skos:Concept ;
+    skos:altLabel "3" ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/30>, <http://ldf.fi/ammo/coo1980/31>, <http://ldf.fi/ammo/coo1980/32>, <http://ldf.fi/ammo/coo1980/33>, <http://ldf.fi/ammo/coo1980/34> ;
+    skos:prefLabel "Agriculture, forestry and fishing"@en, "Lant- och skogsbruksarbete samt fiske"@sv, "Maa- ja metsätaloustyö, kalastusala"@fi ;
+    skos:topConceptOf <http://ldf.fi/ammo/coo1980/> .
+
+<http://ldf.fi/ammo/coo1980/30>
+    a skos:Concept ;
+    skos:altLabel "30" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/3> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/300>, <http://ldf.fi/ammo/coo1980/301>, <http://ldf.fi/ammo/coo1980/302>, <http://ldf.fi/ammo/coo1980/303>, <http://ldf.fi/ammo/coo1980/304>, <http://ldf.fi/ammo/coo1980/305>, <http://ldf.fi/ammo/coo1980/306>, <http://ldf.fi/ammo/coo1980/307> ;
+    skos:prefLabel "Lantbruks-, skogbruks- och trädgårdsledning"@sv, "Maa-, metsätaloustyö, kalastusala"@fi, "Managerial work in agriculture, forestry and fishing"@en ;
+    skos:topConceptOf <http://ldf.fi/ammo/coo1980/> .
+
+<http://ldf.fi/ammo/coo1980/300>
+    coo1980:socioeconomic_status coo1980:status_11 ;
+    a skos:Concept ;
+    skos:altLabel "300" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/30> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Jord- och skogsbrukare"@sv, "Maan- ja metsänviljeiljät"@fi .
+
+<http://ldf.fi/ammo/coo1980/301>
+    coo1980:socioeconomic_status coo1980:status_11 ;
+    a skos:Concept ;
+    skos:altLabel "301" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/30> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Puutarhanviljelijät"@fi, "Trädgårdsbrukare"@sv .
+
+<http://ldf.fi/ammo/coo1980/302>
+    coo1980:socioeconomic_status coo1980:status_11 ;
+    a skos:Concept ;
+    skos:altLabel "302" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/30> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Lantbruksbefäl"@sv, "Maataloustyön johto"@fi .
+
+<http://ldf.fi/ammo/coo1980/303>
+    coo1980:socioeconomic_status coo1980:status_41 ;
+    a skos:Concept ;
+    skos:altLabel "303" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/30> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Metsätaloustyön johto"@fi, "Skogsbefäl"@sv .
+
+<http://ldf.fi/ammo/coo1980/304>
+    a skos:Concept ;
+    skos:altLabel "304" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/30> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/3042> ;
+    skos:prefLabel "Puutarhatyön johto"@fi, "Trädgårdsbefäl"@sv .
+
+<http://ldf.fi/ammo/coo1980/3042>
+    coo1980:socioeconomic_status coo1980:status_41 ;
+    a skos:Concept ;
+    skos:altLabel "3042" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/304> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Andra inom trädgårdsbefäl"@sv, "Muut puutarhatyön työnjohtajat"@fi .
+
+<http://ldf.fi/ammo/coo1980/305>
+    coo1980:socioeconomic_status coo1980:status_41 ;
+    a skos:Concept ;
+    skos:altLabel "305" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/30> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Husdjursuppfördare"@sv, "Kotieläinten kasvattajat"@fi .
+
+<http://ldf.fi/ammo/coo1980/306>
+    coo1980:socioeconomic_status coo1980:status_41 ;
+    a skos:Concept ;
+    skos:altLabel "306" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/30> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Pälsjursuppfördare"@sv, "Turkiseläinten kasvattajat"@fi .
+
+<http://ldf.fi/ammo/coo1980/307>
+    coo1980:socioeconomic_status coo1980:status_11 ;
+    a skos:Concept ;
+    skos:altLabel "307" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/30> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Porojenkasvattajat"@fi, "Renuppfördare"@sv .
+
+<http://ldf.fi/ammo/coo1980/31>
+    a skos:Concept ;
+    skos:altLabel "31" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/3> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/310>, <http://ldf.fi/ammo/coo1980/311> ;
+    skos:prefLabel "Agricultural and horticultural work, animal husbandry"@en, "Lantbruks- och trädgårdsarbete, sjurskötsel"@sv, "Maatalous-ja puutarhatyö, eläintenhoito"@fi .
+
+<http://ldf.fi/ammo/coo1980/310>
+    coo1980:socioeconomic_status coo1980:status_51 ;
+    a skos:Concept ;
+    skos:altLabel "310" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/31> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Jordbruksarbetare och hudsjursskötare"@sv, "Maanviljelystyöntekijät ja kotieläintenhoitajat"@fi .
+
+<http://ldf.fi/ammo/coo1980/311>
+    coo1980:socioeconomic_status coo1980:status_51 ;
+    a skos:Concept ;
+    skos:altLabel "311" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/31> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Puutarha- ja puistontyöntekijät"@fi, "Trädgårds- och parkarebetare"@sv .
+
+<http://ldf.fi/ammo/coo1980/32>
+    a skos:Concept ;
+    skos:altLabel "32" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/3> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/320> ;
+    skos:prefLabel "Game protection and hunting"@en, "Riistanhoito ja metsästys"@fi, "Viltvård och jakt"@sv .
+
+<http://ldf.fi/ammo/coo1980/320>
+    coo1980:socioeconomic_status coo1980:status_44 ;
+    a skos:Concept ;
+    skos:altLabel "320" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/32> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Jaktövervakare och jägare"@sv, "Riistanhoitajat ja metsästäjät"@fi .
+
+<http://ldf.fi/ammo/coo1980/33>
+    a skos:Concept ;
+    skos:altLabel "33" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/3> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/330>, <http://ldf.fi/ammo/coo1980/331> ;
+    skos:prefLabel "Fishing"@en, "Fiskeriarbete"@sv, "Kalastus"@fi .
+
+<http://ldf.fi/ammo/coo1980/330>
+    coo1980:socioeconomic_status coo1980:status_51 ;
+    a skos:Concept ;
+    skos:altLabel "330" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/33> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Fiskare"@sv, "Kalastajat"@fi .
+
+<http://ldf.fi/ammo/coo1980/331>
+    a skos:Concept ;
+    skos:altLabel "331" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/33> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/3311> ;
+    skos:prefLabel "Fiskodlare"@sv, "Kalanviljelijät"@fi .
+
+<http://ldf.fi/ammo/coo1980/3311>
+    coo1980:socioeconomic_status coo1980:status_41 ;
+    a skos:Concept ;
+    skos:altLabel "3311" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/331> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Fiskmästare"@sv, "Kalastusmestarit"@fi .
+
+<http://ldf.fi/ammo/coo1980/34>
+    a skos:Concept ;
+    skos:altLabel "34" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/3> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/340> ;
+    skos:prefLabel "Forestry work"@en, "Metsätyö"@fi, "Skogsarbete"@sv .
+
+<http://ldf.fi/ammo/coo1980/340>
+    coo1980:socioeconomic_status coo1980:status_51 ;
+    a skos:Concept ;
+    skos:altLabel "340" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/34> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Metsä- ja uittotyöntekijät"@fi, "Skogs- och flottningsarbetare"@sv .
+
+<http://ldf.fi/ammo/coo1980/4>
+    a skos:Concept ;
+    skos:altLabel "4" ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/40>, <http://ldf.fi/ammo/coo1980/49> ;
+    skos:prefLabel "Gruv-, djupborrnings- och anrikningasberte"@sv, "Kaivos-, syväkairaus- ja rikastustyö"@fi, "Mining and quarrying work etc."@en ;
+    skos:topConceptOf <http://ldf.fi/ammo/coo1980/> .
+
+<http://ldf.fi/ammo/coo1980/40>
+    a skos:Concept ;
+    skos:altLabel "40" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/4> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/400> ;
+    skos:prefLabel "Gruv- och stenbrytningsarbete"@sv, "Kaivos- ja louhintatyö"@fi, "Mining and quarrying work etc."@en .
+
+<http://ldf.fi/ammo/coo1980/400>
+    coo1980:socioeconomic_status coo1980:status_52 ;
+    a skos:Concept ;
+    skos:altLabel "400" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/40> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Gruvbreytare, bergsprängare m. fl."@sv, "Kaivosmiehet, panostajat ym."@fi .
+
+<http://ldf.fi/ammo/coo1980/49>
+    a skos:Concept ;
+    skos:altLabel "49" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/4> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/490> ;
+    skos:prefLabel "Muu kaivos- ja louhintatyö"@fi, "Other mining and quarrying work"@en, "Övrigt gruv- och stenbrytningarbetare"@sv .
+
+<http://ldf.fi/ammo/coo1980/490>
+    coo1980:socioeconomic_status coo1980:status_52 ;
+    a skos:Concept ;
+    skos:altLabel "490" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/49> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Muut kaivos- ja louhintatyöntekijät"@fi, "Övriga gruv- och stenbrytningarbetare"@sv .
+
+<http://ldf.fi/ammo/coo1980/5>
+    a skos:Concept ;
+    skos:altLabel "5" ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/50>, <http://ldf.fi/ammo/coo1980/51>, <http://ldf.fi/ammo/coo1980/52>, <http://ldf.fi/ammo/coo1980/53>, <http://ldf.fi/ammo/coo1980/54>, <http://ldf.fi/ammo/coo1980/55>, <http://ldf.fi/ammo/coo1980/56>, <http://ldf.fi/ammo/coo1980/57>, <http://ldf.fi/ammo/coo1980/58>, <http://ldf.fi/ammo/coo1980/59> ;
+    skos:prefLabel "Kuljetus- ja liikennetyö"@fi, "Transport and communication work"@en, "Transport- och kommunikationsarbete"@sv ;
+    skos:topConceptOf <http://ldf.fi/ammo/coo1980/> .
+
+<http://ldf.fi/ammo/coo1980/50>
+    a skos:Concept ;
+    skos:altLabel "50" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/5> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/500>, <http://ldf.fi/ammo/coo1980/501> ;
+    skos:prefLabel "Meripäällystötyö"@fi, "Ships' officers"@en, "Sjöbefälsarbete"@sv .
+
+<http://ldf.fi/ammo/coo1980/500>
+    a skos:Concept ;
+    skos:altLabel "500" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/50> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/5001>, <http://ldf.fi/ammo/coo1980/5002> ;
+    skos:prefLabel "Alusten päälliköt ja perämiehet"@fi, "Fartygsbefälhavare och styrmän"@sv .
+
+<http://ldf.fi/ammo/coo1980/5001>
+    coo1980:socioeconomic_status coo1980:status_34 ;
+    a skos:Concept ;
+    skos:altLabel "5001" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/500> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Kapteenit ja perämiehet"@fi, "Kaptener och styrmän"@sv .
+
+<http://ldf.fi/ammo/coo1980/5002>
+    coo1980:socioeconomic_status coo1980:status_41 ;
+    a skos:Concept ;
+    skos:altLabel "5002" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/500> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Laivurit ym."@fi, "Skeppare m. fl."@sv .
+
+<http://ldf.fi/ammo/coo1980/501>
+    a skos:Concept ;
+    skos:altLabel "501" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/50> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/5012> ;
+    skos:prefLabel "Lotsar"@sv, "Luotsit"@fi .
+
+<http://ldf.fi/ammo/coo1980/5012>
+    coo1980:socioeconomic_status coo1980:status_44 ;
+    a skos:Concept ;
+    skos:altLabel "5012" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/501> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Lotsar m. fl."@sv, "Luotsit"@fi .
+
+<http://ldf.fi/ammo/coo1980/51>
+    a skos:Concept ;
+    skos:altLabel "51" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/5> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/510>, <http://ldf.fi/ammo/coo1980/511> ;
+    skos:prefLabel "Deck and engine-room crew"@en, "Kansi- ja konemiehistö"@fi .
+
+<http://ldf.fi/ammo/coo1980/510>
+    coo1980:socioeconomic_status coo1980:status_54 ;
+    a skos:Concept ;
+    skos:altLabel "510" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/51> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Däckmanskap och förare på mindre fartyg"@sv, "Kansimiehistö sekä pienten alusten kuljettajat"@fi .
+
+<http://ldf.fi/ammo/coo1980/511>
+    coo1980:socioeconomic_status coo1980:status_54 ;
+    a skos:Concept ;
+    skos:altLabel "511" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/51> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Konemiehistö"@fi, "Maskinmanskap"@sv .
+
+<http://ldf.fi/ammo/coo1980/52>
+    a skos:Concept ;
+    skos:altLabel "52" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/5> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/520> ;
+    skos:prefLabel "Air transport work"@en, "Flygarbete"@sv, "Lentotyö"@fi .
+
+<http://ldf.fi/ammo/coo1980/520>
+    a skos:Concept ;
+    skos:altLabel "520" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/52> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/5201> ;
+    skos:prefLabel "Flygförare m. fl."@sv, "Lentokoneenohjaajat"@fi .
+
+<http://ldf.fi/ammo/coo1980/5201>
+    coo1980:socioeconomic_status coo1980:status_34 ;
+    a skos:Concept ;
+    skos:altLabel "5201" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/520> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Flygkaptener och flygstyrmän m. fl."@sv, "Lentokapteenit ja lentoperämiehet"@fi .
+
+<http://ldf.fi/ammo/coo1980/53>
+    a skos:Concept ;
+    skos:altLabel "53" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/5> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/530> ;
+    skos:prefLabel "Lok- och motorvagnförarbete"@sv, "Railway engine driving"@en, "Veturin- ja moottorivaununkuljetustyö"@fi .
+
+<http://ldf.fi/ammo/coo1980/530>
+    coo1980:socioeconomic_status coo1980:status_54 ;
+    a skos:Concept ;
+    skos:altLabel "530" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/53> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Lok- och motorvagnförare, - skötare"@sv, "Veturin- ja moottorivaununkuljettajat, -hoitajat"@fi .
+
+<http://ldf.fi/ammo/coo1980/54>
+    a skos:Concept ;
+    skos:altLabel "54" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/5> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/540>, <http://ldf.fi/ammo/coo1980/541> ;
+    skos:prefLabel "Road transport work"@en, "Tieliikennetyö"@fi, "Vägtrafikarbete"@sv .
+
+<http://ldf.fi/ammo/coo1980/540>
+    coo1980:socioeconomic_status coo1980:status_54 ;
+    a skos:Concept ;
+    skos:altLabel "540" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/54> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Motorfordonsförare och spårvagnsförare"@sv, "Mottoriajoneuvon- ja raitiovaununkuljettajat"@fi .
+
+<http://ldf.fi/ammo/coo1980/541>
+    coo1980:socioeconomic_status coo1980:status_54 ;
+    a skos:Concept ;
+    skos:altLabel "541" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/54> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Tavaralähetit ja ajurit"@fi, "Varbud och kuskar m. fl."@sv .
+
+<http://ldf.fi/ammo/coo1980/55>
+    a skos:Concept ;
+    skos:altLabel "55" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/5> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/550>, <http://ldf.fi/ammo/coo1980/552> ;
+    skos:prefLabel "Liikennepalvelutyö"@fi, "Trafikservicearbete"@sv, "Transport service work"@en .
+
+<http://ldf.fi/ammo/coo1980/550>
+    a skos:Concept ;
+    skos:altLabel "550" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/55> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/5501>, <http://ldf.fi/ammo/coo1980/5502> ;
+    skos:prefLabel "Juna- ja asemamiehistö"@fi, "Tåg- och stationspersonal (trafikavdelning)"@sv .
+
+<http://ldf.fi/ammo/coo1980/5501>
+    coo1980:socioeconomic_status coo1980:status_41 ;
+    a skos:Concept ;
+    skos:altLabel "5501" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/550> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Järjestelymestarit. konduktöörit"@fi, "Rangieringsmästare, konduktörer m. fl."@sv .
+
+<http://ldf.fi/ammo/coo1980/5502>
+    coo1980:socioeconomic_status coo1980:status_54 ;
+    a skos:Concept ;
+    skos:altLabel "5502" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/550> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Asema-, juna- ja vaihdemiehet"@fi, "Stations-, tåg- och växelkarlar"@sv .
+
+<http://ldf.fi/ammo/coo1980/552>
+    coo1980:socioeconomic_status coo1980:status_43 ;
+    a skos:Concept ;
+    skos:altLabel "552" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/55> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Servicepersonal i buss- och spårvvagnstrafik"@sv, "Tie- ja raitiotieliikenteen palveluhenkilöstö"@fi .
+
+<http://ldf.fi/ammo/coo1980/56>
+    a skos:Concept ;
+    skos:altLabel "56" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/5> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/560>, <http://ldf.fi/ammo/coo1980/562>, <http://ldf.fi/ammo/coo1980/563> ;
+    skos:prefLabel "Liikenteen johto ja työnjohto"@fi, "Trafikledning och arbetsledining"@sv .
+
+<http://ldf.fi/ammo/coo1980/560>
+    a skos:Concept ;
+    skos:altLabel "560" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/56> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/5602> ;
+    skos:prefLabel "Hamntrafikbefäl"@sv, "Satamatyön ja -liikenteen johto"@fi .
+
+<http://ldf.fi/ammo/coo1980/5602>
+    coo1980:socioeconomic_status coo1980:status_41 ;
+    a skos:Concept ;
+    skos:altLabel "5602" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/560> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Hamnsjänstemän och -arbetsledare m. fl."@sv, "Satamavirkailijat"@fi .
+
+<http://ldf.fi/ammo/coo1980/562>
+    a skos:Concept ;
+    skos:altLabel "562" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/56> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/5621>, <http://ldf.fi/ammo/coo1980/5622> ;
+    skos:prefLabel "Rautatieliikenteen johto"@fi, "Trafikbefäl vid järnväg"@sv .
+
+<http://ldf.fi/ammo/coo1980/5621>
+    coo1980:socioeconomic_status coo1980:status_34 ;
+    a skos:Concept ;
+    skos:altLabel "5621" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/562> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Asemapäälliköt ja liikennetarkastajat"@fi, "Stationsinspektorer och trafikinspektörer"@sv .
+
+<http://ldf.fi/ammo/coo1980/5622>
+    coo1980:socioeconomic_status coo1980:status_44 ;
+    a skos:Concept ;
+    skos:altLabel "5622" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/562> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Liikenneohjaajat ja-virkailijat"@fi, "Tågtrafikledare och tjänsemän"@sv .
+
+<http://ldf.fi/ammo/coo1980/563>
+    coo1980:socioeconomic_status coo1980:status_41 ;
+    a skos:Concept ;
+    skos:altLabel "563" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/56> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Tieliikenteen johto"@fi .
+
+<http://ldf.fi/ammo/coo1980/57>
+    a skos:Concept ;
+    skos:altLabel "57" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/5> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/570>, <http://ldf.fi/ammo/coo1980/571>, <http://ldf.fi/ammo/coo1980/572>, <http://ldf.fi/ammo/coo1980/573>, <http://ldf.fi/ammo/coo1980/574> ;
+    skos:prefLabel "Post- och telekommunikationsarbete"@sv, "Postal and telecommunication work"@en, "Posti-, lennätin, puhelin- ja radioliikennetyö"@fi .
+
+<http://ldf.fi/ammo/coo1980/570>
+    coo1980:socioeconomic_status coo1980:status_41 ;
+    a skos:Concept ;
+    skos:altLabel "570" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/57> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Kontorförständåre (post- och tele)"@sv, "Posti- ja teleliikenteen konttorinhoitajat"@fi .
+
+<http://ldf.fi/ammo/coo1980/571>
+    coo1980:socioeconomic_status coo1980:status_43 ;
+    a skos:Concept ;
+    skos:altLabel "571" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/57> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Andra posttrafiktjänstemän"@sv, "Posti- ja teleliikenteen muut virkamiehet"@fi .
+
+<http://ldf.fi/ammo/coo1980/572>
+    coo1980:socioeconomic_status coo1980:status_43 ;
+    a skos:Concept ;
+    skos:altLabel "572" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/57> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Puhelinvälittäjät ja puhelinvaihteenhoitajat"@fi, "Telefonister och kontorstelefonister"@sv .
+
+<http://ldf.fi/ammo/coo1980/573>
+    coo1980:socioeconomic_status coo1980:status_44 ;
+    a skos:Concept ;
+    skos:altLabel "573" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/57> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Sähköttäjät, radiosähköttäjät"@fi, "Telegrafister, radiotelegrafister"@sv .
+
+<http://ldf.fi/ammo/coo1980/574>
+    coo1980:socioeconomic_status coo1980:status_43 ;
+    a skos:Concept ;
+    skos:altLabel "574" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/57> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Andra radiotelefonoperatörer"@sv, "Muut viestittäjät"@fi .
+
+<http://ldf.fi/ammo/coo1980/58>
+    a skos:Concept ;
+    skos:altLabel "58" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/5> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/580>, <http://ldf.fi/ammo/coo1980/582> ;
+    skos:prefLabel "Postal and other messanger work"@en, "Postalt och annat budarbete"@sv, "Posti- ja lähettityö"@fi .
+
+<http://ldf.fi/ammo/coo1980/580>
+    coo1980:socioeconomic_status coo1980:status_54 ;
+    a skos:Concept ;
+    skos:altLabel "580" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/58> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Postiljoner och sorterare"@sv, "Postinkantajat ja -lajittelijat"@fi .
+
+<http://ldf.fi/ammo/coo1980/582>
+    coo1980:socioeconomic_status coo1980:status_54 ;
+    a skos:Concept ;
+    skos:altLabel "582" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/58> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Kontorsvaktmästare, kontorsbud m. fl."@sv, "Toimistovahtimestarit ja -lähetit"@fi .
+
+<http://ldf.fi/ammo/coo1980/59>
+    a skos:Concept ;
+    skos:altLabel "59" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/5> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/590>, <http://ldf.fi/ammo/coo1980/591>, <http://ldf.fi/ammo/coo1980/599> ;
+    skos:prefLabel "Muu kuljetus- ja liikennetyö"@fi, "Other transport and communication work"@en, "Övrigt transport- och kommunikationsarbete"@sv .
+
+<http://ldf.fi/ammo/coo1980/590>
+    coo1980:socioeconomic_status coo1980:status_44 ;
+    a skos:Concept ;
+    skos:altLabel "590" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/59> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Fyrvaktare"@sv, "Majakanvartijat"@fi .
+
+<http://ldf.fi/ammo/coo1980/591>
+    coo1980:socioeconomic_status coo1980:status_54 ;
+    a skos:Concept ;
+    skos:altLabel "591" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/59> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Kanal- och färjskötare, hamnvakter"@sv, "Kanavan- ja lossinhoitajat, satamavartijat"@fi .
+
+<http://ldf.fi/ammo/coo1980/599>
+    a skos:Concept ;
+    skos:altLabel "599" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/59> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/5992> ;
+    skos:prefLabel "Muut kuljetus- ja liikennetyön ammatit"@fi, "Övriga yrken inom transport- och kommunikationsarbete"@sv .
+
+<http://ldf.fi/ammo/coo1980/5992>
+    coo1980:socioeconomic_status coo1980:status_54 ;
+    a skos:Concept ;
+    skos:altLabel "5992" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/599> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Andra inom transport- och kommunikationsarbete"@sv, "Muut kuljetus- ja liikennetyön työntekijät"@fi .
+
+<http://ldf.fi/ammo/coo1980/60>
+    a skos:Concept ;
+    skos:altLabel "60" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/6_7> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/600>, <http://ldf.fi/ammo/coo1980/601>, <http://ldf.fi/ammo/coo1980/602>, <http://ldf.fi/ammo/coo1980/603>, <http://ldf.fi/ammo/coo1980/604>, <http://ldf.fi/ammo/coo1980/605>, <http://ldf.fi/ammo/coo1980/606>, <http://ldf.fi/ammo/coo1980/609> ;
+    skos:prefLabel "Tekstiilityö"@fi, "Textilarbete"@sv, "Textile work"@en .
+
+<http://ldf.fi/ammo/coo1980/600>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "600" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/60> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Garnförarbete"@sv, "Langanvalmistuksen esityöt"@fi .
+
+<http://ldf.fi/ammo/coo1980/601>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "601" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/60> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Kehrääjät"@fi, "Spinnare m. fl."@sv .
+
+<http://ldf.fi/ammo/coo1980/602>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "602" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/60> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Kutojat"@fi, "Vävare"@sv .
+
+<http://ldf.fi/ammo/coo1980/603>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "603" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/60> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Laitosmiehet (tekstilityö) ja koneenasettajat"@fi, "Maskinställare"@sv .
+
+<http://ldf.fi/ammo/coo1980/604>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "604" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/60> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Neulojat ja neuletyöntekijät"@fi, "Stickare m. fl."@sv .
+
+<http://ldf.fi/ammo/coo1980/605>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "605" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/60> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Appretur- och beredinigsarbetare"@sv, "Viimestämön ja värjäämön työntekijät"@fi .
+
+<http://ldf.fi/ammo/coo1980/606>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "606" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/60> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Valmisteiden tarkastajat, kankaan tarkastajat"@fi, "Vävavsynare, tyglagare"@sv .
+
+<http://ldf.fi/ammo/coo1980/609>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "609" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/60> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Muut tekstilityön ammatit"@fi, "Överiga yrken inom textilarbete"@sv .
+
+<http://ldf.fi/ammo/coo1980/61>
+    a skos:Concept ;
+    skos:altLabel "61" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/6_7> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/610>, <http://ldf.fi/ammo/coo1980/611>, <http://ldf.fi/ammo/coo1980/612>, <http://ldf.fi/ammo/coo1980/613>, <http://ldf.fi/ammo/coo1980/614>, <http://ldf.fi/ammo/coo1980/615>, <http://ldf.fi/ammo/coo1980/619> ;
+    skos:prefLabel "Cutting , sewing and upholstering work"@en, "Leikkaus-, ompelu- ja verhoilutyö"@fi, "Tillskärnings -, sömnads- och tapetseringsarbete m. m."@sv .
+
+<http://ldf.fi/ammo/coo1980/610>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "610" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/61> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Skräddare, atelje- och hemsömmerskor"@sv, "Vatturit, ateljee- ja kotiompelijat"@fi .
+
+<http://ldf.fi/ammo/coo1980/611>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "611" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/61> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Körsnärer"@sv, "Turkkurit"@fi .
+
+<http://ldf.fi/ammo/coo1980/612>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "612" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/61> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Modister och hattmakare"@sv, "Modistit ja hatuntekijät"@fi .
+
+<http://ldf.fi/ammo/coo1980/613>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "613" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/61> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Tapetserare"@sv, "Verhoilijat"@fi .
+
+<http://ldf.fi/ammo/coo1980/614>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "614" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/61> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Mallinsunnittelijat (mallimestarit) ja leikkajat (myös nahkavatteiden ja hansikkaiden"@fi, "Modellkonstruktörer (modellmästare) och tillskärare (även läderkläder och handskar)"@sv .
+
+<http://ldf.fi/ammo/coo1980/615>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "615" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/61> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Konfektionssömmerskor m. fl. (även lädervaror och handskar)"@sv, "Valmisvaateteollisuuden ompelijat ym. (myös nahkavatteiden ja hansikkaiden)"@fi .
+
+<http://ldf.fi/ammo/coo1980/619>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "619" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/61> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Muut leikkaus-, ompelu- ja verholutyön ammatit"@fi, "Övriga yrken inom tillskärnings-, sömnads- ochi tapetsringsarbete"@sv .
+
+<http://ldf.fi/ammo/coo1980/62>
+    a skos:Concept ;
+    skos:altLabel "62" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/6_7> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/620>, <http://ldf.fi/ammo/coo1980/623>, <http://ldf.fi/ammo/coo1980/625> ;
+    skos:prefLabel "Jalkine- ja nahkatyö"@fi, "Shoe and leather work"@en, "Sko- och läder arbete"@sv .
+
+<http://ldf.fi/ammo/coo1980/620>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "620" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/62> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Jalkinemestarit ja suutarit"@fi, "Skomakare och skomakarmästare"@sv .
+
+<http://ldf.fi/ammo/coo1980/623>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "623" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/62> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Pinkojat ja pohjaajat"@fi, "Pinnare och bottnare m. fl."@sv .
+
+<http://ldf.fi/ammo/coo1980/625>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "625" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/62> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Lädersömmare m. fl."@sv, "Nahanompelijat"@fi .
+
+<http://ldf.fi/ammo/coo1980/63>
+    a skos:Concept ;
+    skos:altLabel "63" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/6_7> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/630>, <http://ldf.fi/ammo/coo1980/631>, <http://ldf.fi/ammo/coo1980/632>, <http://ldf.fi/ammo/coo1980/633>, <http://ldf.fi/ammo/coo1980/634>, <http://ldf.fi/ammo/coo1980/635>, <http://ldf.fi/ammo/coo1980/639> ;
+    skos:prefLabel "Järnbruks-, metallverks -, smides- och gjuteriarbete"@sv, "Rautatehdas-, metallitehdas- , takomo- ja valimotyö"@fi, "Smelting, metallurgical and foundry work"@en .
+
+<http://ldf.fi/ammo/coo1980/630>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "630" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/63> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Hytt- och smältugnsarbetare"@sv, "Sulatto- ja sulatusuunityötekijät"@fi .
+
+<http://ldf.fi/ammo/coo1980/631>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "631" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/63> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Kuumentajat, karkaisijat, hehkuttajat"@fi, "Värmare, härdare, glödgare m. fl."@sv .
+
+<http://ldf.fi/ammo/coo1980/632>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "632" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/63> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Kall- och varmavalsare"@sv, "Kylmä- ja kuumavalssaajat"@fi .
+
+<http://ldf.fi/ammo/coo1980/633>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "633" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/63> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Sepät"@fi, "Smeder"@sv .
+
+<http://ldf.fi/ammo/coo1980/634>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "634" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/63> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Gjuteriearbetare"@sv, "Valimotyöntekijät"@fi .
+
+<http://ldf.fi/ammo/coo1980/635>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "635" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/63> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Langanvetäjät, putkenvetäjät"@fi, "Tråddragare, rördragare"@sv .
+
+<http://ldf.fi/ammo/coo1980/639>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "639" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/63> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Muut rautatehdas-, metallitehdas-, takomo- ja valimotyön ammatit"@fi, "Övriga yrken inom järnbruks-, metallverks-, smides- och gjuteriarbete"@sv .
+
+<http://ldf.fi/ammo/coo1980/64>
+    a skos:Concept ;
+    skos:altLabel "64" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/6_7> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/640>, <http://ldf.fi/ammo/coo1980/641>, <http://ldf.fi/ammo/coo1980/642>, <http://ldf.fi/ammo/coo1980/643>, <http://ldf.fi/ammo/coo1980/644> ;
+    skos:prefLabel "Finmekaniskt arbete"@sv, "Hienomekaaninen työ"@fi, "Precision mechanical work"@en .
+
+<http://ldf.fi/ammo/coo1980/640>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "640" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/64> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Finmekaniker"@sv, "Hienomekaanikot"@fi .
+
+<http://ldf.fi/ammo/coo1980/641>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "641" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/64> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Kellosepät"@fi, "Urmakare"@sv .
+
+<http://ldf.fi/ammo/coo1980/642>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "642" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/64> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Optiker"@sv, "Optikot"@fi .
+
+<http://ldf.fi/ammo/coo1980/643>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "643" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/64> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Hammasteknikot"@fi, "Tandtekniker"@sv .
+
+<http://ldf.fi/ammo/coo1980/644>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "644" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/64> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Guld- och silversmeder m. fl."@sv, "Kulta-, ja hopeasepät"@fi .
+
+<http://ldf.fi/ammo/coo1980/65>
+    a skos:Concept ;
+    skos:altLabel "65" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/6_7> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/650>, <http://ldf.fi/ammo/coo1980/651>, <http://ldf.fi/ammo/coo1980/652>, <http://ldf.fi/ammo/coo1980/653>, <http://ldf.fi/ammo/coo1980/654>, <http://ldf.fi/ammo/coo1980/655>, <http://ldf.fi/ammo/coo1980/656>, <http://ldf.fi/ammo/coo1980/659> ;
+    skos:prefLabel "Iron and metalware work"@en, "Konepaja- ja rakennusmetallityö"@fi, "Verkstads- och byggnadsmetallarbete"@sv .
+
+<http://ldf.fi/ammo/coo1980/650>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "650" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/65> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Koneasettajat, koneistajat ja työkaluntekijät"@fi, "Verkstadsmekaniker"@sv .
+
+<http://ldf.fi/ammo/coo1980/651>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "651" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/65> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Koneenasentajat"@fi, "Maskinmontörer m. fl."@sv .
+
+<http://ldf.fi/ammo/coo1980/652>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "652" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/65> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Koneen- ja moottorinkorjaajat"@fi, "Maskin- och motorreparatörer"@sv .
+
+<http://ldf.fi/ammo/coo1980/653>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "653" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/65> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Ohut- ja paksulevysepät"@fi, "Tunn- och grovplåtslagare"@sv .
+
+<http://ldf.fi/ammo/coo1980/654>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "654" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/65> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Putkityöntekijat"@fi, "Rörarbetare"@sv .
+
+<http://ldf.fi/ammo/coo1980/655>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "655" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/65> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Hitsaajat ja kaasuleikkaajat (polttajat)"@fi, "Svetsare och gasskärare"@sv .
+
+<http://ldf.fi/ammo/coo1980/656>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "656" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/65> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Metalliserare"@sv, "Metalloijat"@fi .
+
+<http://ldf.fi/ammo/coo1980/659>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "659" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/65> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Muut konepaja- ja rakennusmetallityön ammatit"@fi, "Övriga yrken onom verkstads- och byggnadmetallarbete"@sv .
+
+<http://ldf.fi/ammo/coo1980/66>
+    a skos:Concept ;
+    skos:altLabel "66" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/6_7> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/660>, <http://ldf.fi/ammo/coo1980/661>, <http://ldf.fi/ammo/coo1980/662>, <http://ldf.fi/ammo/coo1980/663>, <http://ldf.fi/ammo/coo1980/664>, <http://ldf.fi/ammo/coo1980/665>, <http://ldf.fi/ammo/coo1980/666>, <http://ldf.fi/ammo/coo1980/669> ;
+    skos:prefLabel "Electrical work"@en, "Elektroarbete"@sv, "Sähkötyö"@fi .
+
+<http://ldf.fi/ammo/coo1980/660>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "660" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/66> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Elmontörer"@sv, "Sähköasentajat"@fi .
+
+<http://ldf.fi/ammo/coo1980/661>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "661" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/66> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Elmaskinister m. fl."@sv, "Sähkökoneenhoitajat"@fi .
+
+<http://ldf.fi/ammo/coo1980/662>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "662" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/66> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Maskinelektriker (starkström)"@sv, "Sähkökoneenhoitajat (vahvavirta)"@fi .
+
+<http://ldf.fi/ammo/coo1980/663>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "663" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/66> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Elektronik- och telemontörer"@sv, "Elektronikka- ja teleasentajat"@fi .
+
+<http://ldf.fi/ammo/coo1980/664>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "664" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/66> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Puhelin- ja linja-asentajat"@fi, "Telefon- och linjemontörer"@sv .
+
+<http://ldf.fi/ammo/coo1980/665>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "665" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/66> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Hopsättare av elkraftteksniska och teletekniska produkter"@sv, "Sähkö- ja teleteknisten tuotteiden kokoojat"@fi .
+
+<http://ldf.fi/ammo/coo1980/666>
+    a skos:Concept ;
+    skos:altLabel "666" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/66> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/6661>, <http://ldf.fi/ammo/coo1980/6662> ;
+    skos:prefLabel "Radio-, TV-lähetyslaitteiden ja elokuvakoneiden käyttäjät sekä äänittäjät"@fi, "Radio-, TV-sändar- och biografmaskinster och ljudtekniker"@sv .
+
+<http://ldf.fi/ammo/coo1980/6661>
+    coo1980:socioeconomic_status coo1980:status_44 ;
+    a skos:Concept ;
+    skos:altLabel "6661" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/666> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Ljud- och videotkekniker m. fl."@sv, "Radio-, TV-tarkkailijat sekä äänittäjät"@fi .
+
+<http://ldf.fi/ammo/coo1980/6662>
+    coo1980:socioeconomic_status coo1980:status_54 ;
+    a skos:Concept ;
+    skos:altLabel "6662" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/666> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Andra inom radio-, TV-sändar- och biografmaskinster och ljudtekniker"@sv, "Muut radio-, TV-lähetyslaitteiden ja elokuvakoneiden käyttäjät"@fi .
+
+<http://ldf.fi/ammo/coo1980/669>
+    a skos:Concept ;
+    skos:altLabel "669" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/66> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Muut sähkötyön ammatit"@fi .
+
+<http://ldf.fi/ammo/coo1980/67>
+    a skos:Concept ;
+    skos:altLabel "67" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/6_7> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/671>, <http://ldf.fi/ammo/coo1980/672>, <http://ldf.fi/ammo/coo1980/673>, <http://ldf.fi/ammo/coo1980/674>, <http://ldf.fi/ammo/coo1980/675>, <http://ldf.fi/ammo/coo1980/676>, <http://ldf.fi/ammo/coo1980/677>, <http://ldf.fi/ammo/coo1980/678>, <http://ldf.fi/ammo/coo1980/679> ;
+    skos:prefLabel "Puutyö"@fi, "Träarbete"@sv, "Wood work"@en .
+
+<http://ldf.fi/ammo/coo1980/671>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "671" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/67> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Puutavaratyöntekijät"@fi, "Trävaruarbetare"@sv .
+
+<http://ldf.fi/ammo/coo1980/672>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "672" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/67> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Faner- och träfiberskivearbetare"@sv, "Vaneri- ja kuitulevytyöntekijät"@fi .
+
+<http://ldf.fi/ammo/coo1980/673>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "673" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/67> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Byggnadsträarbetare"@sv, "Rakennuspuutyöntekijät"@fi .
+
+<http://ldf.fi/ammo/coo1980/674>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "674" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/67> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Båtbyggare, karosserisnickare m. fl."@sv, "Veneenrakentajat, vaununkoripuusepät"@fi .
+
+<http://ldf.fi/ammo/coo1980/675>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "675" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/67> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Bänksnickare"@sv, "Penkkipuusepät"@fi .
+
+<http://ldf.fi/ammo/coo1980/676>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "676" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/67> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Huonekalu- ja sisustuspuusepät ym."@fi, "Möbel- coh inredningssnickare m. fl."@sv .
+
+<http://ldf.fi/ammo/coo1980/677>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "677" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/67> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Konepuusepät"@fi, "Maskinsnickare"@sv .
+
+<http://ldf.fi/ammo/coo1980/678>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "678" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/67> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Puupinnankäsittelijät"@fi, "Yibehandlare (trä)"@sv .
+
+<http://ldf.fi/ammo/coo1980/679>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "679" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/67> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Muut puutyön ammatit"@fi, "Övriga yrken inom träarbete"@sv .
+
+<http://ldf.fi/ammo/coo1980/68>
+    a skos:Concept ;
+    skos:altLabel "68" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/6_7> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/680> ;
+    skos:prefLabel "Maalaus- ja lakkaustyö"@fi, "Målnings- och lackeringsarbete"@sv, "Painting and lacquering work"@en .
+
+<http://ldf.fi/ammo/coo1980/680>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "680" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/68> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Maalarit, lakkaajat ja lattiantekijät"@fi, "Målare, lackare och golvbeläggare"@sv .
+
+<http://ldf.fi/ammo/coo1980/69>
+    a skos:Concept ;
+    skos:altLabel "69" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/6_7> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/690>, <http://ldf.fi/ammo/coo1980/691>, <http://ldf.fi/ammo/coo1980/692>, <http://ldf.fi/ammo/coo1980/693>, <http://ldf.fi/ammo/coo1980/694>, <http://ldf.fi/ammo/coo1980/695>, <http://ldf.fi/ammo/coo1980/698>, <http://ldf.fi/ammo/coo1980/699> ;
+    skos:prefLabel "Other construction work"@en, "Rakennusalan muut työt"@fi, "Övriga byggnadsarbeten"@sv .
+
+<http://ldf.fi/ammo/coo1980/690>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "690" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/69> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Murare, rappare och plattsättare"@sv, "Muurarit, rapparit ja laattatyöntekijät"@fi .
+
+<http://ldf.fi/ammo/coo1980/691>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "691" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/69> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Byggnadselement- och stenmontörer m. fl."@sv, "Rakennuselementtien, rakennuskivien asettajat ym."@fi .
+
+<http://ldf.fi/ammo/coo1980/692>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "692" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/69> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Armerare"@sv, "Betoniraudoittajat"@fi .
+
+<http://ldf.fi/ammo/coo1980/693>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "693" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/69> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Betongarbetare"@sv, "Sementti- ja betonityöntekijät"@fi .
+
+<http://ldf.fi/ammo/coo1980/694>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "694" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/69> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Asfalarbetare"@sv, "Asfalttityöntekijät"@fi .
+
+<http://ldf.fi/ammo/coo1980/695>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "695" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/69> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Eristäjät"@fi, "Isolerare"@sv .
+
+<http://ldf.fi/ammo/coo1980/698>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "698" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/69> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Aputyömiehet muissa rakennustöissä"@fi, "Hjälparbetare inom andra byggnadsarbeten"@sv .
+
+<http://ldf.fi/ammo/coo1980/699>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "699" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/69> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Muut rakennustyön ammatit"@fi, "Övriga yrken inom byggnadsarbeten"@sv .
+
+<http://ldf.fi/ammo/coo1980/6_7>
+    a skos:Concept ;
+    skos:altLabel "6/7" ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/60>, <http://ldf.fi/ammo/coo1980/61>, <http://ldf.fi/ammo/coo1980/62>, <http://ldf.fi/ammo/coo1980/63>, <http://ldf.fi/ammo/coo1980/64>, <http://ldf.fi/ammo/coo1980/65>, <http://ldf.fi/ammo/coo1980/66>, <http://ldf.fi/ammo/coo1980/67>, <http://ldf.fi/ammo/coo1980/68>, <http://ldf.fi/ammo/coo1980/69>, <http://ldf.fi/ammo/coo1980/70>, <http://ldf.fi/ammo/coo1980/71>, <http://ldf.fi/ammo/coo1980/72>, <http://ldf.fi/ammo/coo1980/73>, <http://ldf.fi/ammo/coo1980/74>, <http://ldf.fi/ammo/coo1980/75>, <http://ldf.fi/ammo/coo1980/76>, <http://ldf.fi/ammo/coo1980/77>, <http://ldf.fi/ammo/coo1980/78>, <http://ldf.fi/ammo/coo1980/79> ;
+    skos:prefLabel "Manufacturing and related work"@en, "Teollinen työ, koneenhoito ym."@fi, "Tillverkningsarbete , maskinskötsel m.m."@sv ;
+    skos:topConceptOf <http://ldf.fi/ammo/coo1980/> .
+
+<http://ldf.fi/ammo/coo1980/70>
+    a skos:Concept ;
+    skos:altLabel "70" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/6_7> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/700>, <http://ldf.fi/ammo/coo1980/701>, <http://ldf.fi/ammo/coo1980/702>, <http://ldf.fi/ammo/coo1980/703>, <http://ldf.fi/ammo/coo1980/709> ;
+    skos:prefLabel "Graafinen työ"@fi, "Grafiskt arbete"@sv, "Graphic work"@en .
+
+<http://ldf.fi/ammo/coo1980/700>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_54 ;
+    a skos:Concept ;
+    skos:altLabel "700" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/70> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Latojat"@fi, "Sättare m. fl"@sv .
+
+<http://ldf.fi/ammo/coo1980/701>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_54 ;
+    a skos:Concept ;
+    skos:altLabel "701" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/70> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Painajat"@fi, "Tryckare"@sv .
+
+<http://ldf.fi/ammo/coo1980/702>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_54 ;
+    a skos:Concept ;
+    skos:altLabel "702" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/70> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Jäljennöstyöntekijät"@fi, "Reproduktionsarbetare"@sv .
+
+<http://ldf.fi/ammo/coo1980/703>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_54 ;
+    a skos:Concept ;
+    skos:altLabel "703" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/70> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Bokbinderiarbetare"@sv, "Kirjansitomotyöntekijät"@fi .
+
+<http://ldf.fi/ammo/coo1980/709>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_54 ;
+    a skos:Concept ;
+    skos:altLabel "709" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/70> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Muut graafisen työn ammatit"@fi, "Övriga yrken inom grafiskt arbete"@sv .
+
+<http://ldf.fi/ammo/coo1980/71>
+    a skos:Concept ;
+    skos:altLabel "71" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/6_7> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/710>, <http://ldf.fi/ammo/coo1980/711>, <http://ldf.fi/ammo/coo1980/712>, <http://ldf.fi/ammo/coo1980/713> ;
+    skos:prefLabel "Glas-, keramik- och tegelarbete"@sv, "Glass, ceramic and clay work"@en, "Lasi-, keraaminen ja tiilityö"@fi .
+
+<http://ldf.fi/ammo/coo1980/710>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "710" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/71> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Glashyttarbetare"@sv, "Lasihyttytyöntekijät"@fi .
+
+<http://ldf.fi/ammo/coo1980/711>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "711" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/71> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Formare (keramikprodukter)"@sv, "Muovaajat (keraamiset tuotteet)"@fi .
+
+<http://ldf.fi/ammo/coo1980/712>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "712" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/71> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Ugnskötare (glas- och keramiktillverkning)"@sv, "Uuninhoitajat (lasi- ja keraamiset valmisteet)"@fi .
+
+<http://ldf.fi/ammo/coo1980/713>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "713" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/71> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Dekoratörer, glaserare (glas- och keramikprodukter)"@sv, "Koristelijat, lasittajat (lasi- ja keraamiset tuotteet)"@fi .
+
+<http://ldf.fi/ammo/coo1980/72>
+    a skos:Concept ;
+    skos:altLabel "72" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/6_7> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/720>, <http://ldf.fi/ammo/coo1980/721>, <http://ldf.fi/ammo/coo1980/722>, <http://ldf.fi/ammo/coo1980/723>, <http://ldf.fi/ammo/coo1980/725>, <http://ldf.fi/ammo/coo1980/726>, <http://ldf.fi/ammo/coo1980/728>, <http://ldf.fi/ammo/coo1980/729> ;
+    skos:prefLabel "Elintarviketyö"@fi, "Food and beverage work"@en, "Livsmedelsarbete"@sv .
+
+<http://ldf.fi/ammo/coo1980/720>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "720" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/72> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Kvnararbetare"@sv, "Myllytyöntekijat"@fi .
+
+<http://ldf.fi/ammo/coo1980/721>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "721" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/72> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Bakare och konditorer"@sv, "Leipurit ja kondittorit"@fi .
+
+<http://ldf.fi/ammo/coo1980/722>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "722" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/72> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Chokolad- och sötvaruarbetare"@sv, "Suklaa- ja makeistyöntekijät"@fi .
+
+<http://ldf.fi/ammo/coo1980/723>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "723" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/72> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Bryggeri-, läskdrycks- och bränneriarbetare m. fl."@sv, "Panimo-, virvoitusjuoma- ja polttimotyöntekijät ym."@fi .
+
+<http://ldf.fi/ammo/coo1980/725>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "725" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/72> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Slakteri-, charkuteri- och tarmförädlingsarbetare"@sv, "Teurastajat, makkara- ja suolityöntekijät"@fi .
+
+<http://ldf.fi/ammo/coo1980/726>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "726" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/72> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Mejerister, mejeriarbetare"@sv, "Mejerityöntekijät, meijeristit"@fi .
+
+<http://ldf.fi/ammo/coo1980/728>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "728" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/72> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Sockerarbetare"@sv, "Sokerinvalmistustyöntekijät"@fi .
+
+<http://ldf.fi/ammo/coo1980/729>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "729" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/72> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Muut elintarviketyön ammatit"@fi, "Övriga yrken inom livsmedelsarbete"@sv .
+
+<http://ldf.fi/ammo/coo1980/73>
+    a skos:Concept ;
+    skos:altLabel "73" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/6_7> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/730>, <http://ldf.fi/ammo/coo1980/731>, <http://ldf.fi/ammo/coo1980/733>, <http://ldf.fi/ammo/coo1980/734>, <http://ldf.fi/ammo/coo1980/735>, <http://ldf.fi/ammo/coo1980/739> ;
+    skos:prefLabel "Chemical processing and related work"@en, "Kemian prosessityö, massa-, paperi- ja kartonkityö"@fi, "Kemiskt processarbete , massa-, pappers- och  kartongarbete"@sv .
+
+<http://ldf.fi/ammo/coo1980/730>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "730" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/73> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Destillatörer"@sv, "Tislaajat"@fi .
+
+<http://ldf.fi/ammo/coo1980/731>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "731" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/73> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Keittäjät ja uuninhoitajat (kemianprosessityö)"@fi, "Kokare och ugnsskötare (kemiska processer)"@sv .
+
+<http://ldf.fi/ammo/coo1980/733>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "733" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/73> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Puuhiomotyöntekijät"@fi, "Träsliperiarbetare"@sv .
+
+<http://ldf.fi/ammo/coo1980/734>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "734" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/73> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Massaarbetare (sulfit och sulfat)"@sv, "Sellusoosatyöntekijät"@fi .
+
+<http://ldf.fi/ammo/coo1980/735>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "735" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/73> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Paperi- ja kartonkityöntekijät"@fi, "Pappers- och kartongarbetare"@sv .
+
+<http://ldf.fi/ammo/coo1980/739>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "739" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/73> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Muut kemiallisen työn ammatit"@fi, "Övriga yrken inom kemiskt arbete"@sv .
+
+<http://ldf.fi/ammo/coo1980/74>
+    a skos:Concept ;
+    skos:altLabel "74" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/6_7> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/740> ;
+    skos:prefLabel "Tobacco work"@en, "Tobaksarbete"@sv, "Tupakkateollusuustyö"@fi .
+
+<http://ldf.fi/ammo/coo1980/740>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "740" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/74> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Tobaksarbetare"@sv, "Tupakkateollisuustyöntekijät"@fi .
+
+<http://ldf.fi/ammo/coo1980/75>
+    a skos:Concept ;
+    skos:altLabel "75" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/6_7> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/750>, <http://ldf.fi/ammo/coo1980/751>, <http://ldf.fi/ammo/coo1980/752>, <http://ldf.fi/ammo/coo1980/753>, <http://ldf.fi/ammo/coo1980/754>, <http://ldf.fi/ammo/coo1980/755>, <http://ldf.fi/ammo/coo1980/756>, <http://ldf.fi/ammo/coo1980/757>, <http://ldf.fi/ammo/coo1980/759> ;
+    skos:prefLabel "Muu teollinen työ"@fi, "Other manufacturing work"@en, "Övrigt tillverkningsarbete"@sv .
+
+<http://ldf.fi/ammo/coo1980/750>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "750" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/75> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Korgmakeriarbetare och borstbindare"@sv, "Kori- ja harjatyöntekijät"@fi .
+
+<http://ldf.fi/ammo/coo1980/751>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "751" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/75> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Gummivaruarbetare"@sv, "Kumituotetyöntekijät"@fi .
+
+<http://ldf.fi/ammo/coo1980/752>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "752" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/75> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Muovituotetyöntekijät"@fi, "Plastvaruarbetare"@sv .
+
+<http://ldf.fi/ammo/coo1980/753>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "753" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/75> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Garvare och skinnberedare"@sv, "Nahkatyöntekijät ja nahanmuokaajat"@fi .
+
+<http://ldf.fi/ammo/coo1980/754>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_54 ;
+    a skos:Concept ;
+    skos:altLabel "754" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/75> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Fotolaboratorieartbetare, ljuskopister m. fl."@sv, "Valokuvaamolaboratoriotyöntekijät, kopistit ym."@fi .
+
+<http://ldf.fi/ammo/coo1980/755>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "755" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/75> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Musikinstrumentmakare m. fl."@sv, "Soittimentekijät ym."@fi .
+
+<http://ldf.fi/ammo/coo1980/756>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "756" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/75> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Kivityöntekijät"@fi, "Stenhuggeriarbetare"@sv .
+
+<http://ldf.fi/ammo/coo1980/757>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "757" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/75> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Paperinjalostusalan vaihtetyöntekijät"@fi, "Pappersvatuarbetare"@sv .
+
+<http://ldf.fi/ammo/coo1980/759>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "759" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/75> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Muut teollisen työn ammatit"@fi, "Övriga yrkeninom tillverkningsarbete"@sv .
+
+<http://ldf.fi/ammo/coo1980/76>
+    a skos:Concept ;
+    skos:altLabel "76", "Paketerings- och emballeringsarbete"@sv ;
+    skos:broader <http://ldf.fi/ammo/coo1980/6_7> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/760> ;
+    skos:prefLabel "Packing and wrapping work"@sv, "Pakkaus- ja paketoimistyö"@fi .
+
+<http://ldf.fi/ammo/coo1980/760>
+    coo1980:socioeconomic_status coo1980:status_53, coo1980:status_54 ;
+    a skos:Concept ;
+    skos:altLabel "760" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/76> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Paketerare och emballerare m. fl."@sv, "Pakkaajat ja paketoijat"@fi .
+
+<http://ldf.fi/ammo/coo1980/77>
+    a skos:Concept ;
+    skos:altLabel "77" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/6_7> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/770>, <http://ldf.fi/ammo/coo1980/771>, <http://ldf.fi/ammo/coo1980/772>, <http://ldf.fi/ammo/coo1980/773>, <http://ldf.fi/ammo/coo1980/774>, <http://ldf.fi/ammo/coo1980/775> ;
+    skos:prefLabel "Drift och underhåll av arbetsm askiner och stationära motoranläggningar"@sv, "Stationary engin e and motorpower work"@en, "Työkoneiden ja kiinteiden moottorien käyttö ja hoito"@fi .
+
+<http://ldf.fi/ammo/coo1980/770>
+    coo1980:socioeconomic_status coo1980:status_53, coo1980:status_54 ;
+    a skos:Concept ;
+    skos:altLabel "770" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/77> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Kranförare m. fl."@sv, "Nosturien kuljettajat ym."@fi .
+
+<http://ldf.fi/ammo/coo1980/771>
+    coo1980:socioeconomic_status coo1980:status_53, coo1980:status_54 ;
+    a skos:Concept ;
+    skos:altLabel "771" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/77> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Truckförare, transportörskötare m. fl"@sv, "Trukinkuljettajat, siirtolaitteen hoitajat"@fi .
+
+<http://ldf.fi/ammo/coo1980/772>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "772" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/77> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Anläggningmaskinförarem. fl."@sv, "Rakennuskoneiden kuljettajat ym."@fi .
+
+<http://ldf.fi/ammo/coo1980/773>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "773" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/77> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Kiinteiden koneiden ja moottorien käyttäjät (ei laivassa)"@fi, "Maskinister för stationärä maskiner och motorer (ej fartyg)"@sv .
+
+<http://ldf.fi/ammo/coo1980/774>
+    a skos:Concept ;
+    skos:altLabel "774" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/77> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/7741>, <http://ldf.fi/ammo/coo1980/7742> ;
+    skos:prefLabel "Huoltomiehet, huoltovalvojat ym."@fi, "Servicemän, serviceövervakare m. fl."@sv .
+
+<http://ldf.fi/ammo/coo1980/7741>
+    coo1980:socioeconomic_status coo1980:status_41 ;
+    a skos:Concept ;
+    skos:altLabel "7741" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/774> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Huoltovalvojat ja huoltotöiden johtajat"@fi, "Serviceövervarkare m. fl."@sv .
+
+<http://ldf.fi/ammo/coo1980/7742>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "7742" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/774> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Huoltomiehet, rasvaajat ym."@fi, "Servicearbetare, smörjare m. fl."@sv .
+
+<http://ldf.fi/ammo/coo1980/775>
+    coo1980:socioeconomic_status coo1980:status_52, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "775" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/77> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Laitosmiehet (ei tekstiiliteollisuuden) ja takiloijat"@fi, "Maskinreparatörer och riggare (ej textilindustri)"@sv .
+
+<http://ldf.fi/ammo/coo1980/78>
+    a skos:Concept ;
+    skos:altLabel "78" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/6_7> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/780>, <http://ldf.fi/ammo/coo1980/781> ;
+    skos:prefLabel "Ahtaus-, kuormaus-, ja varastotyö"@fi, "Dock and warehouse work"@en, "Stuveri-, lager - och förrådsarbete"@sv .
+
+<http://ldf.fi/ammo/coo1980/780>
+    coo1980:socioeconomic_status coo1980:status_53, coo1980:status_54 ;
+    a skos:Concept ;
+    skos:altLabel "780" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/78> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Ahtaus-, kuormaus- yms. työntekijät"@fi, "Stuveriarbetare, lastare m. fl."@sv .
+
+<http://ldf.fi/ammo/coo1980/781>
+    coo1980:socioeconomic_status coo1980:status_53, coo1980:status_54 ;
+    a skos:Concept ;
+    skos:altLabel "781" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/78> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Lager- och förrådsarbetare"@sv, "Varastotyöntekijät"@fi .
+
+<http://ldf.fi/ammo/coo1980/79>
+    a skos:Concept ;
+    skos:altLabel "79" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/6_7> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/790> ;
+    skos:prefLabel "Diversearbete"@sv, "Manual work not elsewhere classified"@en, "Sekatyö"@fi .
+
+<http://ldf.fi/ammo/coo1980/790>
+    coo1980:socioeconomic_status coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "790" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/79> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Diversearbetare"@sv, "Sekätyöntekijät"@fi .
+
+<http://ldf.fi/ammo/coo1980/8>
+    a skos:Concept ;
+    skos:altLabel "8" ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/80>, <http://ldf.fi/ammo/coo1980/81>, <http://ldf.fi/ammo/coo1980/82>, <http://ldf.fi/ammo/coo1980/83>, <http://ldf.fi/ammo/coo1980/84>, <http://ldf.fi/ammo/coo1980/85>, <http://ldf.fi/ammo/coo1980/86>, <http://ldf.fi/ammo/coo1980/87>, <http://ldf.fi/ammo/coo1980/88>, <http://ldf.fi/ammo/coo1980/89> ;
+    skos:prefLabel "Palvelutyö"@fi, "Service work"@en, "Servicearbete"@sv ;
+    skos:topConceptOf <http://ldf.fi/ammo/coo1980/> .
+
+<http://ldf.fi/ammo/coo1980/80>
+    a skos:Concept ;
+    skos:altLabel "80" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/8> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/800>, <http://ldf.fi/ammo/coo1980/801>, <http://ldf.fi/ammo/coo1980/802>, <http://ldf.fi/ammo/coo1980/803>, <http://ldf.fi/ammo/coo1980/804>, <http://ldf.fi/ammo/coo1980/809> ;
+    skos:prefLabel "Bevaknings- och skyddsarbete"@sv, "Public safety and protection work"@en, "Vartiointi- ja suojelutehtävät"@fi .
+
+<http://ldf.fi/ammo/coo1980/800>
+    coo1980:socioeconomic_status coo1980:status_54 ;
+    a skos:Concept ;
+    skos:altLabel "800" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/80> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/8003> ;
+    skos:prefLabel "Brandmän"@sv, "Palomiehet"@fi .
+
+<http://ldf.fi/ammo/coo1980/8003>
+    coo1980:socioeconomic_status coo1980:status_54 ;
+    a skos:Concept ;
+    skos:altLabel "8003" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/800> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Brandmän m. fl."@sv, "Palomiehet ym."@fi .
+
+<http://ldf.fi/ammo/coo1980/801>
+    a skos:Concept ;
+    skos:altLabel "801" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/80> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/8011>, <http://ldf.fi/ammo/coo1980/8012>, <http://ldf.fi/ammo/coo1980/803> ;
+    skos:prefLabel "Poliisit"@fi, "Poliser"@sv .
+
+<http://ldf.fi/ammo/coo1980/8011>
+    coo1980:socioeconomic_status coo1980:status_41 ;
+    a skos:Concept ;
+    skos:altLabel "8011" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/801> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Komisariot ja ylikonstaaplelit"@fi, "Kommissarier och överkonstaplar"@sv .
+
+<http://ldf.fi/ammo/coo1980/8012>
+    coo1980:socioeconomic_status coo1980:status_44 ;
+    a skos:Concept ;
+    skos:altLabel "8012" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/801> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Andra poliser"@sv, "Muut poliisit"@fi .
+
+<http://ldf.fi/ammo/coo1980/802>
+    a skos:Concept ;
+    skos:altLabel "802" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/80> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/8021>, <http://ldf.fi/ammo/coo1980/8022> ;
+    skos:prefLabel "Tullivartijat ja rajavartijat"@fi, "Tullvakter och gränsbevakningsmän"@sv .
+
+<http://ldf.fi/ammo/coo1980/8021>
+    coo1980:socioeconomic_status coo1980:status_34 ;
+    a skos:Concept ;
+    skos:altLabel "8021" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/802> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Tullbevaknings- och hamninspektörer"@sv, "Tullivalvonta- ja satamatarkastajat"@fi .
+
+<http://ldf.fi/ammo/coo1980/8022>
+    coo1980:socioeconomic_status coo1980:status_54 ;
+    a skos:Concept ;
+    skos:altLabel "8022" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/802> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Tull-, gräns- och sjöbevakninsmän"@sv, "Tulli-, raja- ja merivartijat"@fi .
+
+<http://ldf.fi/ammo/coo1980/803>
+    a skos:Concept ;
+    skos:altLabel "803" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/80>, <http://ldf.fi/ammo/coo1980/801> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/8032> ;
+    skos:prefLabel "Fångvakter m. fl."@sv, "Vanginvartijat"@fi .
+
+<http://ldf.fi/ammo/coo1980/8032>
+    coo1980:socioeconomic_status coo1980:status_54 ;
+    a skos:Concept ;
+    skos:altLabel "8032" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/803> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Fångvakter"@sv, "Vanginvartijat"@fi .
+
+<http://ldf.fi/ammo/coo1980/804>
+    coo1980:socioeconomic_status coo1980:status_54 ;
+    a skos:Concept ;
+    skos:altLabel "804" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/80> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Andra vakter (civila)"@sv, "Muut vartijat (siviilitehtävät)"@fi .
+
+<http://ldf.fi/ammo/coo1980/809>
+    coo1980:socioeconomic_status coo1980:status_54 ;
+    a skos:Concept ;
+    skos:altLabel "809" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/80> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Muut vartioniti- ja suojelutyön ammatit"@fi, "Övriga yrken inom bevaknings- och skyddarbete"@sv .
+
+<http://ldf.fi/ammo/coo1980/81>
+    a skos:Concept ;
+    skos:altLabel "81" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/8> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/810>, <http://ldf.fi/ammo/coo1980/811>, <http://ldf.fi/ammo/coo1980/812>, <http://ldf.fi/ammo/coo1980/813>, <http://ldf.fi/ammo/coo1980/816> ;
+    skos:prefLabel "Housekeeping and related service supervising work"@en, "Hushålls- och storköksarbete"@sv, "Koti- ja suurtaloustyö"@fi .
+
+<http://ldf.fi/ammo/coo1980/810>
+    coo1980:socioeconomic_status coo1980:status_41, coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "810" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/81> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Förståndare vid storkök"@sv, "Suurtalouksien hoitajat ym."@fi .
+
+<http://ldf.fi/ammo/coo1980/811>
+    coo1980:socioeconomic_status coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "811" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/81> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Kockar, kokerskor och kallskänkor"@sv, "Kokit, keittäjät ja kylmäköt"@fi .
+
+<http://ldf.fi/ammo/coo1980/812>
+    coo1980:socioeconomic_status coo1980:status_53 ;
+    a skos:Concept ;
+    skos:altLabel "812" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/81> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Keittiöapulaiset"@fi, "Köksbiträden"@sv .
+
+<http://ldf.fi/ammo/coo1980/813>
+    coo1980:socioeconomic_status coo1980:status_54 ;
+    a skos:Concept ;
+    skos:altLabel "813" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/81> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Hushållsförståndare (hembiträden)"@sv, "Kotitaloudenhoitajat (kotiapulaiset)"@fi .
+
+<http://ldf.fi/ammo/coo1980/816>
+    coo1980:socioeconomic_status coo1980:status_41 ;
+    a skos:Concept ;
+    skos:altLabel "816" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/81> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Hotell- och restaurangvärdinnor"@sv, "Hotellien ja ravintoloiden emännät"@fi .
+
+<http://ldf.fi/ammo/coo1980/82>
+    a skos:Concept ;
+    skos:altLabel "82" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/8> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/820>, <http://ldf.fi/ammo/coo1980/821> ;
+    skos:prefLabel "Restaurant service"@en, "Serveringsarbete"@sv, "Tarjoilutyö"@fi .
+
+<http://ldf.fi/ammo/coo1980/820>
+    a skos:Concept ;
+    skos:altLabel "820" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/82> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/8201>, <http://ldf.fi/ammo/coo1980/8202> ;
+    skos:prefLabel "Hovmästare och servitörer (restaurang)"@sv, "Ravintoloiden hovimestarit ja tarjoilijat"@fi .
+
+<http://ldf.fi/ammo/coo1980/8201>
+    coo1980:socioeconomic_status coo1980:status_41 ;
+    a skos:Concept ;
+    skos:altLabel "8201" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/820> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Hovimestarit"@fi, "Hovmästare"@sv .
+
+<http://ldf.fi/ammo/coo1980/8202>
+    coo1980:socioeconomic_status coo1980:status_54 ;
+    a skos:Concept ;
+    skos:altLabel "8202" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/820> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Servitörer och barmästare"@sv, "Tarjoilijat ja baarimestarit"@fi .
+
+<http://ldf.fi/ammo/coo1980/821>
+    coo1980:socioeconomic_status coo1980:status_54 ;
+    a skos:Concept ;
+    skos:altLabel "821" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/82> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Kahviloiden, baarien yms. tarjoilijat"@fi, "Servitörer på kafe, bar m.m."@sv .
+
+<http://ldf.fi/ammo/coo1980/83>
+    a skos:Concept ;
+    skos:altLabel "83" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/8> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/830>, <http://ldf.fi/ammo/coo1980/831>, <http://ldf.fi/ammo/coo1980/832>, <http://ldf.fi/ammo/coo1980/839> ;
+    skos:prefLabel "Caretaking and cleaning work"@en, "Fastighetsskötsel och städning"@sv, "Kiinteistönhoito- ja siivoustyö"@fi .
+
+<http://ldf.fi/ammo/coo1980/830>
+    coo1980:socioeconomic_status coo1980:status_54 ;
+    a skos:Concept ;
+    skos:altLabel "830" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/83> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Fastighetsarbetare"@sv, "Kiinteistötyöntekijät"@fi .
+
+<http://ldf.fi/ammo/coo1980/831>
+    a skos:Concept ;
+    skos:altLabel "831" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/83> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/8311>, <http://ldf.fi/ammo/coo1980/8312> ;
+    skos:prefLabel "Siivojat ja siivoustyön johtajat"@fi, "Städare"@sv .
+
+<http://ldf.fi/ammo/coo1980/8311>
+    coo1980:socioeconomic_status coo1980:status_41 ;
+    a skos:Concept ;
+    skos:altLabel "8311" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/831> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Siivoustyön johtajat ym."@fi, "Städchefer m. fl."@sv .
+
+<http://ldf.fi/ammo/coo1980/8312>
+    coo1980:socioeconomic_status coo1980:status_54 ;
+    a skos:Concept ;
+    skos:altLabel "8312" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/831> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Siivojat ym."@fi, "Städare m. fl."@sv .
+
+<http://ldf.fi/ammo/coo1980/832>
+    coo1980:socioeconomic_status coo1980:status_54 ;
+    a skos:Concept ;
+    skos:altLabel "832" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/83> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Nuohoojat"@fi, "Sotare"@sv .
+
+<http://ldf.fi/ammo/coo1980/839>
+    coo1980:socioeconomic_status coo1980:status_54 ;
+    a skos:Concept ;
+    skos:altLabel "839" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/83> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Muut kiinteisönhoito- ja siivoustyön ammatit"@fi, "Övriga yrken inom fastighetsskötsel och städning"@sv .
+
+<http://ldf.fi/ammo/coo1980/84>
+    a skos:Concept ;
+    skos:altLabel "84" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/8> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/840>, <http://ldf.fi/ammo/coo1980/842> ;
+    skos:prefLabel "Hygenia- ja kauneudenhoitotyö"@fi, "Hygien och skönhetsvård"@sv, "Hygiene and beauty treatment work"@en .
+
+<http://ldf.fi/ammo/coo1980/840>
+    coo1980:socioeconomic_status coo1980:status_54 ;
+    a skos:Concept ;
+    skos:altLabel "840" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/84> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Barberare och damfrisörer"@sv, "Parturit ja kampaajat"@fi .
+
+<http://ldf.fi/ammo/coo1980/842>
+    coo1980:socioeconomic_status coo1980:status_54 ;
+    a skos:Concept ;
+    skos:altLabel "842" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/84> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Baderskor m. fl"@sv, "Kylvettäjät ym."@fi .
+
+<http://ldf.fi/ammo/coo1980/85>
+    a skos:Concept ;
+    skos:altLabel "85" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/8> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/850>, <http://ldf.fi/ammo/coo1980/851> ;
+    skos:prefLabel "Laundering, dry-cleaning and pressing work"@en, "Pesu- ja silitystyö"@fi, "Tvätt- och pressarbete"@sv .
+
+<http://ldf.fi/ammo/coo1980/850>
+    a skos:Concept ;
+    skos:altLabel "850" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/85> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Pesulatyöntekijät"@fi, "Tvätteriarbetetare"@sv .
+
+<http://ldf.fi/ammo/coo1980/851>
+    coo1980:socioeconomic_status coo1980:status_54 ;
+    a skos:Concept ;
+    rdfs:label "Pressare, strykare"@sv, "Silittäjät"@fi ;
+    skos:altLabel "851" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/85> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> .
+
+<http://ldf.fi/ammo/coo1980/86>
+    a skos:Concept ;
+    skos:altLabel "86" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/8> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/860> ;
+    skos:prefLabel "Sport"@en, "Sport och idrott"@sv, "Urheilu"@fi .
+
+<http://ldf.fi/ammo/coo1980/860>
+    coo1980:socioeconomic_status coo1980:status_34 ;
+    a skos:Concept ;
+    skos:altLabel "860" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/86> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Liikunnanohjaajat, urheilu- ja ravivalmentajat ym."@fi, "Sportledare, idrottsinstruktörer och travtränare m. fl."@sv .
+
+<http://ldf.fi/ammo/coo1980/87>
+    a skos:Concept ;
+    skos:altLabel "87" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/8> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/870> ;
+    skos:prefLabel "Fotografiskt arbete"@sv, "Photographical work"@en, "Valokuvaustyö"@fi .
+
+<http://ldf.fi/ammo/coo1980/870>
+    coo1980:socioeconomic_status coo1980:status_44 ;
+    a skos:Concept ;
+    skos:altLabel "870" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/87> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Fotografer och kameramän"@sv, "Valokuvaajat ja kameramiehet"@fi .
+
+<http://ldf.fi/ammo/coo1980/88>
+    a skos:Concept ;
+    skos:altLabel "88" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/8> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/880> ;
+    skos:prefLabel "Matkustajen palvelutyö"@fi, "Passagerar service"@sv, "Travellers' service work"@en .
+
+<http://ldf.fi/ammo/coo1980/880>
+    coo1980:socioeconomic_status coo1980:status_54 ;
+    a skos:Concept ;
+    skos:altLabel "880" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/88> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower coo1980:status_54 ;
+    skos:prefLabel "Purserit ja liikenne-emännät"@fi, "Pursers och trafikvärdinnor"@sv .
+
+<http://ldf.fi/ammo/coo1980/89>
+    a skos:Concept ;
+    skos:altLabel "89" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/8> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/890>, <http://ldf.fi/ammo/coo1980/891>, <http://ldf.fi/ammo/coo1980/892>, <http://ldf.fi/ammo/coo1980/899> ;
+    skos:prefLabel "Muu palvelutyö"@fi, "Other service work"@en, "Övrigt service arbete"@sv .
+
+<http://ldf.fi/ammo/coo1980/890>
+    coo1980:socioeconomic_status coo1980:status_54 ;
+    a skos:Concept ;
+    skos:altLabel "890" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/89> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Hotellien vahtimestarit"@fi, "Hotellvaktmästare"@sv .
+
+<http://ldf.fi/ammo/coo1980/891>
+    coo1980:socioeconomic_status coo1980:status_54 ;
+    a skos:Concept ;
+    skos:altLabel "891" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/89> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Hotellien portieerit"@fi, "Hotellportierer"@sv .
+
+<http://ldf.fi/ammo/coo1980/892>
+    a skos:Concept ;
+    skos:altLabel "892" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/89> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/8922> ;
+    skos:prefLabel "Begravningsentreprenörer"@sv, "Hautauspalvelutyöntekijät"@fi .
+
+<http://ldf.fi/ammo/coo1980/8922>
+    coo1980:socioeconomic_status coo1980:status_54 ;
+    a skos:Concept ;
+    skos:altLabel "8922" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/892> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Andra begravningsarbetare"@sv, "Muut hautaustyöntekijät"@fi .
+
+<http://ldf.fi/ammo/coo1980/899>
+    coo1980:socioeconomic_status coo1980:status_54 ;
+    a skos:Concept ;
+    skos:altLabel "899" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/89> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Muut palvelutehtävät"@fi, "Övrigt servicearbete"@sv .
+
+<http://ldf.fi/ammo/coo1980/9>
+    a skos:Concept ;
+    skos:altLabel "9" ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/90>, <http://ldf.fi/ammo/coo1980/91> ;
+    skos:prefLabel "Arbete och arbetskraft ej hänförbart till annat yrkesområde"@sv, "Muualla luokittelematon työ ja työvoimaa"@fi, "Service work"@en ;
+    skos:topConceptOf <http://ldf.fi/ammo/coo1980/> .
+
+<http://ldf.fi/ammo/coo1980/90>
+    a skos:Concept ;
+    skos:altLabel "90" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/9> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/900>, <http://ldf.fi/ammo/coo1980/901>, <http://ldf.fi/ammo/coo1980/902>, <http://ldf.fi/ammo/coo1980/903> ;
+    skos:prefLabel "Military work"@en, "Militärt arbete"@sv, "Sotilastyö"@fi .
+
+<http://ldf.fi/ammo/coo1980/900>
+    coo1980:socioeconomic_status coo1980:status_34 ;
+    a skos:Concept ;
+    skos:altLabel "900" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/90> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Officerare och högre befatningsofficerare samt personer med motsvarande tjänställning"@sv, "Upseerit ja ylemmät toimiupseerit sekä virka-asmaltaan heihin rinnastettavat"@fi .
+
+<http://ldf.fi/ammo/coo1980/901>
+    coo1980:socioeconomic_status coo1980:status_41 ;
+    a skos:Concept ;
+    skos:altLabel "901" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/90> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Alemmat toimiupseerit ja virka-asemaltaan heihin rinnastettavat"@fi, "Lägre befattningofficerare samt personer med motsvarande tjänsteställning"@sv .
+
+<http://ldf.fi/ammo/coo1980/902>
+    coo1980:socioeconomic_status coo1980:status_44 ;
+    a skos:Concept ;
+    skos:altLabel "902" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/90> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Värvad militär personal (manskap)"@sv, "Värvätyt sotilashenkilöt (miehistöön kuukluvat)"@fi .
+
+<http://ldf.fi/ammo/coo1980/903>
+    coo1980:socioeconomic_status coo1980:status_41 ;
+    a skos:Concept ;
+    skos:altLabel "903" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/90> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Militär teknisk personal"@sv, "Sotilastekninen henkilöstö"@fi .
+
+<http://ldf.fi/ammo/coo1980/91>
+    a skos:Concept ;
+    skos:altLabel "91" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/9> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/910> ;
+    skos:prefLabel "Ammatti tuntematon"@fi, "Occupation not specified"@en, "Yrke okänt"@sv .
+
+<http://ldf.fi/ammo/coo1980/910>
+    a skos:Concept ;
+    skos:altLabel "910" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/91> ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Ammatti tuntematon"@fi, "Yrke okänt"@sv .
+
+coo1980:socioeconomic_status
+    a rdf:Property ;
+    rdfs:domain skos:Concept ;
+    rdfs:label "Socioeconomic status"@en, "Socioekonomisk ställning"@sv, "Sosioekoniminen asema"@fi ;
+    rdfs:range skos:Concept ;
+    rdfs:subPropertyOf skos:notation .
+
+coo1980:status_1
+    a skos:Concept ;
+    skos:altLabel "status_1" ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower coo1980:status_11, coo1980:status_12 ;
+    skos:prefLabel "Arbetsgivare"@sv, "Employers"@en, "Työnantajat"@fi ;
+    skos:topConceptOf <http://ldf.fi/ammo/coo1980/> .
+
+coo1980:status_11
+    a skos:Concept ;
+    skos:altLabel "status_11" ;
+    skos:broader coo1980:status_1 ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Jordbruksarbetsgivare"@sv, "Maataloustyönantajat"@fi .
+
+coo1980:status_12
+    a skos:Concept ;
+    skos:altLabel "status_12" ;
+    skos:broader coo1980:status_1 ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Muut työnantajat"@fi, "Övriga arbetsgivare"@sv .
+
+coo1980:status_2
+    a skos:Concept ;
+    skos:altLabel "status_2" ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower coo1980:status_21, coo1980:status_22 ;
+    skos:prefLabel "Ensamföretagare"@sv, "Yksinäisyrittäjät"@fi ;
+    skos:topConceptOf <http://ldf.fi/ammo/coo1980/> .
+
+coo1980:status_21
+    a skos:Concept ;
+    skos:altLabel "status_21" ;
+    skos:broader coo1980:status_2 ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/212> ;
+    skos:prefLabel "Jordbruksensamföretagare"@sv, "Maatalousyksinäisyrittäjät"@fi .
+
+coo1980:status_22
+    a skos:Concept ;
+    skos:altLabel "status_22" ;
+    skos:broader coo1980:status_2 ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Muut yksinäisyrittäjät"@fi, "Övriga ensamföretagare"@sv .
+
+coo1980:status_3
+    a skos:Concept ;
+    skos:altLabel "status_3" ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower coo1980:status_31, coo1980:status_32, coo1980:status_33, coo1980:status_34 ;
+    skos:prefLabel "Högre funktionärer"@sv, "Ylemmät toimihenkilöt"@fi ;
+    skos:topConceptOf <http://ldf.fi/ammo/coo1980/> .
+
+coo1980:status_31
+    a skos:Concept ;
+    skos:altLabel "status_31" ;
+    skos:broader coo1980:status_3 ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Högre funktionärer i ledande ställning"@sv, "Johtotehtävissä toimivat ylemmät toimihenkilöt"@fi, "Senior officials and upper management"@en .
+
+coo1980:status_32
+    a skos:Concept ;
+    skos:altLabel "status_32" ;
+    skos:broader coo1980:status_3 ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower <http://ldf.fi/ammo/coo1980/0321>, <http://ldf.fi/ammo/coo1980/0324> ;
+    skos:prefLabel "Högre funktionärer inom planering , forskning, projektering, föredragning"@sv, "Valmistelu-, esittely-, tutkimus- ja suunnittelutehtävissä toimivat ylemmät toimihenkilöt"@fi .
+
+coo1980:status_33
+    a skos:Concept ;
+    skos:altLabel "status_33" ;
+    skos:broader coo1980:status_3 ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Högre funktionärer i undervisningsarbete"@sv, "Opetustehtävissä toimivat ylemmät toimihenkilöt"@fi .
+
+coo1980:status_34
+    a skos:Concept ;
+    skos:altLabel "status_34" ;
+    skos:broader coo1980:status_3 ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Muut ylemmät toimihenkilöt"@fi, "Övriga högre funktionärer"@sv .
+
+coo1980:status_4
+    a skos:Concept ;
+    skos:altLabel "status_4" ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower coo1980:status_41, coo1980:status_42, coo1980:status_43, coo1980:status_44 ;
+    skos:prefLabel "Alemmat toimihenkilöt"@fi, "Lower level employees with administrative and clerical occupations"@en, "Lägre funktionärer"@sv ;
+    skos:topConceptOf <http://ldf.fi/ammo/coo1980/> .
+
+coo1980:status_41
+    a skos:Concept ;
+    skos:altLabel "status_41" ;
+    skos:broader coo1980:status_4 ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Esimiestehtävissä toimivat"@fi, "I förmansställning"@sv, "Supervisors"@en .
+
+coo1980:status_42
+    a skos:Concept ;
+    skos:altLabel "status_42" ;
+    skos:broader coo1980:status_4 ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Clerical and sales workers working independently"@en, "Itsenäistä tai monipuolista toimisto- tai myyntityötä tekevät"@fi, "Med självständigt eller mångsidigt kontors- eller försäljningsarbete"@sv .
+
+coo1980:status_43
+    a skos:Concept ;
+    skos:altLabel "status_43" ;
+    skos:broader coo1980:status_4 ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Clerical and sales workers in routine work"@en, "Epäitsenäistä tai rutiininomaista toimisto- tai myyntityötä tekevät alemmat toimihenkilöt"@fi, "Med osjälvständigtellerrutin mässigtkontors- eller försäljningsarbete"@sv .
+
+coo1980:status_44
+    a skos:Concept ;
+    skos:altLabel "status_44" ;
+    skos:broader coo1980:status_4 ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Muut alemmat toimihenkilöt"@fi, "Other employees"@en, "Övriga lägre funktionärer"@sv .
+
+coo1980:status_5
+    a skos:Concept ;
+    skos:altLabel "status_5" ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:narrower coo1980:status_51, coo1980:status_52, coo1980:status_53, coo1980:status_54 ;
+    skos:prefLabel "Arbetare"@sv, "Manual workers"@en, "Työntekijät"@fi ;
+    skos:topConceptOf <http://ldf.fi/ammo/coo1980/> .
+
+coo1980:status_51
+    a skos:Concept ;
+    skos:altLabel "status_51" ;
+    skos:broader coo1980:status_5 ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Jord- och skogsbruksarbetare och fiskarbertare"@sv, "Maa-ja metsätalous- sekä kalatalousalan työntekijät"@fi, "Workers in agriculture, forestry and commercial fishing"@en .
+
+coo1980:status_52
+    a skos:Concept ;
+    skos:altLabel "status_52" ;
+    skos:broader coo1980:status_5 ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Industriarbetare"@sv, "Manufacturing workers"@en, "Teollisuustyöntekijät"@fi .
+
+coo1980:status_53
+    a skos:Concept ;
+    skos:altLabel "status_53" ;
+    skos:broader coo1980:status_5 ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Muut tuotantotyöntekijät"@fi, "Other industrial workers"@en, "Övriga produktionsarbetare"@sv .
+
+coo1980:status_54
+    a skos:Concept ;
+    skos:altLabel "status_54" ;
+    skos:broader <http://ldf.fi/ammo/coo1980/880>, coo1980:status_5 ;
+    skos:inScheme <http://ldf.fi/ammo/coo1980/> ;
+    skos:prefLabel "Distributions- och servicearbetare"@sv, "Jakelu- ja palvelutyöntekijät"@fi, "Workers in delivery and services"@en .
+

@@ -16,6 +16,7 @@ COPY --chown=9008 *.ttl /tmp/
 
 # Data
 RUN $TDBLOADER --graph=http://ldf.fi/ammo /tmp/ammo.ttl \
+    && $TDBLOADER --graph=http://ldf.fi/ammo /tmp/coo1980.ttl \
     && $TDBLOADER --graph=http://ldf.fi/ammo /tmp/ammo_schema.ttl \
     && $TDBLOADER --graph=http://ldf.fi/ammo /tmp/skos.ttl \
     && $TDBLOADER --graph=http://ldf.fi/ammo /tmp/hisclass.ttl \
