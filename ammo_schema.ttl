@@ -15,33 +15,39 @@ ammo-s:coo1980_code rdfs:subPropertyOf skos:broadMatch .
 
 ammo-s:hisco_code rdfs:subPropertyOf skos:broadMatch .
 
+ammo-s:Concept 
+  rdfs:subClassof skos:Concept ;
+  skos:prefLabel "AMMO Concept"@en , "AMMO-käsite"@fi ;
+  .
+
 <http://ldf.fi/schema/bioc/Occupation>
   a owl:Class ;
   rdfs:label "Occupation" ;
-  skos:prefLabel "Occupation"@en , "Ammatti"@fi .
+  skos:prefLabel "Occupation"@en , "Ammatti"@fi ;
+  .
 
 <http://ldf.fi/schema/ammo/Occupation>
-  rdfs:subClassof skos:Concept ;
+  rdfs:subClassof <http://ldf.fi/schema/bioc/Occupation> ;
   skos:prefLabel "Occupation"@en , "Ammatti"@fi ;
   .
 
 <http://ldf.fi/schema/ammo/Degree>
-  rdfs:subClassof skos:Concept ;
+  a owl:Class ;
   skos:prefLabel "Degree"@en , "Oppiarvo"@fi ;
   .
 
 <http://ldf.fi/schema/ammo/Title>
-  rdfs:subClassof skos:Concept ;
+  a owl:Class ;
   skos:prefLabel "Title"@en , "Arvonimi"@fi ;
   .
 
 <http://ldf.fi/schema/ammo/Military_rank>
-  rdfs:subClassof skos:Concept ;
+  a owl:Class ;
   skos:prefLabel "Military Rank"@en , "Sotilasarvo"@fi ;
   .
 
 <http://ldf.fi/schema/ammo/Role>
-  rdfs:subClassof skos:Concept ;
+  a owl:Class ;
   skos:prefLabel "Role"@en , "Rooli"@fi ;
   .
 
