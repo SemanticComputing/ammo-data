@@ -24,13 +24,13 @@ hisco:hisclass12 a skos:OrderedCollection ;
 
 hisco:hisclass7 a skos:OrderedCollection ;
     skos:prefLabel "HISCLASS_7" ;
-    skos:member ( hisclass7:1 hisclass7:2 hisclass7:3 hisclass7:4 hisclass7:5 hisclass7:6
+    skos:memberList ( hisclass7:1 hisclass7:2 hisclass7:3 hisclass7:4 hisclass7:5 hisclass7:6
         hisclass7:7 <http://ldf.fi/ammo/hisco/hisclass7/-1> ) ;
     dct:source <http://ldf.fi/ammo/sources/hisclass> .
 
 hisco:hisclass5 a skos:OrderedCollection ;
     skos:prefLabel "HISCLASS_5" ;
-    skos:member ( hisclass5:1 hisclass5:2 hisclass5:3 hisclass5:4 hisclass5:5
+    skos:memberList ( hisclass5:1 hisclass5:2 hisclass5:3 hisclass5:4 hisclass5:5
         <http://ldf.fi/ammo/hisco/hisclass5/-1> ) ;
     dct:source <http://ldf.fi/ammo/sources/hisclass> .
 
