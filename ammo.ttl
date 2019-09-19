@@ -86,7 +86,6 @@
     ammo-s:hisclass5 <http://ldf.fi/ammo/hisco/hisclass5/5> ;
     ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/6> ;
     ammo-s:hisco_code <http://ldf.fi/ammo/hisco/97125> ;
-    ammo-s:hisco_status hisco:status_33 ;
     a ammo-s:Concept, ammo-s:Occupation, skos:Concept ;
     skos:prefLabel "ahtaaja"@fi ;
     skos:relatedMatch <http://www.yso.fi/onto/koko/p4039> .
@@ -225,17 +224,6 @@
     a ammo-s:Concept, ammo-s:Military_rank, skos:Concept ;
     skos:prefLabel "aliupseerin tytär"@fi, "sub-officer's daughter"@en .
 
-:alkoholiliikkeen-johtaja
-    ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/220> ;
-    ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/4> ;
-    ammo-s:hisclass5 <http://ldf.fi/ammo/hisco/hisclass5/2> ;
-    ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/2> ;
-    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/41030> ;
-    ammo-s:hisco_product hisco:product_24 ;
-    a ammo-s:Concept, ammo-s:Occupation, skos:Concept ;
-    skos:prefLabel "alkon johtaja"@fi ;
-    skos:relatedMatch <http://www.yso.fi/onto/koko/p718> .
-
 :alkoholiliikkeen-myyja
     ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/231> ;
     ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/5> ;
@@ -257,12 +245,23 @@
     a ammo-s:Concept, ammo-s:Occupation, skos:Concept ;
     skos:prefLabel "alkoholivalvoja"@fi .
 
+:alkon-johtaja
+    ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/220> ;
+    ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/4> ;
+    ammo-s:hisclass5 <http://ldf.fi/ammo/hisco/hisclass5/2> ;
+    ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/2> ;
+    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/41030> ;
+    ammo-s:hisco_product hisco:product_24 ;
+    a ammo-s:Concept, ammo-s:Occupation, skos:Concept ;
+    skos:prefLabel "alkon johtaja"@fi ;
+    skos:relatedMatch <http://www.yso.fi/onto/koko/p718> .
+
 :alueasiamies
-    ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/101> ;
+    ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/073> ;
     ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/3> ;
     ammo-s:hisclass5 <http://ldf.fi/ammo/hisco/hisclass5/2> ;
     ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/2> ;
-    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/22390> ;
+    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/21000> ;
     a ammo-s:Concept, ammo-s:Occupation, skos:Concept ;
     skos:prefLabel "alueasiamies"@fi ;
     skos:relatedMatch <http://www.yso.fi/onto/koko/p5289> .
@@ -278,11 +277,11 @@
     skos:relatedMatch <http://www.yso.fi/onto/koko/p31859> .
 
 :alueneuvoja
-    ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/910> ;
+    ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/101> ;
     ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/4> ;
     ammo-s:hisclass5 <http://ldf.fi/ammo/hisco/hisclass5/2> ;
     ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/2> ;
-    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/19310> ;
+    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/31090> ;
     a ammo-s:Concept, ammo-s:Role, skos:Concept ;
     skos:prefLabel "alueneuvoja"@fi, "territorial adviser"@en ;
     skos:relatedMatch <http://www.yso.fi/onto/koko/p56691> .
@@ -318,14 +317,14 @@
     skos:relatedMatch <http://www.yso.fi/onto/koko/p72300> .
 
 :ammuskarkaisija
-    ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/739> ;
+    ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/631> ;
     ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/11> ;
     ammo-s:hisclass5 <http://ldf.fi/ammo/hisco/hisclass5/5> ;
     ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/6> ;
     ammo-s:hisco_code <http://ldf.fi/ammo/hisco/99930> ;
     a ammo-s:Concept, ammo-s:Occupation, skos:Concept ;
     skos:prefLabel "ammuskarkaisija"@fi ;
-    skos:relatedMatch <http://www.yso.fi/onto/koko/p701> .
+    skos:relatedMatch <http://www.yso.fi/onto/koko/p36872> .
 
 :ammuslataaja
     ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/739> ;
@@ -1118,6 +1117,17 @@
     a ammo-s:Concept, ammo-s:Occupation, skos:Concept ;
     skos:prefLabel "autoilijan poika"@fi, "driver's son"@en .
 
+:autokoripuuseppa
+    ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/674> ;
+    ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/7> ;
+    ammo-s:hisclass5 <http://ldf.fi/ammo/hisco/hisclass5/4> ;
+    ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/3> ;
+    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/81920> ;
+    a ammo-s:Concept, ammo-s:Occupation, skos:Concept ;
+    skos:altLabel "autokoripuuseppä"@fi ;
+    skos:prefLabel "autokoripuuseppä"@fi ;
+    skos:relatedMatch <http://www.yso.fi/onto/koko/p35870> .
+
 :autokorjaamon-omistaja
     ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/652> ;
     ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/7> ;
@@ -1184,13 +1194,12 @@
 
 :automekaanikko
     ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/652> ;
-    ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/7>, <http://ldf.fi/ammo/hisco/hisclass12/9> ;
+    ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/7> ;
     ammo-s:hisclass5 <http://ldf.fi/ammo/hisco/hisclass5/4> ;
-    ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/3>, <http://ldf.fi/ammo/hisco/hisclass7/5> ;
+    ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/3> ;
     ammo-s:hisco_code <http://ldf.fi/ammo/hisco/84320> ;
-    ammo-s:hisco_status hisco:status_33 ;
     a ammo-s:Concept, ammo-s:Occupation, skos:Concept ;
-    skos:altLabel "autoapulainen"@fi, "autoasennuksen hoitaja"@fi, "autoasentaja"@fi, "autohuoltaja"@fi, "autokoripuuseppä"@fi, "autokorjaamon pajan työmies"@fi, "autokorjaamotyöntekijä"@fi, "automonttööri"@fi, "auton apumies"@fi, "auton huoltomies"@fi, "autonasentaja"@fi, "autonkorjaaja"@fi, "autonkuljettaja-mekaanikko"@fi, "autoremonttimies"@fi, "autotyömies"@fi, "car helper"@en, "car mechanic"@en ;
+    skos:altLabel "autohuoltaja"@fi, "autokorjaamon pajan työmies"@fi, "autokorjaamotyöntekijä"@fi, "automonttööri"@fi, "auton huoltomies"@fi, "autonkorjaaja"@fi, "autoremonttimies"@fi, "autotyömies"@fi, "car mechanic"@en ;
     skos:prefLabel "automekaanikko"@fi ;
     skos:relatedMatch <http://www.yso.fi/onto/koko/p10972> .
 
@@ -1236,6 +1245,28 @@
     skos:prefLabel "auton rahastaja"@fi ;
     skos:relatedMatch <http://www.yso.fi/onto/koko/p72851> .
 
+:autonapumies
+    ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/780> ;
+    ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/11> ;
+    ammo-s:hisclass5 <http://ldf.fi/ammo/hisco/hisclass5/5> ;
+    ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/6> ;
+    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/97125> ;
+    a ammo-s:Concept, ammo-s:Occupation, skos:Concept ;
+    skos:altLabel "autoapulainen"@fi, "auton apumies"@fi, "car helper"@en ;
+    skos:prefLabel "autonapumies"@fi, "car helper"@en ;
+    skos:relatedMatch <http://www.yso.fi/onto/koko/p4039> .
+
+:autonasentaja
+    ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/652> ;
+    ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/7> ;
+    ammo-s:hisclass5 <http://ldf.fi/ammo/hisco/hisclass5/4> ;
+    ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/3> ;
+    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/84320> ;
+    a ammo-s:Concept, ammo-s:Occupation, skos:Concept ;
+    skos:altLabel "autoasennuksen hoitaja"@fi, "autoasentaja"@fi, "car mechanic"@en ;
+    skos:prefLabel "autonasentaja"@fi, "car mechanic"@en ;
+    skos:relatedMatch <http://www.yso.fi/onto/koko/p10972> .
+
 :autonkuljettaja
     ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/540> ;
     ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/9> ;
@@ -1246,6 +1277,16 @@
     skos:altLabel "autoilija"@fi, "automies"@fi, "autonajaja"@fi, "autonohjaaja"@fi, "biilinkuljettaja"@fi, "driver"@en ;
     skos:prefLabel "autonkuljettaja"@fi, "driver"@en ;
     skos:relatedMatch <http://www.yso.fi/onto/koko/p16231>, <http://www.yso.fi/onto/koko/p18780> .
+
+:autonkuljettaja-mekaanikko
+    ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/652> ;
+    ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/7> ;
+    ammo-s:hisclass5 <http://ldf.fi/ammo/hisco/hisclass5/4> ;
+    ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/3> ;
+    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/84320> ;
+    a ammo-s:Concept, ammo-s:Occupation, skos:Concept ;
+    skos:prefLabel "autonkuljettaja-mekaanikko"@fi ;
+    skos:relatedMatch <http://www.yso.fi/onto/koko/p10972> .
 
 :autonkuljettajan-apumies
     ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/540> ;
@@ -9374,7 +9415,7 @@ hisco:conceptscheme
     skos:prefLabel "carpenter"@en, "kirvesmies"@fi ;
     skos:relatedMatch <http://www.yso.fi/onto/koko/p12999> .
 
-<http://ldf.fi/ammo/kirvestyontekij%C3%A4>
+:kirvestyontekija
     ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/673%0A> ;
     ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/7> ;
     ammo-s:hisclass5 <http://ldf.fi/ammo/hisco/hisclass5/4> ;
@@ -11040,7 +11081,7 @@ hisco:conceptscheme
     ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/11> ;
     ammo-s:hisclass5 <http://ldf.fi/ammo/hisco/hisclass5/5> ;
     ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/6> ;
-    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/97130> ;
+    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/97125> ;
     a ammo-s:Concept, ammo-s:Occupation, skos:Concept ;
     skos:prefLabel "kuormaaja"@fi ;
     skos:relatedMatch <http://www.yso.fi/onto/koko/p4039> .
@@ -14942,7 +14983,6 @@ hisco:conceptscheme
     skos:relatedMatch <http://www.yso.fi/onto/koko/p701> .
 
 :metalliopiskelija
-    ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/650> ;
     ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/-1> ;
     ammo-s:hisclass5 <http://ldf.fi/ammo/hisco/hisclass5/-1> ;
     ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/-1> ;
@@ -15004,16 +15044,6 @@ hisco:conceptscheme
     skos:prefLabel "metallitehtaan mestari"@fi ;
     skos:relatedMatch <http://www.yso.fi/onto/koko/p701> .
 
-:metallitehtaan-tyolainen
-    ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/650> ;
-    ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/9> ;
-    ammo-s:hisclass5 <http://ldf.fi/ammo/hisco/hisclass5/4> ;
-    ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/5> ;
-    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/83000> ;
-    a ammo-s:Concept, ammo-s:Occupation, skos:Concept ;
-    skos:prefLabel "metallitehtaan työläinen"@fi ;
-    skos:relatedMatch <http://www.yso.fi/onto/koko/p701> .
-
 :metalliteknikko
     ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/006> ;
     ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/4> ;
@@ -15025,20 +15055,22 @@ hisco:conceptscheme
     skos:relatedMatch <http://www.yso.fi/onto/koko/p25324> .
 
 :metalliteollisuustyontekija
-    ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/7> ;
+    ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/650> ;
+    ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/9> ;
     ammo-s:hisclass5 <http://ldf.fi/ammo/hisco/hisclass5/4> ;
-    ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/3> ;
-    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/83110> ;
+    ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/5> ;
+    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/83000> ;
     a ammo-s:Concept, ammo-s:Occupation, skos:Concept ;
+    skos:altLabel "metallitehtaan työläinen"@fi ;
     skos:prefLabel "metalliteollisuustyöntekijä"@fi ;
     skos:relatedMatch <http://www.yso.fi/onto/koko/p701> .
 
 :metallityomies
     ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/650> ;
-    ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/7> ;
+    ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/9> ;
     ammo-s:hisclass5 <http://ldf.fi/ammo/hisco/hisclass5/4> ;
-    ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/3> ;
-    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/83110> ;
+    ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/5> ;
+    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/83000> ;
     a ammo-s:Concept, ammo-s:Occupation, skos:Concept ;
     skos:altLabel "metal worker"@en, "metallityöläinen"@fi, "metallityöntekijä"@fi ;
     skos:prefLabel "metal worker"@en, "metallityömies"@fi ;
@@ -15049,7 +15081,7 @@ hisco:conceptscheme
     ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/9> ;
     ammo-s:hisclass5 <http://ldf.fi/ammo/hisco/hisclass5/4> ;
     ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/5> ;
-    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/83110> ;
+    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/83000> ;
     ammo-s:hisco_status hisco:status_23 ;
     a ammo-s:Concept, ammo-s:Occupation, skos:Concept ;
     skos:prefLabel "metallityönharjoittelija"@fi ;
@@ -15067,10 +15099,10 @@ hisco:conceptscheme
 
 :metalliviilaaja
     ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/650> ;
-    ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/9> ;
+    ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/7> ;
     ammo-s:hisclass5 <http://ldf.fi/ammo/hisco/hisclass5/4> ;
-    ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/5> ;
-    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/83520> ;
+    ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/3> ;
+    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/83370> ;
     a ammo-s:Concept, ammo-s:Occupation, skos:Concept ;
     skos:altLabel "metalliviilari"@fi ;
     skos:prefLabel "metalliviilaaja"@fi ;
@@ -18960,26 +18992,6 @@ hisco:conceptscheme
     skos:prefLabel "posliininvalaja"@fi ;
     skos:relatedMatch <http://www.yso.fi/onto/koko/p31373> .
 
-:posliinitehtaan-tyolainen
-    ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/712> ;
-    ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/7> ;
-    ammo-s:hisclass5 <http://ldf.fi/ammo/hisco/hisclass5/4> ;
-    ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/3> ;
-    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/89210> ;
-    a ammo-s:Concept, ammo-s:Occupation, skos:Concept ;
-    skos:prefLabel "posliinitehtaan työläinen"@fi ;
-    skos:relatedMatch <http://www.yso.fi/onto/koko/p31373> .
-
-:posliinitehtaan-tyontekija
-    ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/712> ;
-    ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/7> ;
-    ammo-s:hisclass5 <http://ldf.fi/ammo/hisco/hisclass5/4> ;
-    ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/3> ;
-    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/89210> ;
-    a ammo-s:Concept, ammo-s:Occupation, skos:Concept ;
-    skos:prefLabel "posliinitehtaan työntekijä"@fi ;
-    skos:relatedMatch <http://www.yso.fi/onto/koko/p31373> .
-
 :posliinityontekija
     ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/712> ;
     ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/7> ;
@@ -18987,6 +18999,7 @@ hisco:conceptscheme
     ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/3> ;
     ammo-s:hisco_code <http://ldf.fi/ammo/hisco/89210> ;
     a ammo-s:Concept, ammo-s:Occupation, skos:Concept ;
+    skos:altLabel "posliinitehtaan työläinen"@fi, "posliinitehtaan työntekijä"@fi, "posliinityöläinen"@fi ;
     skos:prefLabel "posliinityöntekijä"@fi ;
     skos:relatedMatch <http://www.yso.fi/onto/koko/p31373> .
 
@@ -21046,10 +21059,20 @@ hisco:conceptscheme
     ammo-s:hisclass5 <http://ldf.fi/ammo/hisco/hisclass5/2> ;
     ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/2> ;
     ammo-s:hisco_code <http://ldf.fi/ammo/hisco/39960> ;
+    a ammo-s:Concept, ammo-s:Occupation, skos:Concept ;
+    skos:altLabel "railway clerk"@en, "rautatievirkamies"@fi ;
+    skos:prefLabel "railway clerk"@en, "rautatievirkailija"@fi ;
+    skos:relatedMatch <http://www.yso.fi/onto/koko/p5671> .
+
+:rautatievirkailijaharjoittelija
+    ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/5622> ;
+    ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/5> ;
+    ammo-s:hisclass5 <http://ldf.fi/ammo/hisco/hisclass5/2> ;
+    ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/2> ;
+    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/39960> ;
     ammo-s:hisco_status hisco:status_23 ;
     a ammo-s:Concept, ammo-s:Occupation, skos:Concept ;
-    skos:altLabel "railway clerk"@en, "rautatievirkailijaharjoittelija"@fi, "rautatievirkamies"@fi ;
-    skos:prefLabel "railway clerk"@en, "rautatievirkailija"@fi ;
+    skos:prefLabel "rautatievirkailijaharjoittelija"@fi ;
     skos:relatedMatch <http://www.yso.fi/onto/koko/p5671> .
 
 :rautatyomies
@@ -21692,14 +21715,14 @@ hisco:conceptscheme
 
 :sahkoalan-oppilas
     ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/660> ;
-    ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/-1> ;
-    ammo-s:hisclass5 <http://ldf.fi/ammo/hisco/hisclass5/-1> ;
-    ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/-1> ;
+    ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/-1>, <http://ldf.fi/ammo/hisco/hisclass12/9> ;
+    ammo-s:hisclass5 <http://ldf.fi/ammo/hisco/hisclass5/-1>, <http://ldf.fi/ammo/hisco/hisclass5/4> ;
+    ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/-1>, <http://ldf.fi/ammo/hisco/hisclass7/5> ;
     ammo-s:hisco_code <http://ldf.fi/ammo/hisco/85510> ;
-    ammo-s:hisco_status hisco:status_41 ;
+    ammo-s:hisco_status hisco:status_23, hisco:status_41 ;
     a ammo-s:Concept, ammo-s:Occupation, skos:Concept ;
-    skos:altLabel "sähköasennusoppilas"@fi ;
-    skos:prefLabel "sähköalan oppilas"@fi ;
+    skos:altLabel "sähköasennusoppilas"@fi, "sähköasentajaoppilas"@fi ;
+    skos:prefLabel "sahkoalan-oppilas"@fi, "sähköalan oppilas"@fi ;
     skos:relatedMatch <http://www.yso.fi/onto/koko/p11509> .
 
 :sahkoaliupseeri
@@ -21711,6 +21734,17 @@ hisco:conceptscheme
     a ammo-s:Concept, ammo-s:Military_rank, skos:Concept ;
     skos:prefLabel "sähköaliupseeri"@fi ;
     skos:relatedMatch <http://www.yso.fi/onto/koko/p661> .
+
+:sahkoapuasentaja
+    ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/660> ;
+    ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/9> ;
+    ammo-s:hisclass5 <http://ldf.fi/ammo/hisco/hisclass5/4> ;
+    ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/5> ;
+    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/85510> ;
+    ammo-s:hisco_status hisco:status_33 ;
+    a ammo-s:Concept, ammo-s:Occupation, skos:Concept ;
+    skos:prefLabel "sähköapuasentaja"@fi ;
+    skos:relatedMatch <http://www.yso.fi/onto/koko/p11509> .
 
 :sahkoaseman-hoitaja
     ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/660> ;
@@ -21732,17 +21766,6 @@ hisco:conceptscheme
     a ammo-s:Concept, ammo-s:Occupation, skos:Concept ;
     skos:altLabel "sahköasentaja"@fi ;
     skos:prefLabel "electrical fitter"@en, "sähköasentaja"@fi ;
-    skos:relatedMatch <http://www.yso.fi/onto/koko/p11509> .
-
-:sahkoasentajaoppilas
-    ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/660> ;
-    ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/9> ;
-    ammo-s:hisclass5 <http://ldf.fi/ammo/hisco/hisclass5/4> ;
-    ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/5> ;
-    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/85510> ;
-    ammo-s:hisco_status hisco:status_23 ;
-    a ammo-s:Concept, ammo-s:Occupation, skos:Concept ;
-    skos:prefLabel "sähköasentajaoppilas"@fi ;
     skos:relatedMatch <http://www.yso.fi/onto/koko/p11509> .
 
 :sahkoharjoittelija
@@ -24175,6 +24198,16 @@ hisco:conceptscheme
     skos:prefLabel "tehtaan teknillinen johtaja"@fi ;
     skos:relatedMatch <http://www.yso.fi/onto/koko/p7311> .
 
+:tehtaan-tyonjohtaja
+    ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/016> ;
+    ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/4> ;
+    ammo-s:hisclass5 <http://ldf.fi/ammo/hisco/hisclass5/2> ;
+    ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/2> ;
+    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/03200> ;
+    a ammo-s:Concept, ammo-s:Occupation, skos:Concept ;
+    skos:prefLabel "factory foreman"@en, "tehtaan työnjohtaja"@fi ;
+    skos:relatedMatch <http://www.yso.fi/onto/koko/p7311> .
+
 :tehtaan-tyontekijatar
     ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/910> ;
     ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/11> ;
@@ -24232,7 +24265,6 @@ hisco:conceptscheme
     ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/2> ;
     ammo-s:hisco_code <http://ldf.fi/ammo/hisco/21220> ;
     a ammo-s:Concept, ammo-s:Occupation, skos:Concept ;
-    skos:altLabel "factory foreman"@en, "tehtaan työnjohtaja"@fi ;
     skos:prefLabel "factory manager"@en, "tehtaanjohtaja"@fi ;
     skos:relatedMatch <http://www.yso.fi/onto/koko/p54854> .
 
@@ -26896,7 +26928,7 @@ hisco:conceptscheme
     skos:prefLabel "prison guard"@en, "vanginvartija"@fi ;
     skos:relatedMatch <http://www.yso.fi/onto/koko/p15750> .
 
-<http://ldf.fi/ammo/vanhempi%20konstaapeli>
+:vanhempi-konstaapeli
     ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/8012> ;
     ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/4> ;
     ammo-s:hisclass5 <http://ldf.fi/ammo/hisco/hisclass5/2> ;
@@ -26906,7 +26938,7 @@ hisco:conceptscheme
     skos:prefLabel "vanhempi konstaapeli"@fi ;
     skos:relatedMatch <http://www.yso.fi/onto/koko/p54014> .
 
-<http://ldf.fi/ammo/vanhempi%20poliisikonstaapeli>
+:vanhempi-poliisikonstaapeli
     ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/8012> ;
     ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/4> ;
     ammo-s:hisclass5 <http://ldf.fi/ammo/hisco/hisclass5/2> ;
