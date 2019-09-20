@@ -25,7 +25,7 @@ HISCO resource labels and hierarchy used with permission from the HISCO database
 Van Leeuwen, M.H.D., Maas, I., Miles, A.: HISCO: Historical international standard classification of occupations. Leuven University Press (2002). See also the historyofwork.iisg.nl website and 
 HISCO book (see: DOI:10.3200/HMTS.37.4.186-197).
 
-HISCLASS classification used with permission from Maas, I., & Van Leeuwen, M. H. (2005). Total and relative endogamy by social origin: A first international comparison of changes in marriage choices 
+HISCLASS classification used with permission, from Maas, I., & Van Leeuwen, M. H. (2005). Total and relative endogamy by social origin: A first international comparison of changes in marriage choices 
 during the nineteenth century. International review of social History, 50(S13), 275-295. https://doi.org/10.1017/S0020859005002142
 
 HISCAM measures based on Lambert, P. S., Zijdeman, R. L., Van Leeuwen, M. H., Maas, I., & Prandy, K. (2013). The construction of HISCAM: A stratification scale based on social interactions for 
