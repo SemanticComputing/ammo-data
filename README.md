@@ -10,7 +10,13 @@ You can use the Turtle (.ttl) files directly, or use docker to deploy the ontolo
 Stop and update:
 `docker build -t ammo . && docker stop ammo && docker rm ammo && docker run -p 3054:3030 -d --name ammo --restart=unless-stopped ammo`
 
-## Sources
+## Sources of Occupational labels
+
+[WarSampo](https://seco.cs.aalto.fi/projects/sotasampo/en) datasets of war casualties and prisoners of war.
+
+[WarCasualtySampo 1914-1922](https://seco.cs.aalto.fi/projects/sotasurmat-1914-1922/en/) dataset.
+
+## Sources of Contextual Information
 
 Classification of Finnish Occupations 1980 contains parts of the occupation hierarchy, and the social classification, related to AMMO occupations, published in Classification of 
 occupations 1980 (Ammattiluokitus 1980) by Statistics Finland (Tilastokeskus), http://www.doria.fi/handle/10024/98855 .
