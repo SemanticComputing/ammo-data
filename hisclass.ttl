@@ -34,57 +34,58 @@ hisco:hisclass5 a skos:OrderedCollection ;
         <http://ldf.fi/ammo/hisco/hisclass5/-1> ) ;
     dct:source <http://ldf.fi/ammo/sources/hisclass> .
 
+
 hisclass12:1 a skos:Concept ;
 	skos:prefLabel "Higher managers"@en ,
-	"Ylemmät toimihenkilöt"@fi ;
+	"Ylemmät esimiehet"@fi ;
     skos:altLabel "1" ;
 	dct:source <http://ldf.fi/ammo/sources/hisclass> .
 
 hisclass12:2 a skos:Concept ;
 	skos:prefLabel "Higher professionals"@en ,
-	"Työnantajat - Yksityisyrittäjät"@fi ;
+	"Ylemmät asiantuntijat"@fi ;
     skos:altLabel "2" ;
 	dct:source <http://ldf.fi/ammo/sources/hisclass> .
 
 hisclass12:3 a skos:Concept ;
 	skos:prefLabel "Lower managers"@en ,
-	"Alemmat toimihenkilöt - Päälliköt"@fi ;
+	"Alemmat esimiehet"@fi ;
     skos:altLabel "3" ;
 	dct:source <http://ldf.fi/ammo/sources/hisclass> .
 
 hisclass12:4 a skos:Concept ;
-	skos:prefLabel "Lower professionals, [higher and middle] clerical and sales personnel"@en ,
-	"Hallinnollinen, toimisto- tai myyntityö"@fi ;
+	skos:prefLabel "Lower professionals & clerical and sales personnel"@en ,
+	"Alemmat asiantuntijat & toimisto- tai myyntihenkilöstö"@fi ;
     skos:altLabel "4" ;
 	dct:source <http://ldf.fi/ammo/sources/hisclass> .
 
 hisclass12:5 a skos:Concept ;
 	skos:prefLabel "Lower clerical and sales personnel"@en ,
-	"Alemmat toimisto - tai myyntityötä tekevät  työntekijät"@fi ;
+	"Alempi toimisto- ja myyntihenkilöstö"@fi ;
     skos:altLabel "5" ;
 	dct:source <http://ldf.fi/ammo/sources/hisclass> .
 
 hisclass12:6 a skos:Concept ;
 	skos:prefLabel "Foremen"@en ,
-	"Päälliköt"@fi ;
+	"Työnjohtajat"@fi ;
     skos:altLabel "6" ;
 	dct:source <http://ldf.fi/ammo/sources/hisclass> .
 
 hisclass12:7 a skos:Concept ;
 	skos:prefLabel "Medium skilled workers"@en ,
-	"Keskitasoiset tuotantotyöntekijät ja teollisuustyöntekijät"@fi ;
+	"Ammattitaidoltaan keskitasoiset työntekijät"@fi ;
     skos:altLabel "7" ;
 	dct:source <http://ldf.fi/ammo/sources/hisclass> .
 
 hisclass12:8 a skos:Concept ;
 	skos:prefLabel "Farmers and fishermen"@en ,
-	"Maan- ja Metsänviljelijät, puutarhanviljelijät ja kalastajat"@fi ;
+	"Maanviljelijät ja kalastajat"@fi ;
     skos:altLabel "8" ;
 	dct:source <http://ldf.fi/ammo/sources/hisclass> .
 
 hisclass12:9 a skos:Concept ;
 	skos:prefLabel "Lower skilled workers"@en ,
-	"Alemmat palvelu-, tuotanto- ja teollisuustyöntekijät"@fi ;
+	"Ammattitaidoltaan alemmat työntekijät"@fi ;
     skos:altLabel "9" ;
 	dct:source <http://ldf.fi/ammo/sources/hisclass> .
 
@@ -102,13 +103,13 @@ hisclass12:11 a skos:Concept ;
 
 hisclass12:12 a skos:Concept ;
 	skos:prefLabel "Unskilled farm workers"@en ,
-	"Alemmat maa- ja metsätalous – sekä kalastusalan työntekijät"@fi ;
+	"Ammattitaidottomat maa- ja metsätaloustyöntekijät"@fi ;
     skos:altLabel "12" ;
 	dct:source <http://ldf.fi/ammo/sources/hisclass> .
 
 hisclass12:13 a skos:Concept ;
 	skos:prefLabel "Unskilled workers not specified"@en ,
-	"Ammatti tuntematon"@fi ;
+	"Muut Ammattitaidottomat työntekijät"@fi ;
     skos:altLabel "13" ;
 	dct:source <http://ldf.fi/ammo/sources/hisclass> .
 
@@ -121,32 +122,32 @@ hisclass12:13 a skos:Concept ;
 ###
 
 hisclass7:1 a skos:Concept ;
-	skos:prefLabel "Higher managers and Higher professionals"@en ,
-	"Ylemmät toimihenkilöt, yksityisyrittäjät ja työnantajat"@fi ;
+	skos:prefLabel "Higher managers and higher professionals"@en ,
+	"Ylemmät esimiehet ja asiantuntijat"@fi ;
     skos:altLabel "1" ;
 	dct:source <http://ldf.fi/ammo/sources/hisclass> .
 
 hisclass7:2 a skos:Concept ;
-	skos:prefLabel "Lower managers, lower professionals, [higher and middle] clerical and sales personnel, lower clerical and sales personnel"@en ,
-	"Alemmat toimihenkilöt - Päälliköt, päälliköt, hallinnollinen, toimisto - tai myyntityötä tekevät työntekijät"@fi ;
+	skos:prefLabel "Lower managers, lower professionals & [all] clerical and sales personnel"@en ,
+	"Alemmat esimiehet ja asiantuntijat & toimihenkilöt"@fi ;
     skos:altLabel "2" ;
 	dct:source <http://ldf.fi/ammo/sources/hisclass> .
 
 hisclass7:3 a skos:Concept ;
 	skos:prefLabel "Foremen and medium skilled workers"@en ,
-	"Päälliköt ja keskitasoiset teollisuus- ja tuotantotyöntekijät"@fi ;
+	"Työnjohtajat ja ammattitaidoltaan keskitasoiset työntekijät"@fi ;
     skos:altLabel "3" ;
 	dct:source <http://ldf.fi/ammo/sources/hisclass> .
 
 hisclass7:4 a skos:Concept ;
 	skos:prefLabel "Farmers and fishermen"@en ,
-	"Maan- ja metsänviljelijät, puutarhanviljelijät ja kalastajat"@fi ;
+	"Maanviljelijät ja kalastajat"@fi ;
     skos:altLabel "4" ;
 	dct:source <http://ldf.fi/ammo/sources/hisclass> .
 
 hisclass7:5 a skos:Concept ;
 	skos:prefLabel "Lower skilled workers"@en ,
-	"Alemmat palvelu-, tuotanto- ja  teollisuustyöntekijät"@fi ;
+	"Ammattitaidoltaan alemmat työntekijät"@fi ;
     skos:altLabel "5" ;
 	dct:source <http://ldf.fi/ammo/sources/hisclass> .
 
@@ -158,7 +159,7 @@ hisclass7:6 a skos:Concept ;
 
 hisclass7:7 a skos:Concept ;
 	skos:prefLabel "Lower skilled and unskilled farm workers"@en ,
-	"Alemmat ja ammattitaidottomat maa- ja metsätalous – sekä kalastusalan työntekijät"@fi ;
+	"Alemmat ja ammattitaidottomat maa- ja metsätaloustyöntekijät"@fi ;
     skos:altLabel "7" ;
 	dct:source <http://ldf.fi/ammo/sources/hisclass> .
 
@@ -174,30 +175,24 @@ hisclass7:7 a skos:Concept ;
 hisclass5:1 a skos:Concept ;
 	skos:prefLabel "Elite"@en ,
 	"Eliitti"@fi ;
-	skos:altLabel "Higher managers and higher professionals"@en ,
-	"Ylemmät johtajat ja ylemmät ammattilaiset"@fi ;
     skos:altLabel "1" ;
 	dct:source <http://ldf.fi/ammo/sources/hsn> .
 
 hisclass5:2 a skos:Concept ;
 	skos:prefLabel "Lower middle class"@en ,
 	"Alempi keskiluokka"@fi ;
-	skos:altLabel "Lower managers, professionals, clerical and sales personnel and foremen"@en ,
-	"Alemmat toimihenkilöt, päälliköt, toimisto - tai myyntityötä tekevät työntekijät"@fi ;
     skos:altLabel "2" ;
 	dct:source <http://ldf.fi/ammo/sources/hsn> .
 
 hisclass5:3 a skos:Concept ;
 	skos:prefLabel "Self-employed farmers and fishermen"@en ,
-	"Maan- ja metsänviljelijät, puutarhanviljelijät ja kalastajat"@fi ;
+	"Maanviljelijät ja kalastajat"@fi ;
     skos:altLabel "3" ;
 	dct:source <http://ldf.fi/ammo/sources/hsn> .
 
 hisclass5:4 a skos:Concept ;
 	skos:prefLabel "Skilled workers"@en ,
 	"Ammattitaitoiset työntekijät"@fi ;
-	skos:altLabel "Medium and lower skilled workers"@en ,
-	"Keskinkertaisen- tai alhaisen ammattitaidon omaavat työntekijät"@fi ;
     skos:altLabel "4";
 	dct:source <http://ldf.fi/ammo/sources/hsn> .
 
