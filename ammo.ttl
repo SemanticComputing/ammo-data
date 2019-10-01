@@ -318,23 +318,23 @@
 
 :ammuskarkaisija
     ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/631> ;
-    ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/11> ;
-    ammo-s:hisclass5 <http://ldf.fi/ammo/hisco/hisclass5/5> ;
-    ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/6> ;
-    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/99930> ;
+    ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/9> ;
+    ammo-s:hisclass5 <http://ldf.fi/ammo/hisco/hisclass5/4> ;
+    ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/5> ;
+    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/74100> ;
     a ammo-s:Concept, ammo-s:Occupation, skos:Concept ;
     skos:prefLabel "ammuskarkaisija"@fi ;
     skos:relatedMatch <http://www.yso.fi/onto/koko/p36872> .
 
 :ammuslataaja
     ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/739> ;
-    ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/11> ;
-    ammo-s:hisclass5 <http://ldf.fi/ammo/hisco/hisclass5/5> ;
-    ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/6> ;
-    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/99930> ;
+    ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/9> ;
+    ammo-s:hisclass5 <http://ldf.fi/ammo/hisco/hisclass5/4> ;
+    ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/5> ;
+    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/74100> ;
     a ammo-s:Concept, ammo-s:Occupation, skos:Concept ;
     skos:prefLabel "ammuslataaja"@fi ;
-    skos:relatedMatch <http://www.yso.fi/onto/koko/p701> .
+    skos:relatedMatch <http://www.yso.fi/onto/koko/p36872> .
 
 :ammuslataamon-etumies
     ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/739> ;
@@ -344,7 +344,7 @@
     ammo-s:hisco_code <http://ldf.fi/ammo/hisco/72990> ;
     a ammo-s:Concept, ammo-s:Occupation, skos:Concept ;
     skos:prefLabel "ammuslataamon etumies"@fi ;
-    skos:relatedMatch <http://www.yso.fi/onto/koko/p701> .
+    skos:relatedMatch <http://www.yso.fi/onto/koko/p36872> .
 
 :ammuspajatyontekija
     ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/739> ;
@@ -354,10 +354,10 @@
     ammo-s:hisco_code <http://ldf.fi/ammo/hisco/72990> ;
     a ammo-s:Concept, ammo-s:Occupation, skos:Concept ;
     skos:prefLabel "ammuspajatyöntekijä"@fi ;
-    skos:relatedMatch <http://www.yso.fi/onto/koko/p701> .
+    skos:relatedMatch <http://www.yso.fi/onto/koko/p36872> .
 
 :ammussorvari
-    ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/739> ;
+    ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/650> ;
     ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/9> ;
     ammo-s:hisclass5 <http://ldf.fi/ammo/hisco/hisclass5/4> ;
     ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/5> ;
@@ -369,33 +369,33 @@
 
 :ammustarkastaja
     ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/739> ;
-    ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/9> ;
-    ammo-s:hisclass5 <http://ldf.fi/ammo/hisco/hisclass5/4> ;
-    ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/5> ;
-    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/94980> ;
+    ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/6> ;
+    ammo-s:hisclass5 <http://ldf.fi/ammo/hisco/hisclass5/2> ;
+    ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/3> ;
+    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/22660> ;
     a ammo-s:Concept, ammo-s:Occupation, skos:Concept ;
     skos:prefLabel "ammustarkastaja"@fi .
 
 :ammustehtaan-tyontekija
     ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/739> ;
-    ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/11> ;
-    ammo-s:hisclass5 <http://ldf.fi/ammo/hisco/hisclass5/5> ;
-    ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/6> ;
-    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/99930> ;
+    ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/9> ;
+    ammo-s:hisclass5 <http://ldf.fi/ammo/hisco/hisclass5/4> ;
+    ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/5> ;
+    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/74100> ;
     a ammo-s:Concept, ammo-s:Occupation, skos:Concept ;
     skos:prefLabel "ammustehtaan työntekijä"@fi ;
-    skos:relatedMatch <http://www.yso.fi/onto/koko/p701> .
+    skos:relatedMatch <http://www.yso.fi/onto/koko/p36872> .
 
 :ammustyomies
     ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/739> ;
     ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/9> ;
     ammo-s:hisclass5 <http://ldf.fi/ammo/hisco/hisclass5/4> ;
     ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/5> ;
-    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/72990> ;
+    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/74100> ;
     a ammo-s:Concept, ammo-s:Occupation, skos:Concept ;
     skos:altLabel "ammustyontekijä"@fi, "ammustyöläinen"@fi, "bullet factory worker"@en ;
     skos:prefLabel "ammustyömies"@fi ;
-    skos:relatedMatch <http://www.yso.fi/onto/koko/p701> .
+    skos:relatedMatch <http://www.yso.fi/onto/koko/p36872> .
 
 :apteekkari
     ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/0401> ;
@@ -494,11 +494,11 @@
     skos:relatedMatch <http://www.yso.fi/onto/koko/p54014> .
 
 :apulaiskorjaaja
-    ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/652> ;
-    ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/9> ;
-    ammo-s:hisclass5 <http://ldf.fi/ammo/hisco/hisclass5/4> ;
-    ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/5> ;
-    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/84910> ;
+    ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/910> ;
+    ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/-1> ;
+    ammo-s:hisclass5 <http://ldf.fi/ammo/hisco/hisclass5/-1> ;
+    ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/-1> ;
+    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/99999> ;
     ammo-s:hisco_status hisco:status_33 ;
     a ammo-s:Concept, ammo-s:Occupation, skos:Concept ;
     skos:prefLabel "apulaiskorjaaja"@fi ;
@@ -6984,10 +6984,11 @@ hisco:conceptscheme
 
 :kadetti
     ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/900> ;
-    ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/1> ;
-    ammo-s:hisclass5 <http://ldf.fi/ammo/hisco/hisclass5/1> ;
-    ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/1> ;
+    ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/-1> ;
+    ammo-s:hisclass5 <http://ldf.fi/ammo/hisco/hisclass5/-1> ;
+    ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/-1> ;
     ammo-s:hisco_code <http://ldf.fi/ammo/hisco/58320> ;
+    ammo-s:hisco_status hisco:status_41 ;
     a ammo-s:Concept, ammo-s:Military_rank, skos:Concept ;
     skos:prefLabel "cadet"@en, "kadetti"@fi ;
     skos:relatedMatch <http://www.yso.fi/onto/koko/p8996> .
@@ -15235,29 +15236,29 @@ hisco:conceptscheme
     skos:relatedMatch <http://www.yso.fi/onto/koko/p3596> .
 
 :metsanhoidon-esimies
-    ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/0271> ;
+    ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/0272> ;
     ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/3> ;
     ammo-s:hisclass5 <http://ldf.fi/ammo/hisco/hisclass5/2> ;
     ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/2> ;
-    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/63220> ;
+    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/31090> ;
     ammo-s:hisco_status hisco:status_31 ;
     a ammo-s:Concept, ammo-s:Occupation, skos:Concept ;
     skos:prefLabel "metsänhoidon esimies"@fi ;
     skos:relatedMatch <http://www.yso.fi/onto/koko/p31859> .
 
 :metsanhoidon-ylioppilas
-    ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/0271> ;
+    ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/0272> ;
     ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/-1> ;
     ammo-s:hisclass5 <http://ldf.fi/ammo/hisco/hisclass5/-1> ;
     ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/-1> ;
-    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/63220> ;
+    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/31090> ;
     ammo-s:hisco_status hisco:status_41 ;
     a ammo-s:Concept, ammo-s:Occupation, skos:Concept ;
     skos:prefLabel "metsänhoidon ylioppilas"@fi ;
     skos:relatedMatch <http://www.yso.fi/onto/koko/p31859> .
 
 :metsanhoidonneuvoja
-    ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/0272> ;
+    ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/0271> ;
     ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/2> ;
     ammo-s:hisclass5 <http://ldf.fi/ammo/hisco/hisclass5/1> ;
     ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/1> ;
@@ -15268,44 +15269,44 @@ hisco:conceptscheme
     skos:relatedMatch <http://www.yso.fi/onto/koko/p53660> .
 
 :metsanhoitaja
-    ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/0271> ;
-    ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/3> ;
+    ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/0272> ;
+    ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/4> ;
     ammo-s:hisclass5 <http://ldf.fi/ammo/hisco/hisclass5/2> ;
     ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/2> ;
-    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/63220> ;
+    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/31090> ;
     a ammo-s:Concept, ammo-s:Occupation, skos:Concept ;
     skos:altLabel "ylimääräinen metsänhoitaja"@fi ;
     skos:prefLabel "forester"@en, "metsänhoitaja"@fi ;
     skos:relatedMatch <http://www.yso.fi/onto/koko/p31859> .
 
 :metsanhoitajaharjoittelija
-    ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/0262> ;
-    ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/3> ;
+    ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/0272> ;
+    ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/5> ;
     ammo-s:hisclass5 <http://ldf.fi/ammo/hisco/hisclass5/2> ;
     ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/2> ;
-    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/63220> ;
+    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/31090> ;
     ammo-s:hisco_status hisco:status_23 ;
     a ammo-s:Concept, ammo-s:Occupation, skos:Concept ;
     skos:prefLabel "metsänhoitajaharjoittelija"@fi ;
     skos:relatedMatch <http://www.yso.fi/onto/koko/p31859> .
 
 :metsanhoito-oppilas
-    ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/0271> ;
+    ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/0272> ;
     ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/-1> ;
     ammo-s:hisclass5 <http://ldf.fi/ammo/hisco/hisclass5/-1> ;
     ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/-1> ;
-    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/63220> ;
+    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/31090> ;
     ammo-s:hisco_status hisco:status_41 ;
     a ammo-s:Concept, ammo-s:Occupation, skos:Concept ;
     skos:prefLabel "metsänhoito-oppilas"@fi ;
     skos:relatedMatch <http://www.yso.fi/onto/koko/p31859> .
 
 :metsanhoitoharjoittelija
-    ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/0271> ;
-    ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/3> ;
+    ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/0272> ;
+    ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/5> ;
     ammo-s:hisclass5 <http://ldf.fi/ammo/hisco/hisclass5/2> ;
     ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/2> ;
-    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/63220> ;
+    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/31090> ;
     ammo-s:hisco_status hisco:status_23 ;
     a ammo-s:Concept, ammo-s:Occupation, skos:Concept ;
     skos:prefLabel "metsänhoitoharjoittelija"@fi ;
@@ -15313,10 +15314,10 @@ hisco:conceptscheme
 
 :metsanleimaaja
     ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/303> ;
-    ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/4> ;
+    ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/3> ;
     ammo-s:hisclass5 <http://ldf.fi/ammo/hisco/hisclass5/2> ;
     ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/2> ;
-    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/31090> ;
+    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/63220> ;
     a ammo-s:Concept, ammo-s:Occupation, skos:Concept ;
     skos:prefLabel "metsänleimaaja"@fi ;
     skos:relatedMatch <http://www.yso.fi/onto/koko/p3596> .
@@ -15333,20 +15334,20 @@ hisco:conceptscheme
 
 :metsanvartija
     ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/303> ;
-    ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/4> ;
+    ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/3> ;
     ammo-s:hisclass5 <http://ldf.fi/ammo/hisco/hisclass5/2> ;
     ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/2> ;
-    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/31090> ;
+    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/63220> ;
     a ammo-s:Concept, ammo-s:Occupation, skos:Concept ;
     skos:prefLabel "forest ranger"@en, "metsänvartija"@fi ;
     skos:relatedMatch <http://www.yso.fi/onto/koko/p3596> .
 
 :metsanvartijaharjoittelija
     ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/303> ;
-    ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/5> ;
+    ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/3> ;
     ammo-s:hisclass5 <http://ldf.fi/ammo/hisco/hisclass5/2> ;
     ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/2> ;
-    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/31090> ;
+    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/63220> ;
     ammo-s:hisco_status hisco:status_23 ;
     a ammo-s:Concept, ammo-s:Occupation, skos:Concept ;
     skos:prefLabel "metsänvartijaharjoittelija"@fi ;
@@ -15357,7 +15358,7 @@ hisco:conceptscheme
     ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/-1> ;
     ammo-s:hisclass5 <http://ldf.fi/ammo/hisco/hisclass5/-1> ;
     ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/-1> ;
-    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/31090> ;
+    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/63220> ;
     ammo-s:hisco_status hisco:status_41 ;
     a ammo-s:Concept, ammo-s:Occupation, skos:Concept ;
     skos:prefLabel "metsänvartijakoululainen"@fi ;
@@ -15368,7 +15369,7 @@ hisco:conceptscheme
     ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/-1> ;
     ammo-s:hisclass5 <http://ldf.fi/ammo/hisco/hisclass5/-1> ;
     ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/-1> ;
-    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/31090> ;
+    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/63220> ;
     ammo-s:hisco_status hisco:status_41 ;
     a ammo-s:Concept, ammo-s:Occupation, skos:Concept ;
     skos:prefLabel "metsänvartijakoulun oppilas"@fi ;
@@ -15376,10 +15377,10 @@ hisco:conceptscheme
 
 :metsanvartijan-apulainen
     ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/303> ;
-    ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/5> ;
+    ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/3> ;
     ammo-s:hisclass5 <http://ldf.fi/ammo/hisco/hisclass5/2> ;
     ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/2> ;
-    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/31090> ;
+    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/63220> ;
     ammo-s:hisco_status hisco:status_33 ;
     a ammo-s:Concept, ammo-s:Occupation, skos:Concept ;
     skos:prefLabel "metsänvartijan apulainen"@fi ;
@@ -15390,7 +15391,7 @@ hisco:conceptscheme
     ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/-1> ;
     ammo-s:hisclass5 <http://ldf.fi/ammo/hisco/hisclass5/-1> ;
     ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/-1> ;
-    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/31090> ;
+    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/63220> ;
     ammo-s:hisco_relation hisco:relation_12 ;
     a ammo-s:Concept, ammo-s:Occupation, skos:Concept ;
     skos:prefLabel "forest ranger's son"@en, "metsänvartijan poika"@fi ;
@@ -15401,60 +15402,60 @@ hisco:conceptscheme
     ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/-1> ;
     ammo-s:hisclass5 <http://ldf.fi/ammo/hisco/hisclass5/-1> ;
     ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/-1> ;
-    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/31090> ;
+    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/63220> ;
     ammo-s:hisco_status hisco:status_41 ;
     a ammo-s:Concept, ammo-s:Occupation, skos:Concept ;
     skos:prefLabel "forest ranger learner"@en, "metsänvartijaoppilas"@fi ;
     skos:relatedMatch <http://www.yso.fi/onto/koko/p3596> .
 
 :metsapaallikko
-    ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/303> ;
-    ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/3> ;
+    ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/0271> ;
+    ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/4> ;
     ammo-s:hisclass5 <http://ldf.fi/ammo/hisco/hisclass5/2> ;
     ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/2> ;
-    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/63220> ;
+    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/31090> ;
     a ammo-s:Concept, ammo-s:Occupation, skos:Concept ;
     skos:altLabel "metsäpomo"@fi ;
     skos:prefLabel "forest chief"@en, "metsäpäällikkö"@fi ;
     skos:relatedMatch <http://www.yso.fi/onto/koko/p25319> .
 
 :metsapaallikon-poika
-    ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/303> ;
+    ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/0271> ;
     ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/-1> ;
     ammo-s:hisclass5 <http://ldf.fi/ammo/hisco/hisclass5/-1> ;
     ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/-1> ;
-    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/63220> ;
+    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/31090> ;
     ammo-s:hisco_relation hisco:relation_12 ;
     a ammo-s:Concept, ammo-s:Occupation, skos:Concept ;
     skos:prefLabel "metsäpäällikön poika"@fi ;
     skos:relatedMatch <http://www.yso.fi/onto/koko/p25319> .
 
 :metsapiirijohtaja
-    ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/303> ;
-    ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/3> ;
+    ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/0271> ;
+    ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/4> ;
     ammo-s:hisclass5 <http://ldf.fi/ammo/hisco/hisclass5/2> ;
     ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/2> ;
-    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/63220> ;
+    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/31090> ;
     a ammo-s:Concept, ammo-s:Occupation, skos:Concept ;
     skos:prefLabel "metsäpiirijohtaja"@fi ;
     skos:relatedMatch <http://www.yso.fi/onto/koko/p25319> .
 
 :metsapiirimies
-    ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/303> ;
-    ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/3> ;
+    ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/0271> ;
+    ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/4> ;
     ammo-s:hisclass5 <http://ldf.fi/ammo/hisco/hisclass5/2> ;
     ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/2> ;
-    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/63220> ;
+    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/31090> ;
     a ammo-s:Concept, ammo-s:Occupation, skos:Concept ;
     skos:prefLabel "forest district man"@en, "metsäpiirimies"@fi ;
     skos:relatedMatch <http://www.yso.fi/onto/koko/p25319> .
 
 :metsapiiripaallikko
-    ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/303> ;
-    ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/3> ;
+    ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/0271> ;
+    ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/4> ;
     ammo-s:hisclass5 <http://ldf.fi/ammo/hisco/hisclass5/2> ;
     ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/2> ;
-    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/63220> ;
+    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/31090> ;
     a ammo-s:Concept, ammo-s:Occupation, skos:Concept ;
     skos:prefLabel "forest district chief"@en, "metsäpiiripäällikkö"@fi ;
     skos:relatedMatch <http://www.yso.fi/onto/koko/p25319> .
@@ -23765,16 +23766,6 @@ hisco:conceptscheme
     skos:prefLabel "talon vävy"@fi ;
     skos:relatedMatch <http://www.yso.fi/onto/koko/p33766> .
 
-:talon-vuokraaja
-    ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/310> ;
-    ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/12> ;
-    ammo-s:hisclass5 <http://ldf.fi/ammo/hisco/hisclass5/5> ;
-    ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/7> ;
-    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/62105> ;
-    a ammo-s:Concept, ammo-s:Occupation, skos:Concept ;
-    skos:prefLabel "talon vuokraaja"@fi ;
-    skos:relatedMatch <http://www.yso.fi/onto/koko/p47423> .
-
 :talonhoitaja
     ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/302> ;
     ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/3> ;
@@ -23902,11 +23893,12 @@ hisco:conceptscheme
     ammo-s:hisco_code <http://ldf.fi/ammo/hisco/62105> ;
     ammo-s:hisco_status hisco:status_11 ;
     a ammo-s:Concept, ammo-s:Occupation, skos:Concept ;
+    skos:altLabel "talon vuokraaja"@fi ;
     skos:prefLabel "talonvuokraaja"@fi ;
     skos:relatedMatch <http://www.yso.fi/onto/koko/p47423> .
 
 :taloudenhoitaja
-    ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/101> ;
+    ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/1201> ;
     ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/1> ;
     ammo-s:hisclass5 <http://ldf.fi/ammo/hisco/hisclass5/1> ;
     ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/1> ;
@@ -27939,11 +27931,11 @@ hisco:conceptscheme
     skos:relatedMatch <http://www.yso.fi/onto/koko/p32330> .
 
 :virastoapulainen
-    ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/131> ;
-    ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/1> ;
-    ammo-s:hisclass5 <http://ldf.fi/ammo/hisco/hisclass5/1> ;
-    ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/1> ;
-    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/20210> ;
+    ammo-s:coo1980_code <http://ldf.fi/ammo/coo1980/101> ;
+    ammo-s:hisclass12 <http://ldf.fi/ammo/hisco/hisclass12/5> ;
+    ammo-s:hisclass5 <http://ldf.fi/ammo/hisco/hisclass5/2> ;
+    ammo-s:hisclass7 <http://ldf.fi/ammo/hisco/hisclass7/2> ;
+    ammo-s:hisco_code <http://ldf.fi/ammo/hisco/30000> ;
     ammo-s:hisco_status hisco:status_32 ;
     a ammo-s:Concept, ammo-s:Occupation, skos:Concept ;
     skos:prefLabel "office assistant"@en, "virastoapulainen"@fi ;
