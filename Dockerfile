@@ -1,4 +1,4 @@
-FROM secoresearch/fuseki
+FROM secoresearch/fuseki:3.17.0
 
 COPY --chown=9008 *.ttl /tmp/
 
@@ -11,8 +11,6 @@ RUN $TDBLOADER --graph=http://ldf.fi/ammo /tmp/ammo.ttl \
     && $TDBLOADER --graph=http://ldf.fi/ammo /tmp/sources.ttl \
     && $JAVA_CMD jena.textindexer --desc=$ASSEMBLER \
     && $JAVA_CMD tdb.tdbstats --desc=$ASSEMBLER --graph urn:x-arq:UnionGraph > /tmp/stats.opt \
-    && mv /tmp/stats.opt /fuseki-base/databases/tdb/ \
-    && rm /tmp/*
-
+    && mv /tmp/stats.opt /fuseki-base/databases/tdb/
 
 
